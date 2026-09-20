@@ -1,6 +1,8 @@
+import { engineeringAssessments } from './engineering';
 import { AssessmentItem } from '@/lib/types';
 
 export const assessments: AssessmentItem[] = [
+  ...engineeringAssessments,
   // Math
   {id:'a-algebra-1',skillId:'m-algebra',variantGroup:'vg-algebra-linear',competency:'calculate',format:'mcq',difficulty:1,prompt:'2(x - 3) = 14 を満たす x は？',options:['4','7','10','17'],answer:2,explanation:'2x-6=14 → 2x=20 → x=10。',revision:1},
   {id:'a-functions-1',skillId:'m-functions',competency:'explain',format:'mcq',difficulty:2,prompt:'y=f(x) のグラフで傾きが大きい区間が示すことは？',options:['出力が入力に対して速く変化する','出力が必ず大きい','入力が0である','関数が定義されない'],answer:0,explanation:'傾きは入力に対する出力の変化率。',revision:1},
@@ -29,7 +31,7 @@ export const assessments: AssessmentItem[] = [
   // Mechanical
   {id:'a-fbd-1',skillId:'me-fbd',competency:'explain',format:'mcq',difficulty:2,prompt:'自由物体図の目的は？',options:['対象物に働く外力を分離して整理する','CADを自動生成する','CAN trafficを減らす','コードを高速化する'],answer:0,explanation:'対象を切り出して外力を明確にする。',revision:1},
   {id:'a-gear-1',skillId:'me-gears',variantGroup:'vg-gear-ratio',competency:'calculate',format:'numeric',difficulty:2,prompt:'12T gearが60T gearを駆動。理想減速比(出力/入力のトルク倍率)は？',answer:'5',tolerance:.01,explanation:'60/12=5。',frcContext:'gearbox',revision:1},
-  {id:'a-bearing-1',skillId:'me-bearings',competency:'design',format:'mcq',difficulty:3,prompt:'長いshaftの両端支持で、bearing間距離を広げる主な利点は？',options:['曲げモーメントに対する支持安定性が上がりやすい','gear ratioが自動で上がる','電圧が上がる','encoder CPRが増える'],answer:0,explanation:'支持点間隔はshaftの荷重支持と剛性に影響する。',revision:1},
+  {id:'a-bearing-1',skillId:'me-bearings',competency:'design',format:'mcq',difficulty:3,prompt:'片持ちローラの軸曲げを減らすために、荷重点を変えず支持を見直すなら？',options:['支持点を荷重点へ近づけて片持ち長さを減らす','支持点を必ず遠ざける','支持位置は曲げに影響しない','encoder CPRを増やす'],answer:0,explanation:'片持ち部の曲げモーメントはF×距離。支持間隔の効果は荷重点と支持条件で変わり、広げれば常に良いわけではない。',revision:2},
   {id:'a-tolerance-1',skillId:'me-tolerance',competency:'transfer',format:'mcq',difficulty:3,prompt:'3D printed holeにbearingが毎回きつすぎる。設計改善として適切なのは？',options:['CAD nominal値だけを信じる','printer/materialの実測に基づきclearanceを設ける','motor currentを下げる','CAN terminationを追加'],answer:1,explanation:'製造プロセスの誤差を見込んだ公差設計が必要。',revision:1},
   {id:'a-motor-match-1',skillId:'me-motor-match',competency:'design',format:'mcq',difficulty:4,prompt:'armが必要速度には達するがstall近くで発熱が大きい。最初の設計判断として妥当なのは？',options:['減速比と必要torque/currentを再計算する','encoderを外す','software loopを削除','boltを長くする'],answer:0,explanation:'要求torqueとmotor operating pointを見直す。',frcContext:'arm design',revision:1},
 

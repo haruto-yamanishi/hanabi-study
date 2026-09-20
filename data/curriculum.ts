@@ -111,6 +111,15 @@ export const skills: Skill[] = [
 ];
 
 export const resources: Resource[] = [
+  {id:'res-frc-rules',title:'FRC Season Materials・規則と更新',provider:'FIRST',url:'https://www.firstinspires.org/resources/library/frc/season-materials',skills:['e-power','e-wiring','me-failure','r-requirements','r-verification'],format:'公式規則',note:'当該シーズンのマニュアル・更新・Q&Aを確認する。教材の例題値は規則値ではない。'},
+  {id:'res-wpilib-can',title:'CAN Wiring Basics',provider:'WPILib',url:'https://docs.wpilib.org/en/stable/docs/hardware/hardware-basics/can-wiring-basics.html',skills:['e-can','e-debug'],format:'公式ドキュメント',note:'終端と配線。内蔵終端は使用機器の資料も照合する。2026-09-20参照。'},
+  {id:'res-wpilib-ff',title:'Feedforward Control',provider:'WPILib',url:'https://docs.wpilib.org/en/stable/docs/software/advanced-controls/controllers/feedforward.html',skills:['c-feedforward','c-characterization','c-tuning'],format:'公式ドキュメント',note:'モデルと係数の単位。採用バージョンのAPIを確認する。2026-09-20参照。'},
+  {id:'res-wpilib-pid',title:'Introduction to PID',provider:'WPILib',url:'https://docs.wpilib.org/en/stable/docs/software/advanced-controls/introduction/introduction-to-pid.html',skills:['c-feedback','c-pid'],format:'公式解説',note:'PIDとfeedforwardの役割を深掘りする。2026-09-20参照。'},
+  {id:'res-wpilib-command',title:'What Is Command-Based Programming?',provider:'WPILib',url:'https://docs.wpilib.org/en/stable/docs/software/commandbased/what-is-command-based.html',skills:['cs-events','r-architecture','cs-state-machine'],format:'公式ドキュメント',note:'commandとsubsystemの責務。採用言語・バージョンで実装を確認する。'},
+  {id:'res-wpilib-pose',title:'PoseEstimator API',provider:'WPILib',url:'https://github.wpilib.org/allwpilib/docs/release/java/edu/wpi/first/math/estimator/PoseEstimator.html',skills:['r-localization','r-vision','r-odometry'],format:'公式API資料',note:'観測時刻と遅延補償を確認する。2026-09-20参照。'},
+  {id:'res-modern-robotics',title:'Modern Robotics — Jacobians',provider:'Northwestern University',url:'https://modernrobotics.northwestern.edu/chapters/chapter5/',skills:['r-kinematics','r-dynamics','m-multicalc'],format:'講義動画・教科書',note:'関節速度と手先速度・力の関係を深掘りする。'},
+  {id:'res-ml-course',title:'Machine Learning Crash Course',provider:'Google',url:'https://developers.google.com/machine-learning/crash-course',skills:['ai-data','ai-ml','ai-dl'],format:'講座・演習',note:'回帰・分類・データ評価の補助教材。'},
+  {id:'res-rl-course',title:'Statistical Reinforcement Learning',provider:'University of Washington',url:'https://courses.cs.washington.edu/courses/cse542/26sp/',skills:['ai-rl','ai-physical'],format:'講義資料',note:'MDP、Bellman方程式、Q学習を深掘りする。'},
   {id:'res-calc-a',title:'微分積分学 A',provider:'京都大学OCW',url:'https://ocw.kyoto-u.ac.jp/course/547/',skills:['m-calc-diff','m-calc-int'],format:'講義ノート',note:'微積分を大学レベルで深掘りする補助資料。'},
   {id:'res-linear',title:'線型代数学 A',provider:'京都大学OCW',url:'https://ocw.kyoto-u.ac.jp/course/730/',skills:['m-linear'],format:'講義動画',note:'線形代数の理論を深掘り。'},
   {id:'res-circuits',title:'電気電子回路演習',provider:'京都大学OCW',url:'https://ocw.kyoto-u.ac.jp/course/3/',skills:['e-ohm','e-noise'],format:'動画 + 資料',note:'回路の補助教材。'},
@@ -124,8 +133,8 @@ export const domainNames = {
 } as const;
 
 export const roadmapStages = [
-  {id:'foundation',title:'Foundation',subtitle:'数学・物理・Programming',sections:['数学基礎','関数','幾何・ベクトル','Programming','力学','電気']},
-  {id:'engineering',title:'Engineering Core',subtitle:'機械・電装・CSの土台',sections:['微積分','線形代数','FRC電装','機械基礎','設計・製造','CS基礎','Systems']},
+  {id:'foundation',title:'Foundation',subtitle:'数学・物理・Programming',sections:['数学基礎','関数','幾何・ベクトル','Programming','力学','回転','電気','電気基礎']},
+  {id:'engineering',title:'Engineering Core',subtitle:'機械・電装・CSの土台',sections:['微積分','線形代数','微分方程式','確率・統計','CAD','FRC電装','機械基礎','設計・製造','CS基礎','開発基盤','Systems']},
   {id:'frc',title:'FRC Core',subtitle:'ロボットを成立させる',sections:['伝達要素','機構設計','センシング','通信','制御基礎','Robot Software','Integration','Systems Engineering']},
   {id:'robotics',title:'Robotics',subtitle:'自律・推定・モーション',sections:['Geometry','Localization','FRC Drive','Autonomy','モーション制御','実験・同定']},
   {id:'advanced',title:'Advanced',subtitle:'現代制御・AI・Physical AI',sections:['現代制御','Advanced Robotics','Perception','最適化','ML基礎','Deep Learning','Robot Learning']},

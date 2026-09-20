@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "content:audit": "node scripts/content-audit.mjs"
+    "content:audit": "node scripts/content-audit.mjs",
+    "learning:check": "node scripts/learning-check.mjs"
   },
   "dependencies": {
     "@xyflow/react": "^12.8.5",

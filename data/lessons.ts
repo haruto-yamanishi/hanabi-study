@@ -1,6 +1,8 @@
+import { engineeringLessons } from './engineering';
 import { Lesson } from '@/lib/types';
 
 export const lessons: Lesson[] = [
+  ...engineeringLessons,
   {
     id:'l-algebra-equations',skillId:'m-algebra',title:'方程式を「逆算」ではなく構造で解く',summary:'移項の暗記ではなく、等式の両辺に同じ操作をする感覚を作る。',estimatedMinutes:18,revision:1,
     steps:[

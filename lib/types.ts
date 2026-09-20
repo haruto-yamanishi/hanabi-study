@@ -68,6 +68,8 @@ export type LessonStep = {
   options?: string[];
   answer?: number;
   explanation?: string;
+  numericAnswer?: number;
+  tolerance?: number;
 };
 
 export type Lesson = {
@@ -80,6 +82,7 @@ export type Lesson = {
   steps: LessonStep[];
   checkpointIds: string[];
   resourceIds?: string[];
+  practical?: string;
 };
 
 export type Evidence = {
@@ -177,4 +180,13 @@ export type ContentFeedback = {
   context?: FeedbackContext;
   githubIssueUrl?: string;
   createdAt: string;
+};
+
+export type PracticalSubmission = {
+  id: string;
+  notes: string;
+  mode: 'simulation' | 'physical';
+  checks: string[];
+  reviewer: string;
+  updatedAt: string;
 };

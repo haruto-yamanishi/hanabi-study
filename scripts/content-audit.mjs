@@ -1,20 +1,5 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { createRequire } from 'node:module';
-const require=createRequire(import.meta.url);
-const ts=require('typescript');
-const root=path.resolve(process.cwd());
-
-function loadTs(relative, exportNames){
-  let source=fs.readFileSync(path.join(root,relative),'utf8');
-  source=source.replace(/^import[^;]+;\s*/gm,'');
-  const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
-  const mod={exports:{}};
-  new Function('exports','module','require',js)(mod.exports,mod,()=>({}));
-  const out={}; for(const n of exportNames) out[n]=mod.exports[n]; return out;
-}
-
-const {skills}=loadTs('data/curriculum.ts',['skills']);
+import { loadTs } from './load-ts.mjs';
+const {skills,resources,roadmapStages}=loadTs('data/curriculum.ts');
 const {lessons}=loadTs('data/lessons.ts',['lessons']);
 const {assessments}=loadTs('data/assessments.ts',['assessments']);
 const errors=[];
@@ -35,22 +20,55 @@ for(const a of assessments){ if(a.variantGroup){ const xs=variantGroups.get(a.va
 for(const [g,ids] of variantGroups) if(ids.length<2) errors.push(`variant group ${g}: only ${ids.length} item`);
 for(const s of skills) if(!(s.frcApplications??[]).length) errors.push(`${s.id}: missing FRC application`);
 
-function coverage(skill){
-  const ls=lessons.filter(l=>l.skillId===skill.id),items=assessments.filter(a=>a.skillId===skill.id);
-  const needsDebug=['cs','electronics','mechanical','control','robotics'].includes(skill.domain);
-  const has={
-    concept:ls.some(l=>l.steps.some(s=>s.kind==='concept')),
-    example:ls.some(l=>l.steps.some(s=>s.kind==='example')),
-    recall:ls.some(l=>l.steps.some(s=>s.kind==='recall'))||items.some(a=>a.competency==='recall'),
-    practice:ls.some(l=>l.steps.some(s=>s.kind==='practice'))||items.some(a=>['calculate','reproduce'].includes(a.competency)),
-    transfer:items.some(a=>a.competency==='transfer'),
-    checkpoint:ls.some(l=>l.checkpointIds?.length),
-    review:items.some(a=>a.variantGroup&&assessments.some(b=>b.id!==a.id&&b.variantGroup===a.variantGroup)),
-    debugDesign:!needsDebug||items.some(a=>a.competency==='debug'||a.competency==='design'),
-    frc:(skill.frcApplications??[]).length>0,
-  };
-  const values=Object.values(has); return {has,percent:Math.round(values.filter(Boolean).length/values.length*100),basic:has.concept&&has.example&&has.recall&&has.practice&&has.checkpoint,full:values.every(Boolean)};
+const { coverageForSkill } = loadTs('lib/content.ts');
+const coverage = skill => coverageForSkill(skill, lessons, assessments);
+const {engineeringUnits,engineeringLessons}=loadTs('data/engineering.ts');
+const {projects}=loadTs('data/projects.ts');
+const resourceIds=new Set(resources.map(r=>r.id));
+for(const l of lessons){
+  dup(l.steps,`${l.id} step`);
+  for(const id of l.resourceIds??[]) if(!resourceIds.has(id)) errors.push(`${l.id}: missing resource ${id}`);
+  for(const step of l.steps){
+    if(!step.body?.trim()) errors.push(`${l.id}/${step.id}: empty body`);
+    if(step.options && (!Number.isInteger(step.answer)||step.answer<0||step.answer>=step.options.length)) errors.push(`${l.id}/${step.id}: invalid answer`);
+    if(step.numericAnswer!==undefined&&!Number.isFinite(step.numericAnswer)) errors.push(`${l.id}/${step.id}: invalid numeric answer`);
+  }
 }
+for(const a of assessments){
+  if(!a.prompt?.trim()||!a.explanation?.trim()) errors.push(`${a.id}: missing explanation or prompt`);
+  if(a.format==='mcq' && (!a.options||!Number.isInteger(a.answer)||a.answer<0||a.answer>=a.options.length)) errors.push(`${a.id}: invalid MCQ answer`);
+  if(a.format==='numeric' && (!Number.isFinite(Number(a.answer))||(a.tolerance??0)<0)) errors.push(`${a.id}: invalid numeric answer`);
+}
+const visited=new Set(),visiting=new Set();
+function visit(id){
+  if(visiting.has(id)){errors.push(`prerequisite cycle: ${id}`);return;}
+  if(visited.has(id))return;
+  visiting.add(id);
+  for(const p of skills.find(s=>s.id===id)?.prerequisites??[])visit(p);
+  visiting.delete(id);visited.add(id);
+}
+for(const skill of skills){
+  visit(skill.id);
+  if(!coverage(skill).full)errors.push(`${skill.id}: incomplete coverage`);
+  if(!roadmapStages.some(stage=>stage.sections.includes(skill.section)))errors.push(`${skill.id}: missing roadmap stage`);
+  const units=engineeringUnits.filter(u=>u.skillId===skill.id);
+  if(units.length!==1)errors.push(`${skill.id}: expected one authored core unit, found ${units.length}`);
+  if(!engineeringLessons.some(l=>l.skillId===skill.id&&l.practical))errors.push(`${skill.id}: missing workshop`);
+}
+for(const u of engineeringUnits){
+  if(!skillIds.has(u.skillId))errors.push(`${u.skillId}: orphan unit`);
+  if(u.concept.length<100||u.example.length<30||u.lab.length<50)errors.push(`${u.skillId}: insufficient authored text`);
+  if(u.calculations[0][0]===u.calculations[1][0])errors.push(`${u.skillId}: repeated review prompt`);
+}
+dup(projects,'project');
+const projectIds=new Set(projects.map(p=>p.id));
+for(const [index,p] of projects.entries()){
+  for(const id of p.skills)if(!skillIds.has(id))errors.push(`${p.id}: unknown skill ${id}`);
+  for(const id of p.requires)if(!projectIds.has(id)||projects.findIndex(x=>x.id===id)>=index)errors.push(`${p.id}: invalid project prerequisite ${id}`);
+  dup(p.rubric,`${p.id} rubric`);
+  if(p.procedure.length<3||p.rubric.length<3)errors.push(`${p.id}: missing project instructions or rubric`);
+}
+for(const domain of new Set(skills.map(s=>s.domain)))if(!projects.some(p=>p.skills.some(id=>skills.find(s=>s.id===id)?.domain===domain)))errors.push(`${domain}: no project coverage`);
 const domains=[...new Set(skills.map(s=>s.domain))];
 console.log(`Hanabi Study content audit — ${skills.length} skills / ${lessons.length} lessons / ${assessments.length} assessments`);
 console.log('');

@@ -10,6 +10,7 @@ import {
   ContentFeedback,
   Evidence,
   LessonProgress,
+  PracticalSubmission,
   ReviewItem,
   SkillState,
   StudySession,
@@ -24,6 +25,8 @@ type AssessmentMeta = { selectedAnswer?: number|string; responseTimeMs?: number 
 
 interface MasteryStore {
   states: Record<string, SkillState>;
+  practicalSubmissions: Record<string, PracticalSubmission>;
+  savePractical: (submission: PracticalSubmission) => void;
   evidence: Evidence[];
   assessmentHistory: AssessmentAttempt[];
   lessonProgress: Record<string, LessonProgress>;
@@ -58,6 +61,8 @@ function reviewVariantFor(item: AssessmentItem) {
 
 export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
   states: {},
+  practicalSubmissions: {},
+  savePractical: submission => set(state => ({ practicalSubmissions: { ...state.practicalSubmissions, [submission.id]: submission } })),
   evidence: [],
   assessmentHistory: [],
   lessonProgress: {},
@@ -162,11 +167,12 @@ export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
   }),
 
   reset: () => set({
-    states: {}, evidence: [], assessmentHistory: [], lessonProgress: {}, reviewQueue: [],
+    practicalSubmissions: {}, states: {}, evidence: [], assessmentHistory: [], lessonProgress: {}, reviewQueue: [],
     studySessions: [], activeTimer: null, feedback: [],
   }),
 
   importData: data => set({
+    practicalSubmissions: data.practicalSubmissions ?? {},
     states: data.states ?? {},
     evidence: data.evidence ?? [],
     assessmentHistory: data.assessmentHistory?.map((h: any) => ({ revision: 1, ...h })) ?? data.diagnosticHistory?.map((h: any) => ({
