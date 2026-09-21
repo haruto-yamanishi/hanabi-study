@@ -40,7 +40,7 @@ export const engineeringAssessments: AssessmentItem[] = engineeringUnits.flatMap
 export const engineeringLessons: Lesson[] = engineeringUnits.map(u => {
   const skill = skills.find(s => s.id === u.skillId)!;
   return {
-    id: `eng-${u.skillId}`, skillId: u.skillId, title: u.title,
+    id: `eng-${u.skillId}`, track: 'foundation', skillId: u.skillId, title: u.title,
     summary: `${skill.nameJa}を、原理・計算・判断・実習で身につける。FRC応用：${skill.frcApplications.join('、')}。`,
     estimatedMinutes: ['ai','control','robotics'].includes(skill.domain) ? 55 : 40,
     revision: 1,

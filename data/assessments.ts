@@ -1,8 +1,10 @@
+import { deepAssessments } from './deep';
 import { engineeringAssessments } from './engineering';
 import { AssessmentItem } from '@/lib/types';
 
 export const assessments: AssessmentItem[] = [
   ...engineeringAssessments,
+  ...deepAssessments,
   // Math
   {id:'a-algebra-1',skillId:'m-algebra',variantGroup:'vg-algebra-linear',competency:'calculate',format:'mcq',difficulty:1,prompt:'2(x - 3) = 14 を満たす x は？',options:['4','7','10','17'],answer:2,explanation:'2x-6=14 → 2x=20 → x=10。',revision:1},
   {id:'a-functions-1',skillId:'m-functions',competency:'explain',format:'mcq',difficulty:2,prompt:'y=f(x) のグラフで傾きが大きい区間が示すことは？',options:['出力が入力に対して速く変化する','出力が必ず大きい','入力が0である','関数が定義されない'],answer:0,explanation:'傾きは入力に対する出力の変化率。',revision:1},

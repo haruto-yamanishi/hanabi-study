@@ -15,7 +15,7 @@ const competencyWeight: Record<Competency, number> = {
 };
 
 export function skillStatus(state: SkillState, hasLearningActivity = false): SkillStatus {
-  if (state.score >= 82 && state.retentionScore >= 35) return 'mastered';
+  if (state.score >= 82 && (state.retentionScore >= 35 || state.testPassed === true)) return 'mastered';
   if (hasLearningActivity || state.score > 0 || state.assistedScore > 0 || state.retentionScore > 0) return 'learning';
   return 'not-started';
 }
@@ -26,7 +26,7 @@ export function skillMasteryScore(state: SkillState) {
   return Math.min(100, state.score * .82 + state.retentionScore * .18);
 }
 
-export function updateFromAssessment(current: SkillState, outcome: AssessmentOutcome, competency: Competency, source: 'baseline'|'checkpoint'|'review'): SkillState {
+export function updateFromAssessment(current: SkillState, outcome: AssessmentOutcome, competency: Competency, source: 'baseline'|'checkpoint'|'review'|'placement'): SkillState {
   const w = competencyWeight[competency];
   let score = current.score;
   let retentionScore = current.retentionScore;
@@ -40,7 +40,8 @@ export function updateFromAssessment(current: SkillState, outcome: AssessmentOut
   } else if (source === 'review') {
     retentionScore = Math.max(0, retentionScore - 5);
   }
-  return { ...current, score, retentionScore, lastAssessed: new Date().toISOString() };
+  if (outcome !== 'correct' && (current.testPassed || skillStatus(current)==='mastered')) score=Math.min(score,75);
+  return { ...current, score, retentionScore, testPassed:outcome==='correct'?current.testPassed:false, lastAssessed: new Date().toISOString() };
 }
 
 export function updateFromEvidence(current: SkillState, evidence: Evidence): SkillState {

@@ -20,6 +20,27 @@ for(const a of assessments){ if(a.variantGroup){ const xs=variantGroups.get(a.va
 for(const [g,ids] of variantGroups) if(ids.length<2) errors.push(`variant group ${g}: only ${ids.length} item`);
 for(const s of skills) if(!(s.frcApplications??[]).length) errors.push(`${s.id}: missing FRC application`);
 
+
+const {deepUnits,deepLessons,retrievalCards}=loadTs('data/deep/index.ts');
+dup(retrievalCards,'retrieval card');
+for(const skill of skills){
+  if(deepUnits.filter(u=>u.skillId===skill.id).length!==1) errors.push(skill.id+': expected one authored application unit');
+}
+for(const u of deepUnits){
+  for(const key of ['theory','worked','challenge','solution']) if(!u[key]?.trim()) errors.push(u.skillId+': missing '+key);
+  if(u.recall.length!==2||u.problems.length!==2) errors.push(u.skillId+': expected two recalls and two checkpoints');
+  for(const pair of u.recall) if(pair.some(s=>!s.trim())) errors.push(u.skillId+': empty recall');
+}
+const prompts=new Set();
+for(const c of retrievalCards){
+  if(prompts.has(c.prompt)) errors.push(c.id+': duplicate retrieval prompt');
+  prompts.add(c.prompt);
+  if(!lessons.some(l=>l.id===c.lessonId&&l.skillId===c.skillId)) errors.push(c.id+': missing matching lesson');
+}
+for(const l of deepLessons){
+  for(const id of l.prerequisiteLessonIds??[]) if(!lessons.some(p=>p.id===id&&p.skillId===l.skillId&&p.track==='foundation')) errors.push(l.id+': missing foundation');
+  for(const id of l.checkpointIds) if(!assessments.some(a=>a.id===id&&a.skillId===l.skillId)) errors.push(l.id+': checkpoint skill mismatch');
+}
 const { coverageForSkill } = loadTs('lib/content.ts');
 const coverage = skill => coverageForSkill(skill, lessons, assessments);
 const {engineeringUnits,engineeringLessons}=loadTs('data/engineering.ts');

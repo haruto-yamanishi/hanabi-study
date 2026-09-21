@@ -1,6 +1,8 @@
 'use client';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { applyPlacementCredit } from './placement';
+import { validRetrievalAttempt } from './retrieval';
 import { assessments } from '@/data/assessments';
 import {
   ActiveTimer,
@@ -11,6 +13,7 @@ import {
   Evidence,
   LessonProgress,
   PracticalSubmission,
+  RetrievalAttempt,
   ReviewItem,
   SkillState,
   StudySession,
@@ -25,6 +28,8 @@ type AssessmentMeta = { selectedAnswer?: number|string; responseTimeMs?: number 
 
 interface MasteryStore {
   states: Record<string, SkillState>;
+  retrievalAttempts: RetrievalAttempt[];
+  recordRetrieval: (attempt: RetrievalAttempt) => void;
   practicalSubmissions: Record<string, PracticalSubmission>;
   savePractical: (submission: PracticalSubmission) => void;
   evidence: Evidence[];
@@ -61,6 +66,11 @@ function reviewVariantFor(item: AssessmentItem) {
 
 export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
   states: {},
+  retrievalAttempts: [],
+  recordRetrieval: attempt => set(state => {
+    if (!validRetrievalAttempt(attempt) || state.retrievalAttempts.some(a=>a.id===attempt.id)) return {};
+    return { retrievalAttempts: [...state.retrievalAttempts, attempt] };
+  }),
   practicalSubmissions: {},
   savePractical: submission => set(state => ({ practicalSubmissions: { ...state.practicalSubmissions, [submission.id]: submission } })),
   evidence: [],
@@ -73,7 +83,7 @@ export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
 
   answerAssessment: (item, outcome, source, meta) => set(state => {
     const current = state.states[item.skillId] ?? defaultState();
-    const updated = updateFromAssessment(current, outcome, item.competency, source);
+    let updated = updateFromAssessment(current, outcome, item.competency, source);
     const attempt: AssessmentAttempt = {
       id: crypto.randomUUID(), itemId: item.id, skillId: item.skillId,
       outcome, competency: item.competency, source,
@@ -82,6 +92,8 @@ export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
       revision: item.revision,
       createdAt: new Date().toISOString(),
     };
+
+    if(source==='placement')updated=applyPlacementCredit(updated,attempt,state.assessmentHistory);
 
     const old = state.reviewQueue.find(r => r.itemId === item.id || r.originalItemId === item.id);
     let stage = old?.stage ?? 0;
@@ -106,7 +118,7 @@ export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
     const evidence: Evidence = {
       id: crypto.randomUUID(), skillId: item.skillId,
       kind: source === 'review' ? 'retention' : 'diagnostic',
-      title: `${source === 'baseline' ? '診断' : source === 'checkpoint' ? 'Checkpoint' : '復習'}: ${item.id}`,
+      title: `${source === 'placement' ? '現在地テスト' : source === 'baseline' ? '診断' : source === 'checkpoint' ? 'Checkpoint' : '復習'}: ${item.id}`,
       detail: outcome === 'correct' ? '正答' : outcome === 'wrong' ? '誤答' : 'わからない',
       aiUse: 'no-ai', strength: outcome === 'correct' ? 3 : 1, createdAt: new Date().toISOString(),
     };
@@ -167,11 +179,12 @@ export const useMasteryStore = create<MasteryStore>()(persist((set) => ({
   }),
 
   reset: () => set({
-    practicalSubmissions: {}, states: {}, evidence: [], assessmentHistory: [], lessonProgress: {}, reviewQueue: [],
+    retrievalAttempts: [], practicalSubmissions: {}, states: {}, evidence: [], assessmentHistory: [], lessonProgress: {}, reviewQueue: [],
     studySessions: [], activeTimer: null, feedback: [],
   }),
 
   importData: data => set({
+    retrievalAttempts: Array.isArray(data.retrievalAttempts) ? data.retrievalAttempts.filter(validRetrievalAttempt) : [],
     practicalSubmissions: data.practicalSubmissions ?? {},
     states: data.states ?? {},
     evidence: data.evidence ?? [],

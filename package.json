@@ -9,11 +9,20 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "content:audit": "node scripts/content-audit.mjs",
-    "learning:check": "node scripts/learning-check.mjs"
+    "learning:check": "node scripts/learning-check.mjs",
+    "bank:audit": "node scripts/bank-audit.mjs",
+    "bank:manifest": "node scripts/bank-audit.mjs --write",
+    "bank:check": "node scripts/bank-check.mjs",
+    "bank:browser": "node scripts/bank-browser-check.mjs",
+    "placement:check": "node scripts/placement-check.mjs",
+    "placement:browser": "node scripts/placement-browser-check.mjs",
+    "math:check": "node scripts/math-check.mjs",
+    "math:browser": "node scripts/math-browser-check.mjs"
   },
   "dependencies": {
     "@xyflow/react": "^12.8.5",
     "dexie": "^4.2.0",
+    "katex": "^0.18.7",
     "lucide-react": "^0.468.0",
     "next": "^15.5.4",
     "react": "^19.1.1",

@@ -1,0 +1,1383 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "topics": 100,
+  "problemFamilies": 200,
+  "questions": 100000,
+  "practiceQuestions": 80000,
+  "heldOutQuestions": 20000,
+  "counting": "Fixed parameter variants of 200 authored problem families; repeated attempts and lesson examples excluded.",
+  "domains": [
+    {
+      "id": "basic",
+      "name": "基礎数学",
+      "topics": 8,
+      "questions": 8000
+    },
+    {
+      "id": "algebra",
+      "name": "代数・関数",
+      "topics": 8,
+      "questions": 8000
+    },
+    {
+      "id": "geometry",
+      "name": "幾何・三角関数",
+      "topics": 4,
+      "questions": 4000
+    },
+    {
+      "id": "linear",
+      "name": "線形代数",
+      "topics": 8,
+      "questions": 8000
+    },
+    {
+      "id": "calculus",
+      "name": "微分積分",
+      "topics": 8,
+      "questions": 8000
+    },
+    {
+      "id": "analysis",
+      "name": "解析の入口",
+      "topics": 6,
+      "questions": 6000
+    },
+    {
+      "id": "probability",
+      "name": "確率統計",
+      "topics": 8,
+      "questions": 8000
+    },
+    {
+      "id": "discrete",
+      "name": "離散数学",
+      "topics": 6,
+      "questions": 6000
+    },
+    {
+      "id": "physics",
+      "name": "力学",
+      "topics": 18,
+      "questions": 18000
+    },
+    {
+      "id": "electronics",
+      "name": "電装",
+      "topics": 5,
+      "questions": 5000
+    },
+    {
+      "id": "mechanical",
+      "name": "機械",
+      "topics": 4,
+      "questions": 4000
+    },
+    {
+      "id": "control",
+      "name": "制御",
+      "topics": 5,
+      "questions": 5000
+    },
+    {
+      "id": "robotics",
+      "name": "ロボティクス",
+      "topics": 4,
+      "questions": 4000
+    },
+    {
+      "id": "cs",
+      "name": "CS",
+      "topics": 4,
+      "questions": 4000
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "topics": 4,
+      "questions": 4000
+    }
+  ],
+  "curriculum": [
+    {
+      "id": "signed",
+      "title": "正負の数と演算の順序",
+      "group": "basic",
+      "prerequisites": [],
+      "families": [
+        "符号付きの変化",
+        "演算順序"
+      ]
+    },
+    {
+      "id": "fractions",
+      "title": "分数と通分",
+      "group": "basic",
+      "prerequisites": [
+        "signed"
+      ],
+      "families": [
+        "分数の和",
+        "分数による除算"
+      ]
+    },
+    {
+      "id": "ratio",
+      "title": "比・比例・反比例",
+      "group": "basic",
+      "prerequisites": [
+        "fractions"
+      ],
+      "families": [
+        "比で分ける",
+        "反比例の逆算"
+      ]
+    },
+    {
+      "id": "percent",
+      "title": "割合・増減率・元の値",
+      "group": "basic",
+      "prerequisites": [
+        "ratio"
+      ],
+      "families": [
+        "増減の合成",
+        "元の値"
+      ]
+    },
+    {
+      "id": "powers",
+      "title": "指数法則と負の指数",
+      "group": "basic",
+      "prerequisites": [
+        "fractions"
+      ],
+      "families": [
+        "積と商",
+        "負の指数"
+      ]
+    },
+    {
+      "id": "roots",
+      "title": "平方根と絶対値",
+      "group": "basic",
+      "prerequisites": [
+        "powers"
+      ],
+      "families": [
+        "平方根の符号",
+        "二乗方程式"
+      ]
+    },
+    {
+      "id": "units",
+      "title": "単位換算と次元",
+      "group": "basic",
+      "prerequisites": [
+        "ratio"
+      ],
+      "families": [
+        "速度換算",
+        "面積換算"
+      ]
+    },
+    {
+      "id": "scientific",
+      "title": "科学的記数法と桁の見積もり",
+      "group": "basic",
+      "prerequisites": [
+        "powers",
+        "units"
+      ],
+      "families": [
+        "異なる指数の積",
+        "接頭辞"
+      ]
+    },
+    {
+      "id": "expand",
+      "title": "分配法則と多項式",
+      "group": "algebra",
+      "prerequisites": [
+        "signed",
+        "powers"
+      ],
+      "families": [
+        "展開の係数",
+        "負号を含む整理"
+      ]
+    },
+    {
+      "id": "factor",
+      "title": "因数分解と零積",
+      "group": "algebra",
+      "prerequisites": [
+        "expand"
+      ],
+      "families": [
+        "平方差",
+        "零積から解"
+      ]
+    },
+    {
+      "id": "linear-eq",
+      "title": "一次方程式と式の逆算",
+      "group": "algebra",
+      "prerequisites": [
+        "fractions",
+        "expand"
+      ],
+      "families": [
+        "一次方程式",
+        "未知数が両辺"
+      ]
+    },
+    {
+      "id": "simultaneous",
+      "title": "連立方程式と消去",
+      "group": "algebra",
+      "prerequisites": [
+        "linear-eq"
+      ],
+      "families": [
+        "加減法",
+        "代入による確認"
+      ]
+    },
+    {
+      "id": "quadratic",
+      "title": "二次方程式と判別式",
+      "group": "algebra",
+      "prerequisites": [
+        "factor",
+        "linear-eq",
+        "roots"
+      ],
+      "families": [
+        "根と係数",
+        "判別式"
+      ]
+    },
+    {
+      "id": "inequality",
+      "title": "不等式と解の範囲",
+      "group": "algebra",
+      "prerequisites": [
+        "linear-eq"
+      ],
+      "families": [
+        "負数で割る境界",
+        "整数の最大値"
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "関数・合成・逆関数",
+      "group": "algebra",
+      "prerequisites": [
+        "linear-eq"
+      ],
+      "families": [
+        "合成関数",
+        "逆関数"
+      ]
+    },
+    {
+      "id": "exp-log",
+      "title": "指数関数と対数",
+      "group": "algebra",
+      "prerequisites": [
+        "powers",
+        "functions"
+      ],
+      "families": [
+        "対数の定義",
+        "指数の逆算"
+      ]
+    },
+    {
+      "id": "pythagoras",
+      "title": "直角三角形と距離",
+      "group": "geometry",
+      "prerequisites": [
+        "roots"
+      ],
+      "families": [
+        "斜辺",
+        "2点の距離"
+      ]
+    },
+    {
+      "id": "similarity",
+      "title": "相似と面積・体積の倍率",
+      "group": "geometry",
+      "prerequisites": [
+        "ratio",
+        "powers"
+      ],
+      "families": [
+        "面積の倍率",
+        "体積から長さ"
+      ]
+    },
+    {
+      "id": "trig",
+      "title": "三角比と成分分解",
+      "group": "geometry",
+      "prerequisites": [
+        "pythagoras",
+        "ratio"
+      ],
+      "families": [
+        "30度の成分",
+        "三角比から辺"
+      ]
+    },
+    {
+      "id": "radians",
+      "title": "ラジアンと周期",
+      "group": "geometry",
+      "prerequisites": [
+        "trig",
+        "units"
+      ],
+      "families": [
+        "弧長から角度",
+        "回転数から周期"
+      ]
+    },
+    {
+      "id": "vectors",
+      "title": "ベクトルと線形結合",
+      "group": "linear",
+      "prerequisites": [
+        "functions",
+        "pythagoras"
+      ],
+      "families": [
+        "線形結合の成分",
+        "基底での表現"
+      ]
+    },
+    {
+      "id": "dot",
+      "title": "内積と正射影",
+      "group": "linear",
+      "prerequisites": [
+        "vectors",
+        "trig"
+      ],
+      "families": [
+        "成分で内積",
+        "射影の係数"
+      ]
+    },
+    {
+      "id": "matrix",
+      "title": "行列積と線形写像",
+      "group": "linear",
+      "prerequisites": [
+        "vectors",
+        "simultaneous"
+      ],
+      "families": [
+        "行列とベクトル",
+        "行列合成の要素"
+      ]
+    },
+    {
+      "id": "det",
+      "title": "行列式と面積倍率",
+      "group": "linear",
+      "prerequisites": [
+        "matrix"
+      ],
+      "families": [
+        "2次行列式",
+        "面積倍率"
+      ]
+    },
+    {
+      "id": "inverse",
+      "title": "逆行列と逆変換",
+      "group": "linear",
+      "prerequisites": [
+        "det"
+      ],
+      "families": [
+        "対角行列の逆",
+        "せん断を戻す"
+      ]
+    },
+    {
+      "id": "rank",
+      "title": "階数・基底・核",
+      "group": "linear",
+      "prerequisites": [
+        "matrix",
+        "simultaneous"
+      ],
+      "families": [
+        "比例する行",
+        "核の次元"
+      ]
+    },
+    {
+      "id": "eigen",
+      "title": "固有値と反復変換",
+      "group": "linear",
+      "prerequisites": [
+        "det",
+        "inverse"
+      ],
+      "families": [
+        "固有方向の倍率",
+        "2回の作用"
+      ]
+    },
+    {
+      "id": "least-squares",
+      "title": "最小二乗と残差",
+      "group": "linear",
+      "prerequisites": [
+        "dot",
+        "matrix",
+        "det"
+      ],
+      "families": [
+        "定数モデルの最適値",
+        "原点を通る直線"
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "極限と連続性",
+      "group": "calculus",
+      "prerequisites": [
+        "functions",
+        "factor"
+      ],
+      "families": [
+        "約分して極限",
+        "連続になる補完"
+      ]
+    },
+    {
+      "id": "derivative",
+      "title": "微分係数と導関数",
+      "group": "calculus",
+      "prerequisites": [
+        "limits"
+      ],
+      "families": [
+        "多項式の微分",
+        "平均変化率"
+      ]
+    },
+    {
+      "id": "chain",
+      "title": "積の微分と連鎖律",
+      "group": "calculus",
+      "prerequisites": [
+        "derivative",
+        "expand"
+      ],
+      "families": [
+        "合成の微分",
+        "積の微分"
+      ]
+    },
+    {
+      "id": "extrema",
+      "title": "増減・極値・最適化",
+      "group": "calculus",
+      "prerequisites": [
+        "derivative",
+        "quadratic"
+      ],
+      "families": [
+        "二次関数の最小位置",
+        "区間の端点"
+      ]
+    },
+    {
+      "id": "integral",
+      "title": "原始関数と定積分",
+      "group": "calculus",
+      "prerequisites": [
+        "derivative"
+      ],
+      "families": [
+        "多項式の定積分",
+        "累積量"
+      ]
+    },
+    {
+      "id": "ftc",
+      "title": "積分で定義された関数",
+      "group": "calculus",
+      "prerequisites": [
+        "integral",
+        "chain"
+      ],
+      "families": [
+        "基本定理",
+        "動く上端"
+      ]
+    },
+    {
+      "id": "partial",
+      "title": "偏微分・勾配・方向微分",
+      "group": "calculus",
+      "prerequisites": [
+        "chain",
+        "dot"
+      ],
+      "families": [
+        "偏微分",
+        "方向微分"
+      ]
+    },
+    {
+      "id": "double-integral",
+      "title": "二重積分と領域",
+      "group": "calculus",
+      "prerequisites": [
+        "partial",
+        "integral"
+      ],
+      "families": [
+        "長方形領域",
+        "三角形領域の面積"
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "数列・極限・誤差",
+      "group": "analysis",
+      "prerequisites": [
+        "limits",
+        "inequality"
+      ],
+      "families": [
+        "誤差の上界",
+        "必要な項数"
+      ]
+    },
+    {
+      "id": "series",
+      "title": "等比級数と打切り誤差",
+      "group": "analysis",
+      "prerequisites": [
+        "sequence",
+        "powers"
+      ],
+      "families": [
+        "無限等比和",
+        "打切り残差"
+      ]
+    },
+    {
+      "id": "epsilon",
+      "title": "εとδによる近さの保証",
+      "group": "analysis",
+      "prerequisites": [
+        "limits",
+        "inequality"
+      ],
+      "families": [
+        "線形関数のδ",
+        "入力誤差から出力誤差"
+      ]
+    },
+    {
+      "id": "taylor",
+      "title": "テイラー近似と残差",
+      "group": "analysis",
+      "prerequisites": [
+        "chain",
+        "series"
+      ],
+      "families": [
+        "平方根の一次近似",
+        "二乗関数の残差"
+      ]
+    },
+    {
+      "id": "ode",
+      "title": "微分方程式と初期条件",
+      "group": "analysis",
+      "prerequisites": [
+        "integral",
+        "exp-log"
+      ],
+      "families": [
+        "一定の変化率",
+        "指数解の確認"
+      ]
+    },
+    {
+      "id": "euler",
+      "title": "数値積分と刻み幅",
+      "group": "analysis",
+      "prerequisites": [
+        "ode"
+      ],
+      "families": [
+        "1ステップ更新",
+        "離散化の倍率"
+      ]
+    },
+    {
+      "id": "counting",
+      "title": "場合の数と組合せ",
+      "group": "probability",
+      "prerequisites": [
+        "ratio",
+        "powers"
+      ],
+      "families": [
+        "2個の組合せ",
+        "順序を区別する"
+      ]
+    },
+    {
+      "id": "conditional",
+      "title": "条件付き確率と独立",
+      "group": "probability",
+      "prerequisites": [
+        "counting"
+      ],
+      "families": [
+        "条件を満たす集合",
+        "独立な2試行"
+      ]
+    },
+    {
+      "id": "bayes",
+      "title": "ベイズの定理と基準率",
+      "group": "probability",
+      "prerequisites": [
+        "conditional"
+      ],
+      "families": [
+        "人数から事後確率",
+        "二経路の比較"
+      ]
+    },
+    {
+      "id": "expectation",
+      "title": "期待値と線形性",
+      "group": "probability",
+      "prerequisites": [
+        "conditional",
+        "fractions"
+      ],
+      "families": [
+        "2値の期待値",
+        "線形変換"
+      ]
+    },
+    {
+      "id": "variance",
+      "title": "分散と標準偏差",
+      "group": "probability",
+      "prerequisites": [
+        "expectation"
+      ],
+      "families": [
+        "対称な2値",
+        "変換後の分散"
+      ]
+    },
+    {
+      "id": "binomial",
+      "title": "二項分布と独立試行",
+      "group": "probability",
+      "prerequisites": [
+        "counting",
+        "variance"
+      ],
+      "families": [
+        "平均成功数",
+        "二項分散"
+      ]
+    },
+    {
+      "id": "mean-ci",
+      "title": "標本平均・標準誤差・区間推定",
+      "group": "probability",
+      "prerequisites": [
+        "variance",
+        "roots"
+      ],
+      "families": [
+        "標準誤差",
+        "既知σの区間半幅"
+      ]
+    },
+    {
+      "id": "regression",
+      "title": "回帰・残差・相関",
+      "group": "probability",
+      "prerequisites": [
+        "least-squares",
+        "variance"
+      ],
+      "families": [
+        "残差の符号",
+        "平方誤差"
+      ]
+    },
+    {
+      "id": "sets",
+      "title": "集合・和集合・補集合",
+      "group": "discrete",
+      "prerequisites": [
+        "signed"
+      ],
+      "families": [
+        "包含排除",
+        "補集合"
+      ]
+    },
+    {
+      "id": "logic",
+      "title": "命題・否定・量化",
+      "group": "discrete",
+      "prerequisites": [
+        "sets"
+      ],
+      "families": [
+        "全称命題の反例数",
+        "真偽の割当数"
+      ]
+    },
+    {
+      "id": "induction",
+      "title": "帰納法と不変条件",
+      "group": "discrete",
+      "prerequisites": [
+        "sets",
+        "linear-eq"
+      ],
+      "families": [
+        "和の公式の検算",
+        "ループ更新の不変量"
+      ]
+    },
+    {
+      "id": "modular",
+      "title": "整数の剰余と周期",
+      "group": "discrete",
+      "prerequisites": [
+        "signed",
+        "powers"
+      ],
+      "families": [
+        "非負の余り",
+        "負数の剰余"
+      ]
+    },
+    {
+      "id": "graphs",
+      "title": "グラフと木",
+      "group": "discrete",
+      "prerequisites": [
+        "counting",
+        "sets"
+      ],
+      "families": [
+        "木の辺数",
+        "次数和"
+      ]
+    },
+    {
+      "id": "complexity",
+      "title": "計算量と増加率",
+      "group": "discrete",
+      "prerequisites": [
+        "induction",
+        "exp-log"
+      ],
+      "families": [
+        "二重ループの回数",
+        "三角形の走査"
+      ]
+    },
+    {
+      "id": "position",
+      "title": "位置・変位・平均速度",
+      "group": "physics",
+      "prerequisites": [
+        "units",
+        "vectors"
+      ],
+      "families": [
+        "位置から平均速度",
+        "往復の平均の速さ"
+      ]
+    },
+    {
+      "id": "acceleration",
+      "title": "等加速度運動",
+      "group": "physics",
+      "prerequisites": [
+        "position",
+        "quadratic"
+      ],
+      "families": [
+        "速度更新",
+        "停止距離"
+      ]
+    },
+    {
+      "id": "projectile",
+      "title": "放物運動の独立な成分",
+      "group": "physics",
+      "prerequisites": [
+        "acceleration",
+        "trig"
+      ],
+      "families": [
+        "水平投射の到達距離",
+        "最高点までの時間"
+      ]
+    },
+    {
+      "id": "newton",
+      "title": "自由物体図と運動方程式",
+      "group": "physics",
+      "prerequisites": [
+        "acceleration",
+        "vectors"
+      ],
+      "families": [
+        "合力から加速度",
+        "必要駆動力"
+      ]
+    },
+    {
+      "id": "incline",
+      "title": "斜面と垂直抗力",
+      "group": "physics",
+      "prerequisites": [
+        "newton",
+        "trig"
+      ],
+      "families": [
+        "保持力",
+        "保持を超える駆動"
+      ]
+    },
+    {
+      "id": "friction",
+      "title": "静止摩擦と動摩擦",
+      "group": "physics",
+      "prerequisites": [
+        "newton"
+      ],
+      "families": [
+        "滑り出し限界",
+        "動摩擦の仕事"
+      ]
+    },
+    {
+      "id": "work",
+      "title": "仕事と力の積分",
+      "group": "physics",
+      "prerequisites": [
+        "dot",
+        "integral",
+        "newton"
+      ],
+      "families": [
+        "成分の内積",
+        "変化する力"
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "運動・位置エネルギーと保存",
+      "group": "physics",
+      "prerequisites": [
+        "work"
+      ],
+      "families": [
+        "運動エネルギー",
+        "落下後の速度の二乗"
+      ]
+    },
+    {
+      "id": "power",
+      "title": "出力・効率・エネルギー流",
+      "group": "physics",
+      "prerequisites": [
+        "energy",
+        "percent"
+      ],
+      "families": [
+        "仕事から出力",
+        "効率から入力"
+      ]
+    },
+    {
+      "id": "momentum",
+      "title": "運動量と力積",
+      "group": "physics",
+      "prerequisites": [
+        "newton",
+        "integral"
+      ],
+      "families": [
+        "運動量の変化",
+        "平均衝撃力"
+      ]
+    },
+    {
+      "id": "collision",
+      "title": "衝突と系の選択",
+      "group": "physics",
+      "prerequisites": [
+        "momentum",
+        "energy"
+      ],
+      "families": [
+        "一体化する速度",
+        "非弾性のエネルギー差"
+      ]
+    },
+    {
+      "id": "circular",
+      "title": "円運動と向心加速度",
+      "group": "physics",
+      "prerequisites": [
+        "acceleration",
+        "radians"
+      ],
+      "families": [
+        "向心加速度",
+        "必要な中心向き力"
+      ]
+    },
+    {
+      "id": "torque",
+      "title": "トルクとモーメントの腕",
+      "group": "physics",
+      "prerequisites": [
+        "work",
+        "trig"
+      ],
+      "families": [
+        "垂直に働く力",
+        "成分からモーメント"
+      ]
+    },
+    {
+      "id": "inertia",
+      "title": "慣性モーメントと回転軸",
+      "group": "physics",
+      "prerequisites": [
+        "torque",
+        "powers"
+      ],
+      "families": [
+        "点質量の慣性",
+        "平行軸の補正"
+      ]
+    },
+    {
+      "id": "angular",
+      "title": "回転の運動方程式と角運動量",
+      "group": "physics",
+      "prerequisites": [
+        "inertia",
+        "momentum"
+      ],
+      "families": [
+        "角加速度",
+        "角運動量保存"
+      ]
+    },
+    {
+      "id": "spring",
+      "title": "ばねと弾性エネルギー",
+      "group": "physics",
+      "prerequisites": [
+        "work",
+        "integral"
+      ],
+      "families": [
+        "復元力の符号",
+        "弾性エネルギー"
+      ]
+    },
+    {
+      "id": "oscillation",
+      "title": "単振動と固有角周波数",
+      "group": "physics",
+      "prerequisites": [
+        "spring",
+        "angular",
+        "ode"
+      ],
+      "families": [
+        "固有角周波数の二乗",
+        "変位から加速度"
+      ]
+    },
+    {
+      "id": "statics",
+      "title": "静力学と支持反力",
+      "group": "physics",
+      "prerequisites": [
+        "newton",
+        "torque"
+      ],
+      "families": [
+        "中央荷重の支持",
+        "偏った荷重"
+      ]
+    },
+    {
+      "id": "ohm",
+      "title": "電圧・電流・抵抗",
+      "group": "electronics",
+      "prerequisites": [
+        "linear-eq",
+        "units"
+      ],
+      "families": [
+        "抵抗の電流",
+        "必要抵抗"
+      ]
+    },
+    {
+      "id": "resistors",
+      "title": "直列・並列と回路の保存則",
+      "group": "electronics",
+      "prerequisites": [
+        "ohm",
+        "fractions"
+      ],
+      "families": [
+        "直列の分圧",
+        "同じ抵抗の並列"
+      ]
+    },
+    {
+      "id": "wire-loss",
+      "title": "配線の電圧降下と発熱",
+      "group": "electronics",
+      "prerequisites": [
+        "ohm",
+        "power"
+      ],
+      "families": [
+        "往復の電圧降下",
+        "接点の発熱"
+      ]
+    },
+    {
+      "id": "adc",
+      "title": "センサの校正と量子化",
+      "group": "electronics",
+      "prerequisites": [
+        "functions",
+        "ratio"
+      ],
+      "families": [
+        "理想コードの換算",
+        "線形校正"
+      ]
+    },
+    {
+      "id": "rc",
+      "title": "RC過渡応答",
+      "group": "electronics",
+      "prerequisites": [
+        "ode",
+        "ohm"
+      ],
+      "families": [
+        "時定数の換算",
+        "蓄積エネルギー"
+      ]
+    },
+    {
+      "id": "gear",
+      "title": "減速比・速度・トルク",
+      "group": "mechanical",
+      "prerequisites": [
+        "angular",
+        "power"
+      ],
+      "families": [
+        "出力速度",
+        "損失を含むトルク"
+      ]
+    },
+    {
+      "id": "stress",
+      "title": "応力・ひずみ・弾性",
+      "group": "mechanical",
+      "prerequisites": [
+        "newton",
+        "ratio"
+      ],
+      "families": [
+        "平均軸応力",
+        "ひずみから伸び"
+      ]
+    },
+    {
+      "id": "beam",
+      "title": "梁のたわみと支持条件",
+      "group": "mechanical",
+      "prerequisites": [
+        "statics",
+        "stress"
+      ],
+      "families": [
+        "先端たわみ",
+        "断面二次モーメント"
+      ]
+    },
+    {
+      "id": "tolerance",
+      "title": "寸法公差と組立余裕",
+      "group": "mechanical",
+      "prerequisites": [
+        "units",
+        "percent"
+      ],
+      "families": [
+        "最小すきま",
+        "積み上げの最悪幅"
+      ]
+    },
+    {
+      "id": "sampling",
+      "title": "周期処理・標本化・遅延",
+      "group": "control",
+      "prerequisites": [
+        "radians",
+        "functions"
+      ],
+      "families": [
+        "周期と周波数",
+        "遅延中の移動"
+      ]
+    },
+    {
+      "id": "pid",
+      "title": "離散PIDの各項",
+      "group": "control",
+      "prerequisites": [
+        "derivative",
+        "integral",
+        "sampling"
+      ],
+      "families": [
+        "比例項",
+        "離散積分の更新"
+      ]
+    },
+    {
+      "id": "feedforward",
+      "title": "フィードフォワードのモデル",
+      "group": "control",
+      "prerequisites": [
+        "power",
+        "pid"
+      ],
+      "families": [
+        "速度項と重力項",
+        "下降時の摩擦"
+      ]
+    },
+    {
+      "id": "first-order",
+      "title": "一次系と定常ゲイン",
+      "group": "control",
+      "prerequisites": [
+        "ode",
+        "euler"
+      ],
+      "families": [
+        "定常出力",
+        "初期傾き"
+      ]
+    },
+    {
+      "id": "estimation",
+      "title": "推定の重みと残差",
+      "group": "control",
+      "prerequisites": [
+        "variance",
+        "least-squares"
+      ],
+      "families": [
+        "逆分散重み",
+        "正規化残差"
+      ]
+    },
+    {
+      "id": "transform",
+      "title": "座標変換と逆変換",
+      "group": "robotics",
+      "prerequisites": [
+        "matrix",
+        "trig"
+      ],
+      "families": [
+        "90度回転と移動",
+        "逆変換"
+      ]
+    },
+    {
+      "id": "odometry",
+      "title": "車輪オドメトリ",
+      "group": "robotics",
+      "prerequisites": [
+        "position",
+        "radians"
+      ],
+      "families": [
+        "中心の移動量",
+        "向きの変化"
+      ]
+    },
+    {
+      "id": "kinematics",
+      "title": "アーム運動学とヤコビアン",
+      "group": "robotics",
+      "prerequisites": [
+        "partial",
+        "transform"
+      ],
+      "families": [
+        "手先速度",
+        "速度から関節速度"
+      ]
+    },
+    {
+      "id": "trajectory",
+      "title": "軌道の速度・加速度制約",
+      "group": "robotics",
+      "prerequisites": [
+        "acceleration",
+        "circular"
+      ],
+      "families": [
+        "停止余裕",
+        "曲率から速度上限"
+      ]
+    },
+    {
+      "id": "binary",
+      "title": "ビット・範囲・符号表現",
+      "group": "cs",
+      "prerequisites": [
+        "powers",
+        "modular"
+      ],
+      "families": [
+        "10ビットの残容量",
+        "2の補数の解釈"
+      ]
+    },
+    {
+      "id": "queue",
+      "title": "キュー・循環バッファ・境界",
+      "group": "cs",
+      "prerequisites": [
+        "modular",
+        "induction"
+      ],
+      "families": [
+        "循環添字",
+        "件数の不変条件"
+      ]
+    },
+    {
+      "id": "latency",
+      "title": "計算時間・通信時間・締切",
+      "group": "cs",
+      "prerequisites": [
+        "sampling",
+        "complexity"
+      ],
+      "families": [
+        "周期の残り時間",
+        "理想転送時間"
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "テスト境界・網羅・失敗率",
+      "group": "cs",
+      "prerequisites": [
+        "sets",
+        "ratio"
+      ],
+      "families": [
+        "検出件数の割合",
+        "等価分割の組合せ"
+      ]
+    },
+    {
+      "id": "metrics",
+      "title": "分類の適合率と再現率",
+      "group": "ai",
+      "prerequisites": [
+        "conditional",
+        "bayes"
+      ],
+      "families": [
+        "適合率",
+        "再現率"
+      ]
+    },
+    {
+      "id": "mse",
+      "title": "損失関数と予測誤差",
+      "group": "ai",
+      "prerequisites": [
+        "variance",
+        "regression"
+      ],
+      "families": [
+        "MSEの計算",
+        "スケール変更"
+      ]
+    },
+    {
+      "id": "gradient",
+      "title": "勾配降下と学習率",
+      "group": "ai",
+      "prerequisites": [
+        "partial",
+        "extrema"
+      ],
+      "families": [
+        "1ステップ更新",
+        "二次損失の勾配"
+      ]
+    },
+    {
+      "id": "data-split",
+      "title": "データ分割と漏洩",
+      "group": "ai",
+      "prerequisites": [
+        "conditional",
+        "testing"
+      ],
+      "families": [
+        "分割件数",
+        "学習統計で正規化"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ export type AiUse = 'no-ai'|'hint-only'|'ai-explanation'|'ai-debugging'|'ai-gene
 export type AssessmentOutcome = 'correct'|'wrong'|'skipped';
 export type Competency = 'recall'|'explain'|'calculate'|'reproduce'|'transfer'|'debug'|'design';
 export type AssessmentFormat = 'mcq'|'numeric';
-export type AssessmentSource = 'baseline'|'checkpoint'|'review';
+export type AssessmentSource = 'baseline'|'checkpoint'|'review'|'placement';
 
 export type SchoolMapping = {
   school: string;
@@ -83,6 +83,9 @@ export type Lesson = {
   checkpointIds: string[];
   resourceIds?: string[];
   practical?: string;
+  track?: 'foundation' | 'application';
+  prerequisiteLessonIds?: string[];
+  assets?: { label: string; url: string }[];
 };
 
 export type Evidence = {
@@ -101,6 +104,8 @@ export type SkillState = {
   assistedScore: number;
   retentionScore: number;
   lastAssessed?: string;
+  testPassed?: boolean;
+  testPassedAt?: string;
 };
 
 export type AssessmentAttempt = {
@@ -189,4 +194,16 @@ export type PracticalSubmission = {
   checks: string[];
   reviewer: string;
   updatedAt: string;
+};
+
+export type RetrievalOutcome = 'again' | 'explained' | 'fluent';
+export type RetrievalAttempt = {
+  id: string;
+  cardId: string;
+  revision: number;
+  outcome: RetrievalOutcome;
+  response: string;
+  correction: string;
+  elapsedSec: number;
+  createdAt: string;
 };

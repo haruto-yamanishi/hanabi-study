@@ -1,0 +1,10 @@
+export type CourseGroup = 'basic'|'algebra'|'geometry'|'linear'|'calculus'|'analysis'|'probability'|'discrete'|'physics'|'electronics'|'mechanical'|'control'|'robotics'|'cs'|'ai';
+export const courseGroups: Record<CourseGroup,string> = {basic:'基礎数学',algebra:'代数・関数',geometry:'幾何・三角関数',linear:'線形代数',calculus:'微分積分',analysis:'解析の入口',probability:'確率統計',discrete:'離散数学',physics:'力学',electronics:'電装',mechanical:'機械',control:'制御',robotics:'ロボティクス',cs:'CS',ai:'AI'};
+export type Question = {prompt:string;answer:number;explanation:string;unit:string};
+export type Family = {name:string;make:(seed:number)=>Question};
+export type Topic = {id:string;group:CourseGroup;title:string;prerequisites:string[];theory:string;pitfall:string;explain:string;explainAnswer:string;families:[Family,Family]};
+export const q=(prompt:string,answer:number,explanation:string,unit=''):Question=>({prompt,answer,explanation,unit});
+export const f=(name:string,make:Family['make']):Family=>({name,make});
+export const topic=(id:string,group:CourseGroup,title:string,prerequisites:string[],theory:string,pitfall:string,explain:string,explainAnswer:string,families:[Family,Family]):Topic=>({id,group,title,prerequisites,theory,pitfall,explain,explainAnswer,families});
+export const fmt=(n:number)=>Number(n.toPrecision(10)).toString();
+export const choose=(n:number,k:number)=>{let r=1;for(let i=1;i<=k;i++)r=r*(n-i+1)/i;return r;};

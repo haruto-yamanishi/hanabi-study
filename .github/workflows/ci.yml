@@ -17,4 +17,8 @@ jobs:
       - run: npm run typecheck
       - run: npm run content:audit
       - run: npm run learning:check
+      - run: npm run bank:audit
+      - run: npm run bank:check
+      - run: npm run placement:check
+      - run: npm run math:check
       - run: npm run build

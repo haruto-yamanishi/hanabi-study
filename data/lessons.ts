@@ -1,21 +1,23 @@
+import { deepLessons } from './deep';
 import { engineeringLessons } from './engineering';
 import { Lesson } from '@/lib/types';
 
 export const lessons: Lesson[] = [
   ...engineeringLessons,
+  ...deepLessons,
   {
     id:'l-algebra-equations',skillId:'m-algebra',title:'方程式を「逆算」ではなく構造で解く',summary:'移項の暗記ではなく、等式の両辺に同じ操作をする感覚を作る。',estimatedMinutes:18,revision:1,
     steps:[
-      {id:'c1',kind:'concept',title:'等式はバランス',body:'方程式は左右が等しい「天秤」。片側だけを勝手に変えず、両辺へ同じ操作をする。2x+3=11なら、両辺から3を引き、次に2で割る。'},
-      {id:'e1',kind:'example',title:'例: 3(x-2)=15',body:'まず両辺を3で割ると x-2=5。両辺に2を足して x=7。展開してから解いてもよいが、式の形を見て短い操作を選ぶ。'},
+      {id:'c1',kind:'concept',title:'等式はバランス',body:'方程式は左右が等しい「天秤」。片側だけを勝手に変えず、両辺へ同じ操作をする。\\(2x+3=11\\)なら、両辺から3を引き、次に2で割る。'},
+      {id:'e1',kind:'example',title:'例: \\(3(x-2)=15\\)',body:'まず両辺を3で割ると \\(x-2=5\\)。両辺に2を足して x=7。展開してから解いてもよいが、式の形を見て短い操作を選ぶ。'},
       {id:'r1',kind:'recall',title:'見ずに言える？',body:'画面を閉じたつもりで考える。',prompt:'「移項」は本当は何をしている操作？',options:['反対側へ瞬間移動','両辺に同じ加減算をしている','符号をランダムに変える'],answer:1,explanation:'移項は省略表現。等式の両辺へ同じ操作をしている。'},
-      {id:'p1',kind:'practice',title:'FRCでの式変形',body:'motor speed = free speed / gear ratio。free speed=6000 rpm、出力を1200 rpmにしたい。gear ratioはいくつ？',prompt:'gear ratioを選ぶ',options:['2:1','5:1','12:1'],answer:1,explanation:'6000/5=1200。'},
+      {id:'p1',kind:'practice',title:'FRCでの式変形',body:'motor speed = free speed / gear ratio。free speed=6000 rpm、出力を1200 rpmにしたい。gear ratioはいくつ？',prompt:'gear ratioを選ぶ',options:['2:1','5:1','12:1'],answer:1,explanation:'\\(\\frac{6000}{5}=1200\\)。'},
     ],checkpointIds:['a-algebra-1'],resourceIds:[]
   },
   {
     id:'l-trig-components',skillId:'m-trig',title:'sin / cosを力と速度の成分として使う',summary:'三角関数を暗記公式ではなく、ベクトルを分解する道具として使う。',estimatedMinutes:22,revision:1,
     steps:[
-      {id:'c1',kind:'concept',title:'cosは横、sinは縦',body:'長さrのベクトルがx軸からθなら、x成分はr cosθ、y成分はr sinθ。単位円はr=1の特別な場合。'},
+      {id:'c1',kind:'concept',title:'cosは横、sinは縦',body:'長さrのベクトルがx軸からθなら、x成分は\\(r\\cos\\theta\\)、y成分は\\(r\\sin\\theta\\)。単位円はr=1の特別な場合。'},
       {id:'e1',kind:'example',title:'45°方向に2 m/s',body:'vx=2cos45°≈1.41、vy=2sin45°≈1.41。swerveのchassis speedや力の分解で同じ構造が出る。'},
       {id:'r1',kind:'recall',title:'向きを変えるだけ',body:'長さは同じでも角度で成分が変わる。',prompt:'単位円上でcosθは？',options:['x座標','y座標','角速度'],answer:0,explanation:'cosはx成分、sinはy成分。'},
       {id:'p1',kind:'practice',title:'robot-relative速度',body:'robotがfield x方向へ2 m/s、y方向へ0 m/s。robotが90°向きを変えたらrobot座標ではどの方向に見えるかを考える。',prompt:'必要になる考え方は？',options:['座標回転','Ohm則','binary search'],answer:0,explanation:'field/robot frame間の回転が必要。'},
@@ -44,7 +46,7 @@ export const lessons: Lesson[] = [
     steps:[
       {id:'c1',kind:'concept',title:'まず対象を切り出す',body:'対象物だけを囲み、外から受ける力だけを描く。重力、支持力、摩擦、motor由来の力など。'},
       {id:'e1',kind:'example',title:'2 kgに6 N',body:'合力6 N、質量2 kgならa=F/m=3 m/s²。重要なのは単一の力でなく「合力」。'},
-      {id:'r1',kind:'recall',title:'F=maのFは？',body:'motor力そのものとは限らない。',prompt:'F=maのFは何？',options:['対象に働く合力','最大motor force','重力だけ'],answer:0,explanation:'全外力のベクトル和。'},
+      {id:'r1',kind:'recall',title:'\\(F=ma\\)のFは？',body:'motor力そのものとは限らない。',prompt:'\\(F=ma\\)のFは何？',options:['対象に働く合力','最大motor force','重力だけ'],answer:0,explanation:'全外力のベクトル和。'},
       {id:'p1',kind:'practice',title:'Elevator',body:'上向き張力T、下向きmgならm a = T-mg。静止保持ではa=0なのでT=mg。'},
     ],checkpointIds:['a-force-1','a-fbd-1'],resourceIds:[]
   },
