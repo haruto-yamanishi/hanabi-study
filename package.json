@@ -17,6 +17,9 @@
     "placement:check": "node scripts/placement-check.mjs",
     "placement:browser": "node scripts/placement-browser-check.mjs",
     "math:check": "node scripts/math-check.mjs",
+    "i18n:extract": "node scripts/i18n-extract.mjs",
+    "i18n:check": "node scripts/i18n-check.mjs",
+    "i18n:browser": "node scripts/i18n-browser-check.mjs",
     "math:browser": "node scripts/math-browser-check.mjs"
   },
   "dependencies": {

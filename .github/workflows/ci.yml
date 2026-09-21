@@ -21,4 +21,5 @@ jobs:
       - run: npm run bank:check
       - run: npm run placement:check
       - run: npm run math:check
+      - run: npm run i18n:check
       - run: npm run build

@@ -1,4 +1,6 @@
 'use client';
+import { Text, tr } from './Text';
+
 
 import { useEffect, useMemo, useState } from 'react';
 import { Clock3, Pause, Play } from 'lucide-react';
@@ -51,34 +53,34 @@ export function StudyTimer(){
     <section className="panel p-6 sm:p-8">
       <div className="kicker">Study timer</div>
       <div className="mt-5 text-center">
-        <div className="text-sm font-bold text-[#657083]">{activeTimer?phase.label:'Ready'}</div>
-        <div className="metric mt-2 text-6xl font-bold tracking-tight text-[#0d1833]">{fmt(elapsed)}</div>
-        {phase.remaining!==null&&<div className="mt-2 text-sm text-[#714086]">このphase 残り {fmt(phase.remaining)}</div>}
+        <div className="text-sm font-bold text-[#657083]"><Text>{activeTimer?phase.label:'Ready'}</Text></div>
+        <div className="metric mt-2 text-6xl font-bold tracking-tight text-[#0d1833]"><Text>{fmt(elapsed)}</Text></div>
+        {phase.remaining!==null&&<div className="mt-2 text-sm text-[#714086]"><Text>{"このphase 残り "}</Text><Text>{fmt(phase.remaining)}</Text></div>}
       </div>
 
       {!activeTimer ? <div className="mt-8 space-y-3">
         <select value={skillId} onChange={e=>{setSkillId(e.target.value);setLessonId('')}} className="w-full rounded-xl border border-[#d9dde5] bg-white p-3 text-sm">
-          {skills.map(s=><option key={s.id} value={s.id}>{s.nameJa}</option>)}
+          {skills.map(s=><option key={s.id} value={s.id}><Text plain>{s.nameJa}</Text></option>)}
         </select>
         <select value={lessonId} onChange={e=>setLessonId(e.target.value)} className="w-full rounded-xl border border-[#d9dde5] bg-white p-3 text-sm">
-          <option value="">Lesson指定なし</option>{lessons.filter(l=>l.skillId===skillId).map(l=><option key={l.id} value={l.id}>{l.title}</option>)}
+          <option value="">{tr("Lesson指定なし")}</option>{lessons.filter(l=>l.skillId===skillId).map(l=><option key={l.id} value={l.id}><Text plain>{l.title}</Text></option>)}
         </select>
         <select value={aiUse} onChange={e=>setAiUse(e.target.value as AiUse)} className="w-full rounded-xl border border-[#d9dde5] bg-white p-3 text-sm">
-          {Object.entries(aiLabels).map(([id,label])=><option key={id} value={id}>{label}</option>)}
+          {Object.entries(aiLabels).map(([id,label])=><option key={id} value={id}><Text plain>{label}</Text></option>)}
         </select>
         <label className="flex items-center justify-between rounded-xl border border-[#d9dde5] p-3 text-sm font-semibold"><span>Pomodoro</span><input type="checkbox" checked={pomodoro} onChange={e=>setPomodoro(e.target.checked)}/></label>
         {pomodoro&&<div className="grid grid-cols-2 gap-3"><label className="text-xs text-[#657083]">Focus<input type="number" min={5} max={90} value={work} onChange={e=>setWork(+e.target.value)} className="mt-1 w-full rounded-xl border border-[#d9dde5] p-3 text-sm"/></label><label className="text-xs text-[#657083]">Break<input type="number" min={1} max={30} value={rest} onChange={e=>setRest(+e.target.value)} className="mt-1 w-full rounded-xl border border-[#d9dde5] p-3 text-sm"/></label></div>}
         <button onClick={begin} className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#0d1833] p-3 text-sm font-bold text-white"><Play size={17}/>Start</button>
       </div> : <div className="mt-8">
-        <textarea value={note} onChange={e=>setNote(e.target.value)} rows={2} placeholder="終了時メモ（任意）" className="w-full resize-none rounded-xl border border-[#d9dde5] p-3 text-sm"/>
+        <textarea value={note} onChange={e=>setNote(e.target.value)} rows={2} placeholder={tr("終了時メモ（任意）")} className="w-full resize-none rounded-xl border border-[#d9dde5] p-3 text-sm"/>
         <button onClick={finish} className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-[#c83833] p-3 text-sm font-bold text-white"><Pause size={17}/>Stop & Record</button>
-        <div className="mt-3 text-center text-xs text-[#747d8c]">進行中タイマーはlocalStorageに保存されるので、リロードしても復元されます。</div>
+        <div className="mt-3 text-center text-xs text-[#747d8c]"><Text>{"進行中タイマーはlocalStorageに保存されるので、リロードしても復元されます。"}</Text></div>
       </div>}
     </section>
 
     <div className="space-y-5">
-      <section className="panel p-5"><div className="flex items-center gap-2"><Clock3 size={18} className="text-[#0857a2]"/><div className="font-bold">学習時間</div></div><div className="mt-5 grid grid-cols-2 gap-3"><div className="rounded-xl bg-[#f8f9fb] p-4"><div className="kicker">Today</div><div className="metric mt-2 text-2xl font-bold">{Math.round(todaySec/60)}<span className="ml-1 text-xs font-medium text-[#747d8c]">min</span></div></div><div className="rounded-xl bg-[#f8f9fb] p-4"><div className="kicker">7 days</div><div className="metric mt-2 text-2xl font-bold">{Math.round(weekSec/60)}<span className="ml-1 text-xs font-medium text-[#747d8c]">min</span></div></div></div></section>
-      <section className="panel p-5"><div className="kicker">By skill · 7 days</div><div className="mt-3 space-y-3">{bySkill.map(({skill,sec})=><div key={skill.id}><div className="flex justify-between text-xs"><span className="font-semibold">{skill.nameJa}</span><span className="text-[#747d8c]">{Math.round(sec/60)} min</span></div><div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-[#e8ebf0]"><div className="h-full rounded-full bg-[#0857a2]" style={{width:`${Math.min(100,sec/Math.max(...bySkill.map(x=>x.sec),1)*100)}%`}}/></div></div>)}{!bySkill.length&&<div className="text-sm text-[#747d8c]">まだ学習記録がありません。</div>}</div></section>
+      <section className="panel p-5"><div className="flex items-center gap-2"><Clock3 size={18} className="text-[#0857a2]"/><div className="font-bold"><Text>{"学習時間"}</Text></div></div><div className="mt-5 grid grid-cols-2 gap-3"><div className="rounded-xl bg-[#f8f9fb] p-4"><div className="kicker">Today</div><div className="metric mt-2 text-2xl font-bold"><Text>{Math.round(todaySec/60)}</Text><span className="ml-1 text-xs font-medium text-[#747d8c]">min</span></div></div><div className="rounded-xl bg-[#f8f9fb] p-4"><div className="kicker">7 days</div><div className="metric mt-2 text-2xl font-bold"><Text>{Math.round(weekSec/60)}</Text><span className="ml-1 text-xs font-medium text-[#747d8c]">min</span></div></div></div></section>
+      <section className="panel p-5"><div className="kicker">By skill · 7 days</div><div className="mt-3 space-y-3">{bySkill.map(({skill,sec})=><div key={skill.id}><div className="flex justify-between text-xs"><span className="font-semibold"><Text>{skill.nameJa}</Text></span><span className="text-[#747d8c]"><Text>{Math.round(sec/60)}</Text> min</span></div><div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-[#e8ebf0]"><div className="h-full rounded-full bg-[#0857a2]" style={{width:`${Math.min(100,sec/Math.max(...bySkill.map(x=>x.sec),1)*100)}%`}}/></div></div>)}{!bySkill.length&&<div className="text-sm text-[#747d8c]"><Text>{"まだ学習記録がありません。"}</Text></div>}</div></section>
     </div>
   </div>;
 }

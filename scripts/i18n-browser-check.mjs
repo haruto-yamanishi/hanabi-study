@@ -1,0 +1,64 @@
+// Dedicated disposable profile only. This test writes practice answers to local storage.
+if(process.env.HANABI_I18N_BROWSER_TEST!=='1')throw new Error('Use HANABI_I18N_BROWSER_TEST=1 with a disposable browser profile on CDP 9223.');
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {loadTs} from './load-ts.mjs';
+const {translateText}=loadTs('lib/i18n.ts');
+const en=text=>translateText(text,'en');
+const target=await(await fetch('http://127.0.0.1:9223/json/new?about:blank',{method:'PUT'})).json();
+const ws=new WebSocket(target.webSocketDebuggerUrl);
+await new Promise((resolve,reject)=>{ws.onopen=resolve;ws.onerror=reject});
+let seq=0;const pending=new Map(),errors=[];
+ws.onmessage=e=>{const d=JSON.parse(e.data);if(d.id){const p=pending.get(d.id);pending.delete(d.id);d.error?p.reject(d.error):p.resolve(d.result);}else if(d.method==='Runtime.exceptionThrown')errors.push(d.params.exceptionDetails.text);};
+const call=(method,params={})=>new Promise((resolve,reject)=>{const id=++seq;pending.set(id,{resolve,reject});ws.send(JSON.stringify({id,method,params}));});
+const evaluate=async expression=>{const r=await call('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw new Error(JSON.stringify(r.exceptionDetails));return r.result.value;};
+const wait=async expression=>{for(let i=0;i<100;i++){if(await evaluate(`Boolean(${expression})`))return;await new Promise(r=>setTimeout(r,100));}throw new Error('Timeout: '+expression);};
+const click=async text=>{await evaluate(`(()=>{const b=[...document.querySelectorAll('button')].find(x=>x.getAttribute('aria-label')===${JSON.stringify(text)}||x.textContent.trim()===${JSON.stringify(text)});if(!b)throw new Error('button missing: '+${JSON.stringify(text)});b.click();})()`);};
+const clickSource=async text=>evaluate(`(()=>{const span=[...document.querySelectorAll('[data-math-source]')].find(x=>x.getAttribute('data-math-source')===${JSON.stringify(text)});if(!span?.closest('button'))throw new Error('source button missing');span.closest('button').click();})()`);
+const input=async(selector,value)=>evaluate(`(()=>{const e=document.querySelector(${JSON.stringify(selector)});if(!e)throw new Error('input missing');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(e,${JSON.stringify(value)});e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));})()`);
+const sourcePresent=text=>wait(`[...document.querySelectorAll('[data-math-source]')].some(e=>e.getAttribute('data-math-source')===${JSON.stringify(text)})`);
+const noJapanese=async()=>{
+ const remaining=await evaluate(`(()=>{const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);const rows=[];while(walker.nextNode()){const n=walker.currentNode;if(n.parentElement?.closest('script,style,[role="group"],textarea,input'))continue;if(/[\\p{Script=Hiragana}\\p{Script=Katakana}\\p{Script=Han}]/u.test(n.textContent))rows.push(n.textContent);}return [...new Set(rows)];})()`);
+ assert.deepEqual(remaining,[],'Untranslated UI');
+ assert.equal(await evaluate(`document.querySelectorAll('.math-fallback').length`),0);
+};
+await call('Runtime.enable');await call('Page.enable');
+await call('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+await call('Page.navigate',{url:'http://127.0.0.1:3100'});
+await wait(`document.querySelector('button[lang="en"]')`);
+await click('English');await wait(`document.documentElement.lang==='en'`);
+for(const name of ['ホーム','学ぶ','反復','テスト','ステータス','ロードマップ','スキルマップ','今日','記録','制作・修了','品質','データ']){
+ await click(en(name));await new Promise(r=>setTimeout(r,150));await noJapanese();
+}
+const bank=loadTs('data/foundations/index.ts');
+const answerByPrompt=new Map();for(const topic of bank.topics)for(const id of bank.topicQuestionIds(topic,'all')){const q=bank.getQuestion(id);answerByPrompt.set(q.prompt,{answer:q.answer,id});}
+await click(en('基礎・ドリル'));await wait(`document.querySelector('input[aria-label="Search foundation topics"]')`);
+await noJapanese();
+await input('input[aria-label="Search foundation topics"]',en('分数と通分'));
+await wait(`document.querySelectorAll('button.panel').length===1`);await clickSource('分数と通分');
+await wait(`document.querySelector('.katex math mfrac')`);await noJapanese();
+await click(en('練習10問'));await wait(`document.querySelector('input[aria-label="Drill answer"]')`);
+const prompt=await evaluate(`document.querySelector('h4 [data-math-source]').getAttribute('data-math-source')`);
+const question=answerByPrompt.get(prompt);assert(question);
+await input('input[aria-label="Drill answer"]',String(question.answer));
+await click('日本語');await wait(`document.documentElement.lang==='ja'`);
+assert.equal(await evaluate(`document.querySelector('input[aria-label="基礎演習の回答"]').value`),String(question.answer));
+assert.equal(await evaluate(`document.querySelector('h4 [data-math-source]').getAttribute('data-math-source')`),prompt);
+await click('English');await click(en('回答を保存して採点'));await sourcePresent('自力正答');await noJapanese();
+const readRecord=()=>evaluate(`new Promise((resolve,reject)=>{const r=indexedDB.open('hanabi-study-bank-v1',2);r.onsuccess=()=>{const db=r.result,q=db.transaction('progress').objectStore('progress').get(${JSON.stringify(question.id)});q.onsuccess=()=>{resolve(q.result);db.close()};q.onerror=()=>reject(q.error)};r.onerror=()=>reject(r.error)})`);
+assert.equal((await readRecord()).lastResult,'correct');
+await call('Page.reload');await wait(`document.documentElement.lang==='en'&&document.querySelector('button[aria-label="Learn"]')`);
+assert.equal((await readRecord()).lastResult,'correct');
+await click('Learn');await input('input[placeholder="Search lessons"]',en('運動を位置・速度・加速度で記述する'));
+await wait(`document.querySelectorAll('button.panel').length===1`);await clickSource('運動を位置・速度・加速度で記述する');
+await wait(`document.querySelector('.katex math mfrac')`);await noJapanese();
+assert(await evaluate(`Boolean(document.querySelector('.katex math msub'))`));
+await call('Emulation.setDeviceMetricsOverride',{width:375,height:812,deviceScaleFactor:1,mobile:true});
+await evaluate(`document.querySelector('.katex').scrollIntoView({block:'center'})`);
+assert(await evaluate(`document.documentElement.scrollWidth<=window.innerWidth`));
+await evaluate('document.fonts.ready');
+fs.writeFileSync('/private/tmp/hanabi-english-kinematics.png',Buffer.from((await call('Page.captureScreenshot',{format:'png'})).data,'base64'));
+await click('日本語');await wait(`document.documentElement.lang==='ja'`);
+assert.equal((await readRecord()).lastResult,'correct');
+assert.deepEqual(errors,[]);await call('Page.close');ws.close();
+console.log('English browser: all screens, lesson/drill/explanation translation, English search, mid-answer switch, grading, reload/persistence, LaTeX, 375px layout — OK');

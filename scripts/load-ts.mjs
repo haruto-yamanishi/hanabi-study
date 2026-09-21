@@ -11,7 +11,8 @@ export function loadTs(relative) {
   const file = path.resolve(root, relative);
   if (cache.has(file)) return cache.get(file).exports;
   const source = fs.readFileSync(file, 'utf8');
-  const js = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX } }).outputText;
+  if(file.endsWith('.json')){const value=JSON.parse(source);cache.set(file,{exports:value});return value;}
+  const js = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, esModuleInterop:true } }).outputText;
   const mod = { exports: {} };
   cache.set(file, mod);
   const localRequire = specifier => {

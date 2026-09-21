@@ -1,4 +1,6 @@
 'use client';
+import { Text, tr } from './Text';
+
 
 export function RadarChart({
   labels, values, size = 360, selectedIndex = null, onSelect,
@@ -21,7 +23,7 @@ export function RadarChart({
   });
   const polygon = dataPoints.map(p => `${p.x},${p.y}`).join(' ');
 
-  return <svg viewBox={`0 0 ${size} ${size}`} className="mx-auto w-full max-w-[420px]" role="img" aria-label="分野別達成度レーダーチャート">
+  return <svg viewBox={`0 0 ${size} ${size}`} className="mx-auto w-full max-w-[420px]" role="img" aria-label={tr("分野別達成度レーダーチャート")}>
     {[20,40,60,80,100].map(level => {
       const ring = points.map(p => {
         const r = radius * level / 100;
@@ -37,8 +39,8 @@ export function RadarChart({
       const y = center + Math.sin(p.angle) * radius * 1.22;
       return <g key={labels[i]} onClick={()=>onSelect?.(i)} className={onSelect?'cursor-pointer':''} role={onSelect?'button':undefined} tabIndex={onSelect?0:undefined} onKeyDown={e=>{if(onSelect&&(e.key==='Enter'||e.key===' ')){e.preventDefault();onSelect(i)}}}>
         {selectedIndex===i&&<circle cx={x} cy={y} r="25" fill="#f9e9e8"/>}
-        <text x={x} y={y - 4} textAnchor="middle" dominantBaseline="middle" fontSize="11" fontWeight="700" fill={selectedIndex===i?'#a92d29':'#334155'}>{labels[i]}</text>
-        <text x={x} y={y + 11} textAnchor="middle" dominantBaseline="middle" fontSize="10" fill="#64748b">{Math.round(values[i])}</text>
+        <text x={x} y={y - 4} textAnchor="middle" dominantBaseline="middle" fontSize="11" fontWeight="700" fill={selectedIndex===i?'#a92d29':'#334155'}><Text plain>{labels[i]}</Text></text>
+        <text x={x} y={y + 11} textAnchor="middle" dominantBaseline="middle" fontSize="10" fill="#64748b"><Text plain>{Math.round(values[i])}</Text></text>
       </g>;
     })}
   </svg>;

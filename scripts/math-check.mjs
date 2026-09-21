@@ -23,11 +23,16 @@ function check(value){
   for(const p of splitMath(value))if(p.kind==='math'){
    mathCount++;
    if(!seen.has(p.value)){renderToString(p.value,{throwOnError:true,strict:'error',trust:false,maxExpand:1000,maxSize:10});seen.add(p.value);}
-  }
+  }else assert(!/\\[()[\]]|\\(?:frac|times|sum)|[ᵀᵧₛₖ]|[\u0307\u0308]/u.test(p.value),`Unwrapped or broken formula: ${value}`);
  }else if(Array.isArray(value))value.forEach(check);
  else if(value&&typeof value==='object')Object.values(value).forEach(check);
 }
 check(topics);check(lessons);check(assessments);
+check(loadTs('data/projects.ts').projects);check(loadTs('data/deep/index.ts').retrievalCards);
 for(const t of topics)for(const id of topicQuestionIds(t,'all'))check(getQuestion(id));
 assert(mathCount>10000,'generated problem variants use LaTeX');
+const kinematics=lessons.find(l=>l.id==='eng-p-kinematics');
+const kinematicsText=JSON.stringify(kinematics);
+assert(kinematicsText.includes('v_{0}')||kinematicsText.includes('v_0'));
+assert(kinematicsText.includes('frac'));
 console.log(`Math checks: ${mathCount} formula occurrences / ${seen.size} distinct expressions; all 100,000 questions, lessons, assessments, delimiters, code, fallback and safe HTML — OK`);

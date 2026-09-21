@@ -12,7 +12,7 @@ export const assessments: AssessmentItem[] = [
   {id:'a-vector-1',skillId:'m-vectors',competency:'calculate',format:'numeric',difficulty:2,prompt:"\\(a=(1,2), b=(3,4)\\) の内積 \\(a\\cdot b\\) を入力してください。",answer:'11',tolerance:0,explanation:"\\(1\\times 3+2\\times 4=11\\)。",revision:1},
   {id:'a-diff-1',skillId:'m-calc-diff',competency:'calculate',format:'mcq',difficulty:2,prompt:"\\(f(x)=x^{2}\\) の導関数は？",options:['x','2x',"\\(\\frac{x^{2}}{2}\\)",'2'],answer:1,explanation:'べき乗則より2x。',revision:1},
   {id:'a-int-1',skillId:'m-calc-int',competency:'explain',format:'mcq',difficulty:2,prompt:"速度 \\(v(t)\\) を時間で積分すると何が得られる？",options:['加速度','位置の変化量','力','電力'],answer:1,explanation:'速度の時間積分は変位。',frcContext:'odometry',revision:1},
-  {id:'a-linear-1',skillId:'m-linear',competency:'recall',format:'mcq',difficulty:3,prompt:'回転行列Rの列ベクトルが互いに直交することを表す式は？',options:["Rᵀ\\(R=I\\)","\\(R+R=I\\)","\\(R^{2}=0\\)","\\(\\det (R)=0\\)"],answer:0,explanation:"正規直交行列ではRᵀ\\(R=I\\)。",revision:1},
+  {id:'a-linear-1',skillId:'m-linear',competency:'recall',format:'mcq',difficulty:3,prompt:'回転行列Rの列ベクトルが互いに直交することを表す式は？',options:["\\(R^\\mathsf{T}R=I\\)","\\(R+R=I\\)","\\(R^{2}=0\\)","\\(\\det (R)=0\\)"],answer:0,explanation:"正規直交行列では\\(R^\\mathsf{T}R=I\\)。",revision:1},
   {id:'a-prob-1',skillId:'m-prob',competency:'calculate',format:'mcq',difficulty:2,prompt:"独立な事象A,Bについて \\(P(A\\cap B)\\) は？",options:["\\(P(A)+P(B)\\)","\\(P(A)P(B)\\)","\\(\\frac{P(A)}{P}(B)\\)","\\(1-P(A)\\)"],answer:1,explanation:'独立なら積。',revision:1},
 
   // Physics
