@@ -3,6 +3,7 @@ import { Text, tr, displayLocale } from './Text';
 
 import { MathText } from './MathText';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { Printer } from 'lucide-react';
 import { bankSize, courseGroups, getQuestion, topics, workedExamples, type BankQuestion } from '@/data/foundations';
 import { difficultyLabels, questionDifficulty } from '@/data/foundations/difficulty';
 import { fmt, type Topic } from '@/data/foundations/types';
@@ -30,6 +31,12 @@ export function FoundationCourse({initialTopic,onOpenTests}:{initialTopic?:strin
   const attempted=Object.keys(records).length;
   const ready=Object.values(progress).filter(p=>p.ready).length;
   const start=(mode:'practice'|'check'|'review')=>{if(t)setSession({ids:selectBankSet(t,records,mode),mode,index:0});};
+  const printableIds=t?selectBankSet(t,records,'practice'):[];
+  const openPrintSet=()=>{
+    if(!t||!printableIds.length)return;
+    const params=new URLSearchParams({topic:t.id,ids:printableIds.join(',')});
+    window.open(`/print/problem-set?${params.toString()}`,'_blank','noopener,noreferrer');
+  };
   const current=session?getQuestion(session.ids[session.index]??''):undefined;
   if(!loaded)return <section className="panel p-6" role="status"><Text>{error||'基礎課程の記録を読み込んでいます…'}</Text></section>;
   return <div className="space-y-5">
@@ -50,7 +57,7 @@ export function FoundationCourse({initialTopic,onOpenTests}:{initialTopic?:strin
           <div className="mt-4 rounded-xl bg-[#fff4dc] p-4 text-sm leading-7"><strong><Text>{"間違えやすい点："}</Text></strong><MathText>{t.pitfall}</MathText></div>
           <div className="mt-5 grid gap-4 md:grid-cols-2">{workedExamples(t).map((ex,i)=><div key={i} className="rounded-xl border p-4"><h4 className="text-sm font-bold"><Text>{"例題："}</Text><Text>{ex.name}</Text></h4><p className="mt-2 text-sm leading-7"><MathText>{ex.prompt}</MathText></p><p className="mt-3 text-sm leading-7"><MathText>{ex.explanation}</MathText></p><p className="mt-2 font-semibold"><Text>{"答え "}</Text><Text>{fmt(ex.answer)}</Text> <Text>{ex.unit}</Text></p></div>)}</div>
           <Explanation key={t.id} topic={t}/>
-          <div className="mt-5 flex flex-wrap gap-2"><button className={`${button} bg-[#0d1833] text-white`} onClick={()=>start('practice')}><Text>{"練習10問"}</Text></button><button className={button} onClick={()=>start('review')}><Text>{"期限が来た復習"}</Text></button><button className={button} onClick={()=>start('check')}><Text>{"初見確認10問"}</Text></button></div>
+          <div className="mt-5 flex flex-wrap gap-2"><button className={`${button} bg-[#0d1833] text-white`} onClick={()=>start('practice')}><Text>{"練習10問"}</Text></button><button className={button} onClick={()=>start('review')}><Text>{"期限が来た復習"}</Text></button><button className={button} onClick={()=>start('check')}><Text>{"初見確認10問"}</Text></button><button className={`${button} inline-flex items-center gap-2`} disabled={!printableIds.length} onClick={openPrintSet}><Printer size={15}/><Text>{"問題集10問をPDF / 印刷"}</Text></button></div>
           <p className="mt-3 text-xs leading-6 text-[#657083]"><Text>{"各単元800問の練習と200問の初見確認。確認問題は一度でも回答すると復習側へ移ります。全問を解くことより、間違えた理由を直し別条件で説明できることを重視します。"}</Text></p>
           <div className="mt-3 text-sm">{t.families.map((f,i)=><p key={i}><Text>{f.name}</Text><Text>{"：初見自力正答 "}</Text><Text>{progress[t.id].passed[i]}</Text><Text>{"/2以上 · 遅延復習 "}</Text><Text>{progress[t.id].retained[i]?'確認済み':'未確認'}</Text></p>)}</div>
           <details className="mt-4 text-sm"><summary><Text>{"直近の回答と修正点"}</Text></summary><div className="mt-3 space-y-3">{Object.values(records).filter(r=>r.id.startsWith(`bank:${t.id}:`)).sort((a,b)=>b.lastAt-a.lastAt).slice(0,10).map(r=><div key={r.id} className="rounded-xl border p-3"><p><MathText>{getQuestion(r.id)?.prompt}</MathText></p><p className="mt-2"><Text>{"回答："}</Text>{r.answer} · <Text>{outcomeNames[r.lastResult]}</Text></p><p><Text>{"修正："}</Text>{r.correction||<Text>未記録</Text>}</p><p className="text-xs text-[#657083]"><Text>{"次回目安："}</Text><Text>{new Date(r.dueAt).toLocaleString(displayLocale())}</Text></p></div>)}</div></details>
