@@ -1,4 +1,5 @@
 {
+  "静止中の摩擦が常にZXQ0XZとは限らない。": "Static friction is not always equal to ZXQ0XZ.",
   "ZXQ0XZ は何ZXQ1XZ？": "Express ZXQ0XZ in ZXQ1XZ.",
   "「停止」「低速」「断続」の症状に各ZXQ0XZ仮説と測定を対応させる。提出：正常・異常ログと否定した仮説。合格目安：ZXQ1XZ回の部品交換だけで根本原因と断定しない。": "For each symptom (stopped, slow, or intermittent), propose ZXQ0XZ hypotheses and the measurements needed to test them. Submit normal and abnormal logs and rejected hypotheses. Success criterion: do not conclude that you found the root cause based on only ZXQ1XZ component replacement.",
   "サンプル時刻に応じて変わる": "It changes with the sampling time",
@@ -102,5 +103,6 @@
   "合格済みも再テストする": "Retest passed topics or skills",
   "テスト合格": "Test passed",
   "テストで確認済み": "Verified by test",
-  "テスト合格・先へ進めます": "Test passed — ready to continue"
+  "テスト合格・先へ進めます": "Test passed — ready to continue",
+  "✓ テスト合格": "✓ Test passed"
 }

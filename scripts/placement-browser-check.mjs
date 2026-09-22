@@ -16,6 +16,7 @@ const input=async(selector,value)=>evaluate(`(()=>{const e=document.querySelecto
 await call('Runtime.enable');await call('Page.enable');
 await call('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
 await call('Page.navigate',{url:'http://127.0.0.1:3100'});
+await wait(`document.querySelector('button[lang="ja"]')`);await click('日本語');
 await wait(`[...document.querySelectorAll('button[aria-label="学ぶ"]')].some(b=>Object.keys(b).some(k=>k.startsWith('__reactProps')))`);
 const {loadTs}=await import('./load-ts.mjs');
 const bank=loadTs('data/foundations/index.ts');
@@ -35,11 +36,13 @@ const solveBank=async count=>{for(let i=0;i<count;i++){
 }};
 await solveBank(4);await bodyHas('100% · テスト合格');
 assert.equal((await readDB('progress')).filter(r=>r.checkPassedAt).length,4);
-await click('別の単元をテストする');await evaluate(`document.querySelector('input[type="checkbox"]').click()`);await click('単元の現在地テストを始める');
+await click('スキルマップ');await wait(`document.querySelector('[data-topic-node="signed"]')?.dataset.status==='passed'`);assert.equal(await evaluate(`document.querySelector('[data-id="signed"]').style.background`),'rgb(230, 243, 234)');
+await click('テスト');await bodyHas('単元の現在地テストを始める');await select('単元テストの対象','signed');await evaluate(`document.querySelector('input[type="checkbox"]').click()`);await click('単元の現在地テストを始める');
 await bodyHas('この問題はわからない');await click('この問題はわからない');await bodyHas('50% · 再確認が必要');
-await click('中断する（結果は保存済み）');await evaluate(`document.querySelector('input[type="checkbox"]').click()`);await click('単元の現在地テストを始める');await solveBank(2);await bodyHas('100% · テスト合格');
+await click('スキルマップ');await wait(`document.querySelector('[data-topic-node="signed"]')?.dataset.status==='review'`);assert.equal(await evaluate(`document.querySelector('[data-id="signed"]').style.background`),'rgb(255, 244, 220)');
+await click('テスト');await bodyHas('単元の現在地テストを始める');await select('単元テストの対象','signed');await click('単元の現在地テストを始める');await solveBank(2);await bodyHas('100% · テスト合格');
 await call('Page.reload');await wait(`[...document.querySelectorAll('button[aria-label="テスト"]')].some(b=>Object.keys(b).some(k=>k.startsWith('__reactProps')))`);
-await click('テスト');await bodyHas('100% · テスト合格');
+await click('スキルマップ');await wait(`document.querySelector('[data-topic-node="signed"]')?.dataset.status==='passed'`);await click('テスト');await bodyHas('100% · テスト合格');
 await click('FRC・工学78スキル');await bodyHas('現在地テストを始める');await select('スキルテストの対象','m-number');await click('現在地テストを始める');
 const {assessments}=loadTs('data/assessments.ts');
 const solveSkills=async count=>{for(let i=0;i<count;i++){
@@ -51,7 +54,7 @@ const solveSkills=async count=>{for(let i=0;i<count;i++){
 }};
 await solveSkills(4);await bodyHas('テスト結果を反映しました');
 assert((await state()).states['m-number'].testPassed);assert.equal((await state()).states['m-number'].retentionScore,0);
-await click('スキルマップ');await wait(`document.querySelector('[data-id="m-number"]')?.textContent.includes('テスト合格')`);
+await click('スキルマップ');await click('FRC スキルマップ');await wait(`document.querySelector('[data-id="m-number"]')?.textContent.includes('テスト合格')`);
 assert.equal(await evaluate(`document.querySelector('[data-id="m-number"]').style.background`),'rgb(230, 243, 234)');
 await click('テスト');await click('FRC・工学78スキル');await select('スキルテストの対象','m-number');await evaluate(`document.querySelector('input[type="checkbox"]').click()`);await click('現在地テストを始める');await bodyHas('わからない');await click('わからない');await bodyHas('復習が必要です');
 assert(!(await state()).states['m-number'].testPassed);assert((await state()).states['m-number'].score<=75);
