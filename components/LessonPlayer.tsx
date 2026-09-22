@@ -2,6 +2,7 @@
 import { Text, tr } from './Text';
 
 import { MathText } from './MathText';
+import { MathConceptVisual } from './MathConceptVisual';
 
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, Check, ChevronRight, MessageSquare, ThumbsDown, ThumbsUp } from 'lucide-react';
@@ -122,6 +123,7 @@ export function LessonPlayer({ lesson, onBack, onOpenLesson, onOpenRecall, onOpe
       </div>
       {!inCheckpoint && step && <div className="p-6 sm:p-8">
         <div className="text-xs font-bold uppercase tracking-[.14em] text-[#0857a2]"><Text>{step.kind}</Text></div><h3 className="mt-2 text-xl font-bold"><MathText>{step.title}</MathText></h3><p className="mt-5 whitespace-pre-line text-[15px] leading-8 text-[#4f5968]"><MathText>{step.body}</MathText></p>
+        {step.id === 'concept' && <MathConceptVisual skillId={lesson.skillId}/>} 
         {step.prompt && <StepExercise key={step.id} step={step} onReveal={() => setRevealed(true)}/>}
         {step.id === 'workshop' && ['c-pid','c-feedforward','c-tuning'].includes(lesson.skillId) && <ControlLab/>}
         {step.id === 'workshop' && lesson.practical && <PracticalNotebook key={lesson.id} id={lesson.id} checks={workshopChecks}/>}
