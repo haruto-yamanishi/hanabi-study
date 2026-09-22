@@ -14,7 +14,7 @@ export default async function ProblemSetPrintPage({
   const requestedIds = (params.ids ?? '').split(',').filter(Boolean).slice(0, 20);
   const questions = requestedIds
     .map(id => getQuestion(id))
-    .filter((question): question is BankQuestion => Boolean(question) && question.topicId === topic.id);
+    .filter((question): question is BankQuestion => question?.topicId === topic.id);
 
   if (!questions.length) notFound();
 
