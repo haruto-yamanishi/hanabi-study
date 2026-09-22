@@ -4,7 +4,7 @@ import { Text, tr } from './Text';
 import { MathText } from './MathText';
 
 import { useEffect, useMemo, useState } from 'react';
-import { ArrowLeft, Check, ChevronRight, MessageSquare, ThumbsDown, ThumbsUp } from 'lucide-react';
+import { ArrowLeft, Check, ChevronRight, MessageSquare, Printer, ThumbsDown, ThumbsUp } from 'lucide-react';
 import { ControlLab } from './ControlLab';
 import { PracticalNotebook } from './PracticalNotebook';
 import { workshopChecks } from '@/lib/graduation';
@@ -105,7 +105,10 @@ export function LessonPlayer({ lesson, onBack, onOpenLesson, onOpenRecall, onOpe
   const feedbackCount = feedback.filter(f => f.lessonId === lesson.id).length;
 
   return <div className="mx-auto max-w-4xl space-y-5">
-    <button onClick={onBack} className="inline-flex items-center gap-2 text-sm font-semibold text-[#657083] hover:text-[#0d1833]"><ArrowLeft size={16}/><Text>{"教材一覧"}</Text></button>
+    <div className="flex flex-wrap items-center justify-between gap-3">
+      <button onClick={onBack} className="inline-flex items-center gap-2 text-sm font-semibold text-[#657083] hover:text-[#0d1833]"><ArrowLeft size={16}/><Text>{"教材一覧"}</Text></button>
+      <button onClick={()=>window.open(`/print/lesson?lesson=${encodeURIComponent(lesson.id)}`,'_blank','noopener,noreferrer')} className="inline-flex items-center gap-2 rounded-xl border border-[#d9dde5] bg-white px-4 py-2 text-sm font-bold text-[#0d1833] hover:bg-[#f8f9fb]"><Printer size={16}/><Text>{"PDF / 印刷"}</Text></button>
+    </div>
     <div className="panel overflow-hidden">
       <div className="flex flex-wrap gap-3 border-b p-4 text-xs text-[#0857a2]">
 <button onClick={()=>onOpenLesson?.(`eng-${lesson.skillId}`)}><Text>{"基礎教材"}</Text></button>
