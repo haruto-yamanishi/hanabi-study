@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { cloze, productionAnswer, type VocabularyEntry } from '../lib/vocabulary';
 import type { Answer, WordStatus } from '../lib/learning';
 
-type Phase = 'recognize' | 'meaning' | 'produce' | 'result';
-export function StudyCard({ entry, previous, onComplete }: { entry: VocabularyEntry; previous?: WordStatus; onComplete: (answer: Answer) => Promise<void> }) {
+type Phase = 'recognize' | 'meaning' | 'learn' | 'produce' | 'result';
+export function StudyCard({ entry, previous, source = 'daily', onComplete }: { entry: VocabularyEntry; previous?: WordStatus; source?: 'daily' | 'diagnostic'; onComplete: (answer: Answer) => Promise<void> }) {
   const [phase, setPhase] = useState<Phase>(previous === 'usable' ? 'produce' : 'recognize');
   const [input, setInput] = useState('');
   const [correct, setCorrect] = useState(false);
@@ -12,6 +12,8 @@ export function StudyCard({ entry, previous, onComplete }: { entry: VocabularyEn
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [meaningKnown, setMeaningKnown] = useState(previous === 'usable');
+  const [practiceInput, setPracticeInput] = useState('');
+  const [practiceChecked, setPracticeChecked] = useState(false);
   const finish = async (answer: Answer) => {
     setBusy(true); setError('');
     try { await onComplete(answer); }
@@ -32,8 +34,16 @@ export function StudyCard({ entry, previous, onComplete }: { entry: VocabularyEn
       <div className="word-sub">{entry.pos}</div>
       {phase === 'recognize' ? <><p className="card-help">意味を思い浮かべてから確認してください。</p><button className="primary wide" onClick={() => setPhase('meaning')}>意味を確認</button></> : <>
         <div className="answer-box"><strong>{entry.meaningJa}</strong><span>{entry.definitionEn}</span></div>
-        <div className="two-buttons"><button className="secondary" disabled={busy} onClick={() => void finish({ meaningKnown: false, productionCorrect: null })}>× 分からなかった</button><button className="primary" disabled={busy} onClick={() => { setMeaningKnown(true); setPhase('produce'); }}>意味は分かった →</button></div>
+        <div className="two-buttons"><button className="secondary" disabled={busy} onClick={() => source === 'diagnostic' ? void finish({ meaningKnown: false, productionCorrect: null }) : setPhase('learn')}>× 分からなかった</button><button className="primary" disabled={busy} onClick={() => { setMeaningKnown(true); setPhase('produce'); }}>意味は分かった →</button></div>
       </>}
+    </>}
+    {phase === 'learn' && <>
+      <div className="prompt-label">覚え直し · 一度だけ思い出す</div>
+      <div className="meaning-large">{entry.meaningJa}</div>
+      <p className="definition">{entry.definitionEn}</p>
+      <p className="cloze">{cloze(entry)}</p>
+      <form onSubmit={event => { event.preventDefault(); if (practiceInput.trim()) setPracticeChecked(true); }}><input autoFocus autoComplete="off" autoCapitalize="off" spellCheck={false} aria-label="覚え直しの英単語" placeholder="もう一度 English" value={practiceInput} onChange={event => { setPracticeInput(event.target.value); setPracticeChecked(false); }} /><div className="two-buttons"><button type="button" className="secondary" disabled={busy} onClick={() => void finish({ meaningKnown: false, productionCorrect: null })}>次の語へ →</button><button className="primary" type="submit" disabled={!practiceInput.trim()}>練習を確認 ↵</button></div></form>
+      {practiceChecked && <p className="practice-feedback">{productionAnswer(entry, practiceInput) ? '思い出せました。' : `答え：${answer}`} 次回の確認は明日です。</p>}
     </>}
     {phase === 'produce' && <>
       <div className="prompt-label">この意味・文脈に合う英単語を入力</div>

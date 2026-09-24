@@ -65,3 +65,16 @@ test('diagnostic descends on failures, ascends on success and never labels untes
   assert.equal(session.responses.length, 16);
   assert(session.responses.every(response => ['unknown', 'usable'].includes(response.status)));
 });
+
+test('diagnostic spot checks a borderline band without repeating words', () => {
+  let session = startDiagnostic(entries, now);
+  const first = [...session.pendingIds];
+  for (let i = 0; i < 8; i++) session = answerDiagnostic(session, entries, session.pendingIds[0], i < 4 ? 'meaning' : 'unknown', now);
+  assert.equal(session.band, 4);
+  assert.equal(session.pendingIds.length, 4);
+  assert(session.pendingIds.every(id => !first.includes(id)));
+  for (let i = 0; i < 4; i++) session = answerDiagnostic(session, entries, session.pendingIds[0], 'meaning', now);
+  assert(session.finished);
+  assert.equal(session.responses.length, 12);
+  assert.equal(new Set(session.responses.map(response => response.wordId)).size, 12);
+});
