@@ -1,0 +1,30 @@
+{
+  "name": "hanabi-study-english",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run vocab:validate && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "node scripts/browser-smoke.mjs",
+    "vocab:build": "node --import tsx scripts/vocab-audit.ts --write",
+    "vocab:validate": "node --import tsx scripts/vocab-audit.ts"
+  },
+  "dependencies": {
+    "dexie": "4.4.6",
+    "next": "15.5.25",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "playwright-core": "^1.62.1",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
+  }
+}
