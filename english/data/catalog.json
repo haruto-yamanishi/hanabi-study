@@ -8,9 +8,8 @@
     "difficulty": 1,
     "example": "New evidence can change the conclusion.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -23,9 +22,8 @@
     "difficulty": 1,
     "example": "We choose a topic for the project.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -38,9 +36,8 @@
     "difficulty": 1,
     "example": "Researchers compare the two methods.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -53,9 +50,8 @@
     "difficulty": 1,
     "example": "Please consider the costs before deciding.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -68,9 +64,8 @@
     "difficulty": 1,
     "example": "The teacher will explain the rule.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -83,9 +78,8 @@
     "difficulty": 1,
     "example": "We must identify the source of the error.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -98,9 +92,8 @@
     "difficulty": 1,
     "example": "Regular practice can improve memory.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -113,9 +106,8 @@
     "difficulty": 1,
     "example": "The course will include weekly reviews.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -128,9 +120,8 @@
     "difficulty": 1,
     "example": "Exercise can increase energy levels.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -143,9 +134,8 @@
     "difficulty": 1,
     "example": "The school will provide more materials.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -158,9 +148,8 @@
     "difficulty": 1,
     "example": "The new plan may reduce waste.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -173,9 +162,8 @@
     "difficulty": 1,
     "example": "The task will require careful reading.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -188,9 +176,8 @@
     "difficulty": 1,
     "example": "The data suggest a different answer.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -203,9 +190,8 @@
     "difficulty": 1,
     "example": "The results support the main claim.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -218,9 +204,8 @@
     "difficulty": 1,
     "example": "Students use the library after class.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -233,9 +218,8 @@
     "difficulty": 2,
     "example": "Students can achieve strong results with practice.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -248,9 +232,8 @@
     "difficulty": 2,
     "example": "The team will analyze the survey results.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -263,9 +246,8 @@
     "difficulty": 2,
     "example": "Teachers assess each essay fairly.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -278,9 +260,8 @@
     "difficulty": 2,
     "example": "The study will establish a useful baseline.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -293,9 +274,8 @@
     "difficulty": 2,
     "example": "The evidence supports the conclusion.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -308,9 +288,8 @@
     "difficulty": 2,
     "example": "Cost is an important factor in the decision.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -323,9 +302,8 @@
     "difficulty": 2,
     "example": "The figures indicate a steady rise.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -338,9 +316,8 @@
     "difficulty": 2,
     "example": "The job will involve regular travel.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -353,9 +330,8 @@
     "difficulty": 2,
     "example": "They maintain accurate records.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -368,9 +344,8 @@
     "difficulty": 2,
     "example": "We measure the temperature every hour.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -383,9 +358,8 @@
     "difficulty": 2,
     "example": "The method produced reliable results.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -398,9 +372,8 @@
     "difficulty": 2,
     "example": "Applicants must obtain permission first.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -413,9 +386,8 @@
     "difficulty": 2,
     "example": "Errors may occur during the process.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -428,9 +400,8 @@
     "difficulty": 2,
     "example": "These rules help prevent accidents.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -443,9 +414,8 @@
     "difficulty": 2,
     "example": "Experts can recognize the pattern quickly.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -458,9 +428,8 @@
     "difficulty": 2,
     "example": "The results reflect a broad trend.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -473,9 +442,8 @@
     "difficulty": 2,
     "example": "Only relevant details belong in the summary.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -488,9 +456,8 @@
     "difficulty": 2,
     "example": "The team will replace the old software.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -503,9 +470,8 @@
     "difficulty": 2,
     "example": "The system can respond within a second.",
     "targets": {
-      "eikenPre1": 3,
-      "toefl": 2,
-      "sat": 1
+      "eikenPre1": 1,
+      "toefl": 1
     },
     "category": "general"
   },
@@ -1943,9 +1909,8 @@
     "difficulty": 8,
     "example": "The treatment may alleviate the pain.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
-      "sat": 3
+      "sat": 3,
+      "toefl": 2
     },
     "category": "academic"
   },
@@ -1958,8 +1923,6 @@
     "difficulty": 8,
     "example": "The modern device is an anachronism in the film.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -1973,8 +1936,6 @@
     "difficulty": 8,
     "example": "The capricious decision confused everyone.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -1988,9 +1949,8 @@
     "difficulty": 8,
     "example": "Writers sometimes conflate cause and correlation.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
-      "sat": 3
+      "sat": 3,
+      "toefl": 2
     },
     "category": "academic"
   },
@@ -2003,8 +1963,6 @@
     "difficulty": 8,
     "example": "The proposal may contravene existing law.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2018,8 +1976,6 @@
     "difficulty": 8,
     "example": "The leader will disavow the statement.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2033,8 +1989,6 @@
     "difficulty": 8,
     "example": "Critics should not disparage new learners.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2048,8 +2002,6 @@
     "difficulty": 8,
     "example": "The intense heat can enervate travelers.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2063,8 +2015,6 @@
     "difficulty": 8,
     "example": "Fair rules can engender trust.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2078,8 +2028,6 @@
     "difficulty": 8,
     "example": "The effect was ephemeral.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2093,8 +2041,6 @@
     "difficulty": 8,
     "example": "The new evidence may exculpate the suspect.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2108,8 +2054,6 @@
     "difficulty": 8,
     "example": "Technical jargon can obfuscate the issue.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2123,9 +2067,8 @@
     "difficulty": 8,
     "example": "The injury may preclude further competition.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
-      "sat": 3
+      "sat": 3,
+      "toefl": 2
     },
     "category": "academic"
   },
@@ -2138,8 +2081,6 @@
     "difficulty": 8,
     "example": "The committee will repudiate the allegation.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2153,8 +2094,6 @@
     "difficulty": 8,
     "example": "The agency may rescind the order.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
@@ -2168,9 +2107,8 @@
     "difficulty": 8,
     "example": "Digital tools may supplant older methods.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
-      "sat": 3
+      "sat": 3,
+      "toefl": 2
     },
     "category": "academic"
   },
@@ -2183,9 +2121,8 @@
     "difficulty": 8,
     "example": "The editor must truncate the long quotation.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
-      "sat": 3
+      "sat": 3,
+      "toefl": 2
     },
     "category": "academic"
   },
@@ -2198,9 +2135,8 @@
     "difficulty": 8,
     "example": "Smartphones are ubiquitous in many cities.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
-      "sat": 3
+      "sat": 3,
+      "toefl": 2
     },
     "category": "academic"
   },
@@ -2213,8 +2149,6 @@
     "difficulty": 8,
     "example": "The results may vindicate her judgment.",
     "targets": {
-      "eikenPre1": 2,
-      "toefl": 3,
       "sat": 3
     },
     "category": "academic"
