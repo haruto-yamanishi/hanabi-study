@@ -881,6 +881,51 @@
     "category": "general"
   },
   {
+    "id": "access-noun",
+    "lemma": "access",
+    "pos": "noun",
+    "meaningJa": "利用機会",
+    "definitionEn": "the ability or right to use something",
+    "difficulty": 3,
+    "example": "Students need access to reliable sources.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "active-adjective",
+    "lemma": "active",
+    "pos": "adjective",
+    "meaningJa": "活動的な",
+    "definitionEn": "doing things or taking part in an activity",
+    "difficulty": 3,
+    "example": "The active group met twice each week.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "actual-adjective",
+    "lemma": "actual",
+    "pos": "adjective",
+    "meaningJa": "実際の",
+    "definitionEn": "real or existing rather than imagined",
+    "difficulty": 3,
+    "example": "The actual cost was lower than the estimate.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "adapt-verb",
     "lemma": "adapt",
     "pos": "verb",
@@ -892,6 +937,36 @@
       "eikenPre1": 3,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "additional-adjective",
+    "lemma": "additional",
+    "pos": "adjective",
+    "meaningJa": "追加の",
+    "definitionEn": "added to what is already present or available",
+    "difficulty": 3,
+    "example": "The team requested additional time for testing.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "advantage-noun",
+    "lemma": "advantage",
+    "pos": "noun",
+    "meaningJa": "利点",
+    "definitionEn": "a condition that makes success more likely",
+    "difficulty": 3,
+    "example": "The authors discuss the advantage in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "academic"
   },
@@ -926,6 +1001,21 @@
     "category": "general"
   },
   {
+    "id": "agriculture-noun",
+    "lemma": "agriculture",
+    "pos": "noun",
+    "meaningJa": "農業",
+    "definitionEn": "the practice of growing crops and raising animals",
+    "difficulty": 3,
+    "example": "Agriculture supports many jobs in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "allocate-verb",
     "lemma": "allocate",
     "pos": "verb",
@@ -956,6 +1046,21 @@
     "category": "academic"
   },
   {
+    "id": "ancient-adjective",
+    "lemma": "ancient",
+    "pos": "adjective",
+    "meaningJa": "古代の",
+    "definitionEn": "belonging to a time very far in the past",
+    "difficulty": 3,
+    "example": "The team studied an ancient trading route.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "literature"
+  },
+  {
     "id": "announce-verb",
     "lemma": "announce",
     "pos": "verb",
@@ -967,6 +1072,21 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "annual-adjective",
+    "lemma": "annual",
+    "pos": "adjective",
+    "meaningJa": "毎年の",
+    "definitionEn": "happening once every year",
+    "difficulty": 3,
+    "example": "The annual survey tracks changes in local jobs.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "general"
   },
@@ -1016,6 +1136,21 @@
     "category": "academic"
   },
   {
+    "id": "aspect-noun",
+    "lemma": "aspect",
+    "pos": "noun",
+    "meaningJa": "側面",
+    "definitionEn": "one part or feature of a larger subject",
+    "difficulty": 3,
+    "example": "The authors discuss the aspect in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "assign-verb",
     "lemma": "assign",
     "pos": "verb",
@@ -1061,6 +1196,51 @@
     "category": "academic"
   },
   {
+    "id": "audience-noun",
+    "lemma": "audience",
+    "pos": "noun",
+    "meaningJa": "読者層",
+    "definitionEn": "the people for whom a text or event is intended",
+    "difficulty": 3,
+    "example": "The team discusses the audience before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "automatic-adjective",
+    "lemma": "automatic",
+    "pos": "adjective",
+    "meaningJa": "自動の",
+    "definitionEn": "working by itself with little or no human control",
+    "difficulty": 3,
+    "example": "The sensor sends an automatic warning.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "available-adjective",
+    "lemma": "available",
+    "pos": "adjective",
+    "meaningJa": "利用できる",
+    "definitionEn": "able to be obtained, used, or reached",
+    "difficulty": 3,
+    "example": "The data are available to all students.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "avoid-verb",
     "lemma": "avoid",
     "pos": "verb",
@@ -1074,6 +1254,36 @@
       "sat": 1
     },
     "category": "general"
+  },
+  {
+    "id": "balance-noun",
+    "lemma": "balance",
+    "pos": "noun",
+    "meaningJa": "均衡",
+    "definitionEn": "a condition in which different parts are in the right amounts",
+    "difficulty": 3,
+    "example": "The new design maintains a balance between cost and safety.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "barrier-noun",
+    "lemma": "barrier",
+    "pos": "noun",
+    "meaningJa": "障壁",
+    "definitionEn": "something that makes progress or access difficult",
+    "difficulty": 3,
+    "example": "The report describes the barrier in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "base-verb",
@@ -1106,6 +1316,21 @@
     "category": "science"
   },
   {
+    "id": "belief-noun",
+    "lemma": "belief",
+    "pos": "noun",
+    "meaningJa": "信念",
+    "definitionEn": "an idea that someone accepts as true",
+    "difficulty": 3,
+    "example": "The survey asked about each participant’s belief.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "benefit-verb",
     "lemma": "benefit",
     "pos": "verb",
@@ -1117,6 +1342,21 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "brief-adjective",
+    "lemma": "brief",
+    "pos": "adjective",
+    "meaningJa": "短い",
+    "definitionEn": "lasting only a short time or using few words",
+    "difficulty": 3,
+    "example": "The report gives a brief summary of the findings.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "general"
   },
@@ -1136,6 +1376,81 @@
     "category": "science"
   },
   {
+    "id": "capable-adjective",
+    "lemma": "capable",
+    "pos": "adjective",
+    "meaningJa": "能力がある",
+    "definitionEn": "having the ability or qualities needed for something",
+    "difficulty": 3,
+    "example": "The team is capable of finishing the study.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "careful-adjective",
+    "lemma": "careful",
+    "pos": "adjective",
+    "meaningJa": "注意深い",
+    "definitionEn": "taking time to avoid errors or danger",
+    "difficulty": 3,
+    "example": "Careful measurements improved the final result.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "category-noun",
+    "lemma": "category",
+    "pos": "noun",
+    "meaningJa": "分類",
+    "definitionEn": "a group of things with shared features",
+    "difficulty": 3,
+    "example": "The authors discuss the category in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "central-adjective",
+    "lemma": "central",
+    "pos": "adjective",
+    "meaningJa": "中心的な",
+    "definitionEn": "most important or having a key role",
+    "difficulty": 3,
+    "example": "Trust is central to a strong partnership.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "chief-adjective",
+    "lemma": "chief",
+    "pos": "adjective",
+    "meaningJa": "主な",
+    "definitionEn": "most important or highest in rank",
+    "difficulty": 3,
+    "example": "The chief reason for the delay was bad weather.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "cite-verb",
     "lemma": "cite",
     "pos": "verb",
@@ -1149,6 +1464,21 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "citizen-noun",
+    "lemma": "citizen",
+    "pos": "noun",
+    "meaningJa": "市民",
+    "definitionEn": "a legally recognized member of a country",
+    "difficulty": 3,
+    "example": "The report describes the citizen in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "claim-verb",
@@ -1181,6 +1511,51 @@
     "category": "academic"
   },
   {
+    "id": "classic-adjective",
+    "lemma": "classic",
+    "pos": "adjective",
+    "meaningJa": "代表的な",
+    "definitionEn": "widely recognized as a standard or excellent example",
+    "difficulty": 3,
+    "example": "The article is a classic example of clear writing.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "literature"
+  },
+  {
+    "id": "climate-noun",
+    "lemma": "climate",
+    "pos": "noun",
+    "meaningJa": "気候",
+    "definitionEn": "the usual weather conditions of a place",
+    "difficulty": 3,
+    "example": "The study examines the climate in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "collection-noun",
+    "lemma": "collection",
+    "pos": "noun",
+    "meaningJa": "収集物",
+    "definitionEn": "a group of objects gathered for a purpose",
+    "difficulty": 3,
+    "example": "The museum has a collection of local maps.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "combine-verb",
     "lemma": "combine",
     "pos": "verb",
@@ -1196,6 +1571,21 @@
     "category": "academic"
   },
   {
+    "id": "commercial-adjective",
+    "lemma": "commercial",
+    "pos": "adjective",
+    "meaningJa": "商業の",
+    "definitionEn": "connected with buying and selling goods or services",
+    "difficulty": 3,
+    "example": "The town built a new commercial center.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "communicate-verb",
     "lemma": "communicate",
     "pos": "verb",
@@ -1209,6 +1599,81 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "communication-noun",
+    "lemma": "communication",
+    "pos": "noun",
+    "meaningJa": "意思疎通",
+    "definitionEn": "the sharing of information between people",
+    "difficulty": 3,
+    "example": "The authors discuss the communication in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "community-noun",
+    "lemma": "community",
+    "pos": "noun",
+    "meaningJa": "地域社会",
+    "definitionEn": "a group of people who live or work together",
+    "difficulty": 3,
+    "example": "The report describes the community in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "comparison-noun",
+    "lemma": "comparison",
+    "pos": "noun",
+    "meaningJa": "比較",
+    "definitionEn": "an examination of how things are similar or different",
+    "difficulty": 3,
+    "example": "The authors discuss the comparison in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "competition-noun",
+    "lemma": "competition",
+    "pos": "noun",
+    "meaningJa": "競争",
+    "definitionEn": "a situation in which people try to do better than others",
+    "difficulty": 3,
+    "example": "Competition encouraged the firms to lower prices.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "complaint-noun",
+    "lemma": "complaint",
+    "pos": "noun",
+    "meaningJa": "苦情",
+    "definitionEn": "a statement that something is wrong or unsatisfactory",
+    "difficulty": 3,
+    "example": "The report describes the complaint in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "complete-verb",
@@ -1271,6 +1736,21 @@
     "category": "academic"
   },
   {
+    "id": "condition-noun",
+    "lemma": "condition",
+    "pos": "noun",
+    "meaningJa": "状態",
+    "definitionEn": "the state something is in",
+    "difficulty": 3,
+    "example": "The authors discuss the condition in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "conduct-verb",
     "lemma": "conduct",
     "pos": "verb",
@@ -1284,6 +1764,36 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "confidence-noun",
+    "lemma": "confidence",
+    "pos": "noun",
+    "meaningJa": "自信",
+    "definitionEn": "a feeling of trust in one's own ability or judgment",
+    "difficulty": 3,
+    "example": "A second trial increased confidence in the result.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "confident-adjective",
+    "lemma": "confident",
+    "pos": "adjective",
+    "meaningJa": "自信のある",
+    "definitionEn": "sure of one's abilities or beliefs",
+    "difficulty": 3,
+    "example": "She felt confident about explaining the results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "connect-verb",
@@ -1314,6 +1824,51 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "constant-adjective",
+    "lemma": "constant",
+    "pos": "adjective",
+    "meaningJa": "一定の",
+    "definitionEn": "remaining the same or happening continuously",
+    "difficulty": 3,
+    "example": "The machine needs a constant supply of clean water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "construction-noun",
+    "lemma": "construction",
+    "pos": "noun",
+    "meaningJa": "建設",
+    "definitionEn": "the process of building something",
+    "difficulty": 3,
+    "example": "Construction of the bridge will begin in June.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "consumer-noun",
+    "lemma": "consumer",
+    "pos": "noun",
+    "meaningJa": "消費者",
+    "definitionEn": "a person who buys or uses goods and services",
+    "difficulty": 3,
+    "example": "The consumer compared prices before buying the product.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
   },
   {
     "id": "contrast-verb",
@@ -1361,6 +1916,51 @@
     "category": "society"
   },
   {
+    "id": "cost-noun",
+    "lemma": "cost",
+    "pos": "noun",
+    "meaningJa": "費用",
+    "definitionEn": "the amount of money or effort needed for something",
+    "difficulty": 3,
+    "example": "The company reviews the cost before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "creative-adjective",
+    "lemma": "creative",
+    "pos": "adjective",
+    "meaningJa": "創造的な",
+    "definitionEn": "using imagination to produce new ideas or things",
+    "difficulty": 3,
+    "example": "The students found a creative way to reuse the material.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "creativity-noun",
+    "lemma": "creativity",
+    "pos": "noun",
+    "meaningJa": "創造性",
+    "definitionEn": "the ability to produce new and useful ideas",
+    "difficulty": 3,
+    "example": "The project encourages creativity in the classroom.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "criticize-verb",
     "lemma": "criticize",
     "pos": "verb",
@@ -1374,6 +1974,81 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "culture-noun",
+    "lemma": "culture",
+    "pos": "noun",
+    "meaningJa": "文化",
+    "definitionEn": "the shared beliefs and practices of a group",
+    "difficulty": 3,
+    "example": "The report describes the culture in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "curious-adjective",
+    "lemma": "curious",
+    "pos": "adjective",
+    "meaningJa": "好奇心の強い",
+    "definitionEn": "eager to know or learn something",
+    "difficulty": 3,
+    "example": "Curious students asked how the device worked.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "current-adjective",
+    "lemma": "current",
+    "pos": "adjective",
+    "meaningJa": "現在の",
+    "definitionEn": "happening or existing now",
+    "difficulty": 3,
+    "example": "The current policy will be reviewed in June.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "damage-noun",
+    "lemma": "damage",
+    "pos": "noun",
+    "meaningJa": "損害",
+    "definitionEn": "physical harm to something",
+    "difficulty": 3,
+    "example": "The team discusses the damage before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "debate-noun",
+    "lemma": "debate",
+    "pos": "noun",
+    "meaningJa": "議論",
+    "definitionEn": "a discussion in which people present different views",
+    "difficulty": 3,
+    "example": "The report describes the debate in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "define-verb",
@@ -1391,6 +2066,36 @@
     "category": "academic"
   },
   {
+    "id": "definition-noun",
+    "lemma": "definition",
+    "pos": "noun",
+    "meaningJa": "定義",
+    "definitionEn": "a statement that explains the meaning of a word or idea",
+    "difficulty": 3,
+    "example": "The textbook gives a clear definition of the term.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "delivery-noun",
+    "lemma": "delivery",
+    "pos": "noun",
+    "meaningJa": "配達",
+    "definitionEn": "the act of taking goods or information to a place",
+    "difficulty": 3,
+    "example": "The delivery arrived before noon.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "demonstrate-verb",
     "lemma": "demonstrate",
     "pos": "verb",
@@ -1406,6 +2111,21 @@
     "category": "academic"
   },
   {
+    "id": "department-noun",
+    "lemma": "department",
+    "pos": "noun",
+    "meaningJa": "部門",
+    "definitionEn": "a section of an organization with a specific role",
+    "difficulty": 3,
+    "example": "The team discusses the department before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "determine-verb",
     "lemma": "determine",
     "pos": "verb",
@@ -1419,6 +2139,81 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "device-noun",
+    "lemma": "device",
+    "pos": "noun",
+    "meaningJa": "装置",
+    "definitionEn": "a tool or machine made for a particular purpose",
+    "difficulty": 3,
+    "example": "The study examines the device in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "difference-noun",
+    "lemma": "difference",
+    "pos": "noun",
+    "meaningJa": "違い",
+    "definitionEn": "a way in which two or more things are not the same",
+    "difficulty": 3,
+    "example": "The team discusses the difference before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "direction-noun",
+    "lemma": "direction",
+    "pos": "noun",
+    "meaningJa": "方向",
+    "definitionEn": "the course along which something moves or develops",
+    "difficulty": 3,
+    "example": "The arrow shows the direction of the river.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "distance-noun",
+    "lemma": "distance",
+    "pos": "noun",
+    "meaningJa": "距離",
+    "definitionEn": "the amount of space between two places or things",
+    "difficulty": 3,
+    "example": "The school reduced the distance students travel each day.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "diverse-adjective",
+    "lemma": "diverse",
+    "pos": "adjective",
+    "meaningJa": "多様な",
+    "definitionEn": "including many different types of people or things",
+    "difficulty": 3,
+    "example": "The class has a diverse range of backgrounds.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "document-verb",
@@ -1451,6 +2246,96 @@
     "category": "academic"
   },
   {
+    "id": "economic-adjective",
+    "lemma": "economic",
+    "pos": "adjective",
+    "meaningJa": "経済の",
+    "definitionEn": "connected with the production and use of money and goods",
+    "difficulty": 3,
+    "example": "The plan may have economic benefits for small towns.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "educational-adjective",
+    "lemma": "educational",
+    "pos": "adjective",
+    "meaningJa": "教育の",
+    "definitionEn": "connected with teaching or learning",
+    "difficulty": 3,
+    "example": "The museum offers educational programs for schools.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "effect-noun",
+    "lemma": "effect",
+    "pos": "noun",
+    "meaningJa": "影響",
+    "definitionEn": "a change caused by an action or event",
+    "difficulty": 3,
+    "example": "The authors discuss the effect in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "effective-adjective",
+    "lemma": "effective",
+    "pos": "adjective",
+    "meaningJa": "効果的な",
+    "definitionEn": "producing the result that was intended",
+    "difficulty": 3,
+    "example": "The new filter is effective at removing fine dust.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "efficient-adjective",
+    "lemma": "efficient",
+    "pos": "adjective",
+    "meaningJa": "効率的な",
+    "definitionEn": "working well without wasting time or resources",
+    "difficulty": 3,
+    "example": "The revised process is more efficient.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "effort-noun",
+    "lemma": "effort",
+    "pos": "noun",
+    "meaningJa": "努力",
+    "definitionEn": "the energy used to do something",
+    "difficulty": 3,
+    "example": "The team discusses the effort before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "eliminate-verb",
     "lemma": "eliminate",
     "pos": "verb",
@@ -1481,6 +2366,66 @@
     "category": "academic"
   },
   {
+    "id": "emergency-noun",
+    "lemma": "emergency",
+    "pos": "noun",
+    "meaningJa": "緊急事態",
+    "definitionEn": "a serious and unexpected situation requiring quick action",
+    "difficulty": 3,
+    "example": "The clinic is prepared for a medical emergency.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "emotion-noun",
+    "lemma": "emotion",
+    "pos": "noun",
+    "meaningJa": "感情",
+    "definitionEn": "a strong feeling such as fear, joy, or anger",
+    "difficulty": 3,
+    "example": "Fear is a common emotion during a storm.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "emotional-adjective",
+    "lemma": "emotional",
+    "pos": "adjective",
+    "meaningJa": "感情の",
+    "definitionEn": "connected with strong feelings",
+    "difficulty": 3,
+    "example": "The decision had an emotional effect on the family.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "employment-noun",
+    "lemma": "employment",
+    "pos": "noun",
+    "meaningJa": "雇用",
+    "definitionEn": "the condition of having paid work",
+    "difficulty": 3,
+    "example": "The report describes the employment in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "enable-verb",
     "lemma": "enable",
     "pos": "verb",
@@ -1496,6 +2441,36 @@
     "category": "academic"
   },
   {
+    "id": "energy-noun",
+    "lemma": "energy",
+    "pos": "noun",
+    "meaningJa": "エネルギー",
+    "definitionEn": "the power needed to do work or cause change",
+    "difficulty": 3,
+    "example": "The study examines the energy in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "engineering-noun",
+    "lemma": "engineering",
+    "pos": "noun",
+    "meaningJa": "工学",
+    "definitionEn": "the use of science to design and build useful things",
+    "difficulty": 3,
+    "example": "Engineering combines science with practical design.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "ensure-verb",
     "lemma": "ensure",
     "pos": "verb",
@@ -1509,6 +2484,81 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "environmental-adjective",
+    "lemma": "environmental",
+    "pos": "adjective",
+    "meaningJa": "環境の",
+    "definitionEn": "connected with the natural world and its protection",
+    "difficulty": 3,
+    "example": "Environmental rules limit waste from the factory.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "equal-adjective",
+    "lemma": "equal",
+    "pos": "adjective",
+    "meaningJa": "等しい",
+    "definitionEn": "the same in amount, size, or value",
+    "difficulty": 3,
+    "example": "Both groups received equal time to respond.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "equipment-noun",
+    "lemma": "equipment",
+    "pos": "noun",
+    "meaningJa": "設備",
+    "definitionEn": "the tools needed for a particular activity",
+    "difficulty": 3,
+    "example": "The lab checks its equipment before each test.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "error-noun",
+    "lemma": "error",
+    "pos": "noun",
+    "meaningJa": "誤り",
+    "definitionEn": "something that is incorrect",
+    "difficulty": 3,
+    "example": "The authors discuss the error in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "essential-adjective",
+    "lemma": "essential",
+    "pos": "adjective",
+    "meaningJa": "不可欠な",
+    "definitionEn": "completely necessary or extremely important",
+    "difficulty": 3,
+    "example": "Clean water is essential for public health.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
   },
   {
     "id": "estimate-verb",
@@ -1539,6 +2589,21 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "exact-adjective",
+    "lemma": "exact",
+    "pos": "adjective",
+    "meaningJa": "正確な",
+    "definitionEn": "completely correct or precise",
+    "difficulty": 3,
+    "example": "The report lists the exact date of the change.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "examine-verb",
@@ -1601,6 +2666,81 @@
     "category": "academic"
   },
   {
+    "id": "expectation-noun",
+    "lemma": "expectation",
+    "pos": "noun",
+    "meaningJa": "予想",
+    "definitionEn": "a belief about what is likely to happen",
+    "difficulty": 3,
+    "example": "The team discusses the expectation before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "expense-noun",
+    "lemma": "expense",
+    "pos": "noun",
+    "meaningJa": "費用",
+    "definitionEn": "money spent to obtain or do something",
+    "difficulty": 3,
+    "example": "Travel was the largest expense for the project.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "experiment-noun",
+    "lemma": "experiment",
+    "pos": "noun",
+    "meaningJa": "実験",
+    "definitionEn": "a test designed to discover or demonstrate something",
+    "difficulty": 3,
+    "example": "The study examines the experiment in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "explanation-noun",
+    "lemma": "explanation",
+    "pos": "noun",
+    "meaningJa": "説明",
+    "definitionEn": "a statement that makes an idea or event clear",
+    "difficulty": 3,
+    "example": "The authors discuss the explanation in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "expression-noun",
+    "lemma": "expression",
+    "pos": "noun",
+    "meaningJa": "表現",
+    "definitionEn": "a way of showing an idea or feeling",
+    "difficulty": 3,
+    "example": "The poem uses a simple expression of grief.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "extend-verb",
     "lemma": "extend",
     "pos": "verb",
@@ -1616,6 +2756,111 @@
     "category": "academic"
   },
   {
+    "id": "facility-noun",
+    "lemma": "facility",
+    "pos": "noun",
+    "meaningJa": "施設",
+    "definitionEn": "a building or place used for a particular activity",
+    "difficulty": 3,
+    "example": "The team discusses the facility before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "failure-noun",
+    "lemma": "failure",
+    "pos": "noun",
+    "meaningJa": "失敗",
+    "definitionEn": "a lack of success or an inability to work",
+    "difficulty": 3,
+    "example": "The team discusses the failure before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "familiar-adjective",
+    "lemma": "familiar",
+    "pos": "adjective",
+    "meaningJa": "よく知られた",
+    "definitionEn": "known from experience or frequently encountered",
+    "difficulty": 3,
+    "example": "The students were familiar with the basic terms.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "feature-noun",
+    "lemma": "feature",
+    "pos": "noun",
+    "meaningJa": "特徴",
+    "definitionEn": "an important or noticeable part of something",
+    "difficulty": 3,
+    "example": "The authors discuss the feature in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "feedback-noun",
+    "lemma": "feedback",
+    "pos": "noun",
+    "meaningJa": "意見",
+    "definitionEn": "comments that help someone improve their work",
+    "difficulty": 3,
+    "example": "The team discusses the feedback before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "financial-adjective",
+    "lemma": "financial",
+    "pos": "adjective",
+    "meaningJa": "財政の",
+    "definitionEn": "connected with money, banking, or investment",
+    "difficulty": 3,
+    "example": "The program provides financial support to students.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "flexible-adjective",
+    "lemma": "flexible",
+    "pos": "adjective",
+    "meaningJa": "柔軟な",
+    "definitionEn": "able to change or adapt easily",
+    "difficulty": 3,
+    "example": "The course offers a flexible schedule.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "focus-verb",
     "lemma": "focus",
     "pos": "verb",
@@ -1629,6 +2874,51 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "foreign-adjective",
+    "lemma": "foreign",
+    "pos": "adjective",
+    "meaningJa": "外国の",
+    "definitionEn": "from or connected with another country",
+    "difficulty": 3,
+    "example": "The college attracts foreign researchers.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "formal-adjective",
+    "lemma": "formal",
+    "pos": "adjective",
+    "meaningJa": "正式な",
+    "definitionEn": "following established rules or conventions",
+    "difficulty": 3,
+    "example": "The letter uses a formal tone.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "frequent-adjective",
+    "lemma": "frequent",
+    "pos": "adjective",
+    "meaningJa": "頻繁な",
+    "definitionEn": "happening often",
+    "difficulty": 3,
+    "example": "Frequent breaks helped the workers stay alert.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "function-verb",
@@ -1661,6 +2951,126 @@
     "category": "business"
   },
   {
+    "id": "funding-noun",
+    "lemma": "funding",
+    "pos": "noun",
+    "meaningJa": "資金",
+    "definitionEn": "money provided for a project or organization",
+    "difficulty": 3,
+    "example": "The company reviews the funding before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "gap-noun",
+    "lemma": "gap",
+    "pos": "noun",
+    "meaningJa": "隔たり",
+    "definitionEn": "a difference or empty space between things",
+    "difficulty": 3,
+    "example": "The authors discuss the gap in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "generation-noun",
+    "lemma": "generation",
+    "pos": "noun",
+    "meaningJa": "世代",
+    "definitionEn": "people born and living around the same time",
+    "difficulty": 3,
+    "example": "The report describes the generation in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "generous-adjective",
+    "lemma": "generous",
+    "pos": "adjective",
+    "meaningJa": "気前のよい",
+    "definitionEn": "willing to give more help or resources than expected",
+    "difficulty": 3,
+    "example": "A generous grant paid for the new equipment.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "global-adjective",
+    "lemma": "global",
+    "pos": "adjective",
+    "meaningJa": "世界的な",
+    "definitionEn": "involving or affecting the whole world",
+    "difficulty": 3,
+    "example": "The report compares global energy use.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "government-noun",
+    "lemma": "government",
+    "pos": "noun",
+    "meaningJa": "政府",
+    "definitionEn": "the group that runs a country or area",
+    "difficulty": 3,
+    "example": "The report describes the government in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "growing-adjective",
+    "lemma": "growing",
+    "pos": "adjective",
+    "meaningJa": "増加している",
+    "definitionEn": "increasing in size, number, or importance",
+    "difficulty": 3,
+    "example": "There is growing interest in clean energy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "growth-noun",
+    "lemma": "growth",
+    "pos": "noun",
+    "meaningJa": "成長",
+    "definitionEn": "an increase in size, number, or importance",
+    "difficulty": 3,
+    "example": "The authors discuss the growth in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "guarantee-verb",
     "lemma": "guarantee",
     "pos": "verb",
@@ -1672,6 +3082,21 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "guideline-noun",
+    "lemma": "guideline",
+    "pos": "noun",
+    "meaningJa": "指針",
+    "definitionEn": "advice about how something should be done",
+    "difficulty": 3,
+    "example": "The team discusses the guideline before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "general"
   },
@@ -1691,6 +3116,21 @@
     "category": "general"
   },
   {
+    "id": "harmful-adjective",
+    "lemma": "harmful",
+    "pos": "adjective",
+    "meaningJa": "有害な",
+    "definitionEn": "causing damage or a bad effect",
+    "difficulty": 3,
+    "example": "The smoke can be harmful to young children.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "highlight-verb",
     "lemma": "highlight",
     "pos": "verb",
@@ -1704,6 +3144,111 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "historical-adjective",
+    "lemma": "historical",
+    "pos": "adjective",
+    "meaningJa": "歴史上の",
+    "definitionEn": "connected with events or people from the past",
+    "difficulty": 3,
+    "example": "The museum preserves important historical records.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "literature"
+  },
+  {
+    "id": "human-adjective",
+    "lemma": "human",
+    "pos": "adjective",
+    "meaningJa": "人間の",
+    "definitionEn": "connected with people rather than animals or machines",
+    "difficulty": 3,
+    "example": "The study examines human responses to stress.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "ideal-adjective",
+    "lemma": "ideal",
+    "pos": "adjective",
+    "meaningJa": "理想的な",
+    "definitionEn": "the best possible for a particular purpose",
+    "difficulty": 3,
+    "example": "The lab provides an ideal setting for the test.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "impact-noun",
+    "lemma": "impact",
+    "pos": "noun",
+    "meaningJa": "影響",
+    "definitionEn": "a strong effect on someone or something",
+    "difficulty": 3,
+    "example": "The authors discuss the impact in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "income-noun",
+    "lemma": "income",
+    "pos": "noun",
+    "meaningJa": "収入",
+    "definitionEn": "money received from work or investment",
+    "difficulty": 3,
+    "example": "The company reviews the income before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "individual-adjective",
+    "lemma": "individual",
+    "pos": "adjective",
+    "meaningJa": "個々の",
+    "definitionEn": "relating to one person or thing rather than a group",
+    "difficulty": 3,
+    "example": "Each individual response was checked twice.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "industry-noun",
+    "lemma": "industry",
+    "pos": "noun",
+    "meaningJa": "産業",
+    "definitionEn": "the businesses that produce a type of goods or service",
+    "difficulty": 3,
+    "example": "The company reviews the industry before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
   },
   {
     "id": "influence-verb",
@@ -1736,6 +3281,21 @@
     "category": "academic"
   },
   {
+    "id": "initial-adjective",
+    "lemma": "initial",
+    "pos": "adjective",
+    "meaningJa": "最初の",
+    "definitionEn": "happening at the beginning of a process",
+    "difficulty": 3,
+    "example": "The initial results looked promising.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "inspect-verb",
     "lemma": "inspect",
     "pos": "verb",
@@ -1766,6 +3326,21 @@
     "category": "science"
   },
   {
+    "id": "instant-adjective",
+    "lemma": "instant",
+    "pos": "adjective",
+    "meaningJa": "即時の",
+    "definitionEn": "happening immediately",
+    "difficulty": 3,
+    "example": "The device gives an instant reading of air quality.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "instruct-verb",
     "lemma": "instruct",
     "pos": "verb",
@@ -1779,6 +3354,36 @@
       "sat": 1
     },
     "category": "general"
+  },
+  {
+    "id": "instruction-noun",
+    "lemma": "instruction",
+    "pos": "noun",
+    "meaningJa": "指示",
+    "definitionEn": "information about how to do something",
+    "difficulty": 3,
+    "example": "The team discusses the instruction before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "international-adjective",
+    "lemma": "international",
+    "pos": "adjective",
+    "meaningJa": "国際的な",
+    "definitionEn": "involving more than one country",
+    "difficulty": 3,
+    "example": "The project brought together international research teams.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "interpret-verb",
@@ -1841,6 +3446,51 @@
     "category": "academic"
   },
   {
+    "id": "legal-adjective",
+    "lemma": "legal",
+    "pos": "adjective",
+    "meaningJa": "法律上の",
+    "definitionEn": "allowed by law or connected with the law",
+    "difficulty": 3,
+    "example": "The agreement sets out their legal duties.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "likely-adjective",
+    "lemma": "likely",
+    "pos": "adjective",
+    "meaningJa": "ありそうな",
+    "definitionEn": "having a good chance of happening",
+    "difficulty": 3,
+    "example": "Rain is likely during the afternoon.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "limited-adjective",
+    "lemma": "limited",
+    "pos": "adjective",
+    "meaningJa": "限られた",
+    "definitionEn": "small in amount, range, or duration",
+    "difficulty": 3,
+    "example": "The team had limited access to the records.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "link-verb",
     "lemma": "link",
     "pos": "verb",
@@ -1871,6 +3521,126 @@
     "category": "science"
   },
   {
+    "id": "major-adjective",
+    "lemma": "major",
+    "pos": "adjective",
+    "meaningJa": "主要な",
+    "definitionEn": "greater or more important than others",
+    "difficulty": 3,
+    "example": "Transport is a major source of local pollution.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "management-noun",
+    "lemma": "management",
+    "pos": "noun",
+    "meaningJa": "管理",
+    "definitionEn": "the process of organizing people or resources",
+    "difficulty": 3,
+    "example": "Good management helped the team finish on time.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "market-noun",
+    "lemma": "market",
+    "pos": "noun",
+    "meaningJa": "市場",
+    "definitionEn": "the system where goods and services are bought and sold",
+    "difficulty": 3,
+    "example": "The company reviews the market before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "material-noun",
+    "lemma": "material",
+    "pos": "noun",
+    "meaningJa": "材料",
+    "definitionEn": "a substance used to make something",
+    "difficulty": 3,
+    "example": "The study examines the material in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "mature-adjective",
+    "lemma": "mature",
+    "pos": "adjective",
+    "meaningJa": "成熟した",
+    "definitionEn": "fully developed or behaving in a thoughtful way",
+    "difficulty": 3,
+    "example": "The mature trees provided shade for the path.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "medical-adjective",
+    "lemma": "medical",
+    "pos": "adjective",
+    "meaningJa": "医療の",
+    "definitionEn": "connected with the treatment of illness",
+    "difficulty": 3,
+    "example": "The clinic provides basic medical care.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "mental-adjective",
+    "lemma": "mental",
+    "pos": "adjective",
+    "meaningJa": "精神の",
+    "definitionEn": "connected with the mind or thinking",
+    "difficulty": 3,
+    "example": "Regular sleep supports mental health.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "minor-adjective",
+    "lemma": "minor",
+    "pos": "adjective",
+    "meaningJa": "小さな",
+    "definitionEn": "less important or serious than others",
+    "difficulty": 3,
+    "example": "The error caused a minor delay.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "motivate-verb",
     "lemma": "motivate",
     "pos": "verb",
@@ -1886,6 +3656,66 @@
     "category": "general"
   },
   {
+    "id": "natural-adjective",
+    "lemma": "natural",
+    "pos": "adjective",
+    "meaningJa": "自然の",
+    "definitionEn": "existing in nature rather than made by people",
+    "difficulty": 3,
+    "example": "The lake is a natural source of fresh water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "negative-adjective",
+    "lemma": "negative",
+    "pos": "adjective",
+    "meaningJa": "否定的な",
+    "definitionEn": "showing disagreement or an absence of something",
+    "difficulty": 3,
+    "example": "The test returned a negative result.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "network-noun",
+    "lemma": "network",
+    "pos": "noun",
+    "meaningJa": "ネットワーク",
+    "definitionEn": "a group of connected people or systems",
+    "difficulty": 3,
+    "example": "The research network connects universities in four countries.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "observation-noun",
+    "lemma": "observation",
+    "pos": "noun",
+    "meaningJa": "観察",
+    "definitionEn": "the act of watching something carefully",
+    "difficulty": 3,
+    "example": "Careful observation revealed a change in the birds’ behavior.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "observe-verb",
     "lemma": "observe",
     "pos": "verb",
@@ -1899,6 +3729,51 @@
       "sat": 1
     },
     "category": "science"
+  },
+  {
+    "id": "obvious-adjective",
+    "lemma": "obvious",
+    "pos": "adjective",
+    "meaningJa": "明らかな",
+    "definitionEn": "easy to see or understand",
+    "difficulty": 3,
+    "example": "The answer was obvious after the example.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "occasional-adjective",
+    "lemma": "occasional",
+    "pos": "adjective",
+    "meaningJa": "時折の",
+    "definitionEn": "happening sometimes but not often",
+    "difficulty": 3,
+    "example": "Occasional rain is common in the area.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "official-adjective",
+    "lemma": "official",
+    "pos": "adjective",
+    "meaningJa": "公式の",
+    "definitionEn": "approved or recognized by an authority",
+    "difficulty": 3,
+    "example": "The official report was released on Monday.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "operate-verb",
@@ -1931,6 +3806,81 @@
     "category": "society"
   },
   {
+    "id": "option-noun",
+    "lemma": "option",
+    "pos": "noun",
+    "meaningJa": "選択肢",
+    "definitionEn": "one of several possible choices",
+    "difficulty": 3,
+    "example": "The team discusses the option before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "oral-adjective",
+    "lemma": "oral",
+    "pos": "adjective",
+    "meaningJa": "口頭の",
+    "definitionEn": "spoken rather than written",
+    "difficulty": 3,
+    "example": "Students gave an oral report to the class.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "ordinary-adjective",
+    "lemma": "ordinary",
+    "pos": "adjective",
+    "meaningJa": "普通の",
+    "definitionEn": "usual and not different or special",
+    "difficulty": 3,
+    "example": "An ordinary battery can power the small sensor.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "original-adjective",
+    "lemma": "original",
+    "pos": "adjective",
+    "meaningJa": "独自の",
+    "definitionEn": "new or created by a particular person",
+    "difficulty": 3,
+    "example": "The team proposed an original solution.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "outcome-noun",
+    "lemma": "outcome",
+    "pos": "noun",
+    "meaningJa": "結果",
+    "definitionEn": "the final result of an action or process",
+    "difficulty": 3,
+    "example": "The authors discuss the outcome in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "outline-verb",
     "lemma": "outline",
     "pos": "verb",
@@ -1942,6 +3892,21 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "overall-adjective",
+    "lemma": "overall",
+    "pos": "adjective",
+    "meaningJa": "全体的な",
+    "definitionEn": "considering all parts together",
+    "difficulty": 3,
+    "example": "The overall result was better than expected.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "academic"
   },
@@ -1961,6 +3926,21 @@
     "category": "general"
   },
   {
+    "id": "participant-noun",
+    "lemma": "participant",
+    "pos": "noun",
+    "meaningJa": "参加者",
+    "definitionEn": "a person who takes part in an activity or study",
+    "difficulty": 3,
+    "example": "Each participant completed the survey before the interview.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "participate-verb",
     "lemma": "participate",
     "pos": "verb",
@@ -1974,6 +3954,51 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "particular-adjective",
+    "lemma": "particular",
+    "pos": "adjective",
+    "meaningJa": "特定の",
+    "definitionEn": "specific but not necessarily named",
+    "difficulty": 3,
+    "example": "One particular detail changed the interpretation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "pattern-noun",
+    "lemma": "pattern",
+    "pos": "noun",
+    "meaningJa": "パターン",
+    "definitionEn": "a repeated or recognizable way in which things occur",
+    "difficulty": 3,
+    "example": "The authors discuss the pattern in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "peaceful-adjective",
+    "lemma": "peaceful",
+    "pos": "adjective",
+    "meaningJa": "平和な",
+    "definitionEn": "calm and without violence or conflict",
+    "difficulty": 3,
+    "example": "The groups reached a peaceful agreement.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "perform-verb",
@@ -1991,6 +4016,36 @@
     "category": "science"
   },
   {
+    "id": "permanent-adjective",
+    "lemma": "permanent",
+    "pos": "adjective",
+    "meaningJa": "恒久的な",
+    "definitionEn": "lasting for a long time or forever",
+    "difficulty": 3,
+    "example": "The bridge needs a permanent repair.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "personal-adjective",
+    "lemma": "personal",
+    "pos": "adjective",
+    "meaningJa": "個人の",
+    "definitionEn": "belonging or relating to one person",
+    "difficulty": 3,
+    "example": "The form asks for personal information.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "persuade-verb",
     "lemma": "persuade",
     "pos": "verb",
@@ -2006,6 +4061,21 @@
     "category": "academic"
   },
   {
+    "id": "physical-adjective",
+    "lemma": "physical",
+    "pos": "adjective",
+    "meaningJa": "身体の",
+    "definitionEn": "connected with the body or the material world",
+    "difficulty": 3,
+    "example": "The course includes physical and online activities.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "place-verb",
     "lemma": "place",
     "pos": "verb",
@@ -2017,6 +4087,96 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "policy-noun",
+    "lemma": "policy",
+    "pos": "noun",
+    "meaningJa": "方針",
+    "definitionEn": "a plan or rule used by an organization or government",
+    "difficulty": 3,
+    "example": "The report describes the policy in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "population-noun",
+    "lemma": "population",
+    "pos": "noun",
+    "meaningJa": "人口",
+    "definitionEn": "the people or organisms living in a particular area",
+    "difficulty": 3,
+    "example": "The population grew as new families moved into the area.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "positive-adjective",
+    "lemma": "positive",
+    "pos": "adjective",
+    "meaningJa": "肯定的な",
+    "definitionEn": "showing approval or a good result",
+    "difficulty": 3,
+    "example": "The trial produced positive results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "possibility-noun",
+    "lemma": "possibility",
+    "pos": "noun",
+    "meaningJa": "可能性",
+    "definitionEn": "something that may happen or be true",
+    "difficulty": 3,
+    "example": "The team discusses the possibility before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "powerful-adjective",
+    "lemma": "powerful",
+    "pos": "adjective",
+    "meaningJa": "強力な",
+    "definitionEn": "having great strength or influence",
+    "difficulty": 3,
+    "example": "The storm had a powerful effect on the coast.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "practical-adjective",
+    "lemma": "practical",
+    "pos": "adjective",
+    "meaningJa": "実用的な",
+    "definitionEn": "useful in real situations rather than only in theory",
+    "difficulty": 3,
+    "example": "The guide offers practical advice for new students.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "academic"
   },
@@ -2066,6 +4226,156 @@
     "category": "society"
   },
   {
+    "id": "pressure-noun",
+    "lemma": "pressure",
+    "pos": "noun",
+    "meaningJa": "圧力",
+    "definitionEn": "a force or a difficult demand placed on someone",
+    "difficulty": 3,
+    "example": "The team discusses the pressure before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "previous-adjective",
+    "lemma": "previous",
+    "pos": "adjective",
+    "meaningJa": "以前の",
+    "definitionEn": "happening or existing before the present time",
+    "difficulty": 3,
+    "example": "Previous research reached a similar conclusion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "primary-adjective",
+    "lemma": "primary",
+    "pos": "adjective",
+    "meaningJa": "主要な",
+    "definitionEn": "most important or first in order",
+    "difficulty": 3,
+    "example": "The primary goal is to reduce traffic injuries.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "priority-noun",
+    "lemma": "priority",
+    "pos": "noun",
+    "meaningJa": "優先事項",
+    "definitionEn": "something treated as more important than others",
+    "difficulty": 3,
+    "example": "The team discusses the priority before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "procedure-noun",
+    "lemma": "procedure",
+    "pos": "noun",
+    "meaningJa": "手順",
+    "definitionEn": "a series of steps used to do something",
+    "difficulty": 3,
+    "example": "The authors discuss the procedure in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "process-noun",
+    "lemma": "process",
+    "pos": "noun",
+    "meaningJa": "過程",
+    "definitionEn": "a series of actions that lead to a result",
+    "difficulty": 3,
+    "example": "The authors discuss the process in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "product-noun",
+    "lemma": "product",
+    "pos": "noun",
+    "meaningJa": "製品",
+    "definitionEn": "something made or grown to be sold or used",
+    "difficulty": 3,
+    "example": "The company reviews the product before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "productive-adjective",
+    "lemma": "productive",
+    "pos": "adjective",
+    "meaningJa": "生産的な",
+    "definitionEn": "producing useful work or results",
+    "difficulty": 3,
+    "example": "The meeting was productive and ended early.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "professional-adjective",
+    "lemma": "professional",
+    "pos": "adjective",
+    "meaningJa": "専門的な",
+    "definitionEn": "connected with a job requiring special training",
+    "difficulty": 3,
+    "example": "The clinic offers professional advice.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "proposal-noun",
+    "lemma": "proposal",
+    "pos": "noun",
+    "meaningJa": "提案",
+    "definitionEn": "a plan or suggestion offered for consideration",
+    "difficulty": 3,
+    "example": "The authors discuss the proposal in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "propose-verb",
     "lemma": "propose",
     "pos": "verb",
@@ -2079,6 +4389,21 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "public-adjective",
+    "lemma": "public",
+    "pos": "adjective",
+    "meaningJa": "公の",
+    "definitionEn": "relating to people in general or government",
+    "difficulty": 3,
+    "example": "The decision drew strong public interest.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "publish-verb",
@@ -2096,6 +4421,51 @@
     "category": "academic"
   },
   {
+    "id": "pure-adjective",
+    "lemma": "pure",
+    "pos": "adjective",
+    "meaningJa": "純粋な",
+    "definitionEn": "not mixed with other substances",
+    "difficulty": 3,
+    "example": "The process produces pure water from seawater.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "purpose-noun",
+    "lemma": "purpose",
+    "pos": "noun",
+    "meaningJa": "目的",
+    "definitionEn": "the reason something is done or made",
+    "difficulty": 3,
+    "example": "The team discusses the purpose before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "quality-noun",
+    "lemma": "quality",
+    "pos": "noun",
+    "meaningJa": "質",
+    "definitionEn": "how good or effective something is",
+    "difficulty": 3,
+    "example": "The team discusses the quality before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "question-verb",
     "lemma": "question",
     "pos": "verb",
@@ -2107,6 +4477,36 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "random-adjective",
+    "lemma": "random",
+    "pos": "adjective",
+    "meaningJa": "無作為の",
+    "definitionEn": "chosen without a particular plan or pattern",
+    "difficulty": 3,
+    "example": "The names were selected at random.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "range-noun",
+    "lemma": "range",
+    "pos": "noun",
+    "meaningJa": "範囲",
+    "definitionEn": "the limits or variety of something",
+    "difficulty": 3,
+    "example": "The authors discuss the range in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "academic"
   },
@@ -2124,6 +4524,126 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "rapid-adjective",
+    "lemma": "rapid",
+    "pos": "adjective",
+    "meaningJa": "急速な",
+    "definitionEn": "happening very quickly",
+    "difficulty": 3,
+    "example": "Rapid growth put pressure on local roads.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "rare-adjective",
+    "lemma": "rare",
+    "pos": "adjective",
+    "meaningJa": "まれな",
+    "definitionEn": "not happening or found often",
+    "difficulty": 3,
+    "example": "The bird is rare in this part of the country.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "rate-noun",
+    "lemma": "rate",
+    "pos": "noun",
+    "meaningJa": "割合",
+    "definitionEn": "the speed or frequency at which something happens",
+    "difficulty": 3,
+    "example": "The authors discuss the rate in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "reaction-noun",
+    "lemma": "reaction",
+    "pos": "noun",
+    "meaningJa": "反応",
+    "definitionEn": "a response to an action, event, or substance",
+    "difficulty": 3,
+    "example": "Heat caused a rapid reaction in the mixture.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "reason-noun",
+    "lemma": "reason",
+    "pos": "noun",
+    "meaningJa": "理由",
+    "definitionEn": "a cause or explanation for an action or belief",
+    "difficulty": 3,
+    "example": "The team discusses the reason before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "reasonable-adjective",
+    "lemma": "reasonable",
+    "pos": "adjective",
+    "meaningJa": "妥当な",
+    "definitionEn": "fair, sensible, and not too great",
+    "difficulty": 3,
+    "example": "The researchers reached a reasonable conclusion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "recent-adjective",
+    "lemma": "recent",
+    "pos": "adjective",
+    "meaningJa": "最近の",
+    "definitionEn": "happening or starting not long ago",
+    "difficulty": 3,
+    "example": "Recent studies support the explanation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "recommendation-noun",
+    "lemma": "recommendation",
+    "pos": "noun",
+    "meaningJa": "推奨",
+    "definitionEn": "advice about what should be done",
+    "difficulty": 3,
+    "example": "The team discusses the recommendation before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "recover-verb",
@@ -2171,6 +4691,21 @@
     "category": "society"
   },
   {
+    "id": "region-noun",
+    "lemma": "region",
+    "pos": "noun",
+    "meaningJa": "地域",
+    "definitionEn": "a large area of a country or the world",
+    "difficulty": 3,
+    "example": "The team discusses the region before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "reject-verb",
     "lemma": "reject",
     "pos": "verb",
@@ -2201,6 +4736,21 @@
     "category": "academic"
   },
   {
+    "id": "relationship-noun",
+    "lemma": "relationship",
+    "pos": "noun",
+    "meaningJa": "関係",
+    "definitionEn": "the way two or more people or things are connected",
+    "difficulty": 3,
+    "example": "The authors discuss the relationship in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "release-verb",
     "lemma": "release",
     "pos": "verb",
@@ -2214,6 +4764,21 @@
       "sat": 1
     },
     "category": "general"
+  },
+  {
+    "id": "reliable-adjective",
+    "lemma": "reliable",
+    "pos": "adjective",
+    "meaningJa": "信頼できる",
+    "definitionEn": "likely to be correct or to work well",
+    "difficulty": 3,
+    "example": "The device provides reliable readings.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
   },
   {
     "id": "rely-verb",
@@ -2276,6 +4841,51 @@
     "category": "academic"
   },
   {
+    "id": "resource-noun",
+    "lemma": "resource",
+    "pos": "noun",
+    "meaningJa": "資源",
+    "definitionEn": "something useful that people can draw on",
+    "difficulty": 3,
+    "example": "The authors discuss the resource in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "response-noun",
+    "lemma": "response",
+    "pos": "noun",
+    "meaningJa": "反応",
+    "definitionEn": "an answer or action caused by something",
+    "difficulty": 3,
+    "example": "The authors discuss the response in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "responsible-adjective",
+    "lemma": "responsible",
+    "pos": "adjective",
+    "meaningJa": "責任がある",
+    "definitionEn": "having a duty to deal with something",
+    "difficulty": 3,
+    "example": "The agency is responsible for food safety.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "restore-verb",
     "lemma": "restore",
     "pos": "verb",
@@ -2336,6 +4946,81 @@
     "category": "academic"
   },
   {
+    "id": "role-noun",
+    "lemma": "role",
+    "pos": "noun",
+    "meaningJa": "役割",
+    "definitionEn": "the function or position of a person or thing",
+    "difficulty": 3,
+    "example": "The team discusses the role before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "rural-adjective",
+    "lemma": "rural",
+    "pos": "adjective",
+    "meaningJa": "農村の",
+    "definitionEn": "connected with the countryside rather than a city",
+    "difficulty": 3,
+    "example": "Rural schools often serve several small communities.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "sample-noun",
+    "lemma": "sample",
+    "pos": "noun",
+    "meaningJa": "標本",
+    "definitionEn": "a small group used to represent a larger group",
+    "difficulty": 3,
+    "example": "Researchers selected a sample from each school.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "scale-noun",
+    "lemma": "scale",
+    "pos": "noun",
+    "meaningJa": "規模",
+    "definitionEn": "the size or level of something",
+    "difficulty": 3,
+    "example": "The authors discuss the scale in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "scientific-adjective",
+    "lemma": "scientific",
+    "pos": "adjective",
+    "meaningJa": "科学的な",
+    "definitionEn": "based on or using the methods of science",
+    "difficulty": 3,
+    "example": "The claim needs stronger scientific support.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "seek-verb",
     "lemma": "seek",
     "pos": "verb",
@@ -2364,6 +5049,36 @@
       "sat": 1
     },
     "category": "society"
+  },
+  {
+    "id": "severe-adjective",
+    "lemma": "severe",
+    "pos": "adjective",
+    "meaningJa": "深刻な",
+    "definitionEn": "very serious or intense",
+    "difficulty": 3,
+    "example": "Severe storms damaged several roads.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "sharp-adjective",
+    "lemma": "sharp",
+    "pos": "adjective",
+    "meaningJa": "急激な",
+    "definitionEn": "sudden and large in amount or degree",
+    "difficulty": 3,
+    "example": "The region saw a sharp rise in housing costs.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "shift-verb",
@@ -2411,6 +5126,156 @@
     "category": "academic"
   },
   {
+    "id": "similar-adjective",
+    "lemma": "similar",
+    "pos": "adjective",
+    "meaningJa": "似ている",
+    "definitionEn": "almost the same as something else",
+    "difficulty": 3,
+    "example": "The two groups had similar levels of experience.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "solid-adjective",
+    "lemma": "solid",
+    "pos": "adjective",
+    "meaningJa": "確かな",
+    "definitionEn": "strong, dependable, or based on good evidence",
+    "difficulty": 3,
+    "example": "The paper offers solid evidence for its main claim.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "source-noun",
+    "lemma": "source",
+    "pos": "noun",
+    "meaningJa": "情報源",
+    "definitionEn": "a place, person, or document that provides information",
+    "difficulty": 3,
+    "example": "The authors discuss the source in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "species-noun",
+    "lemma": "species",
+    "pos": "noun",
+    "meaningJa": "種",
+    "definitionEn": "a group of similar organisms able to reproduce",
+    "difficulty": 3,
+    "example": "This species lives in coastal forests.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "specific-adjective",
+    "lemma": "specific",
+    "pos": "adjective",
+    "meaningJa": "具体的な",
+    "definitionEn": "clearly identified or limited to one thing",
+    "difficulty": 3,
+    "example": "The form asks for a specific date.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "stable-adjective",
+    "lemma": "stable",
+    "pos": "adjective",
+    "meaningJa": "安定した",
+    "definitionEn": "steady and unlikely to change suddenly",
+    "difficulty": 3,
+    "example": "The machine needs a stable power supply.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "standard-noun",
+    "lemma": "standard",
+    "pos": "noun",
+    "meaningJa": "基準",
+    "definitionEn": "a level of quality used for comparison",
+    "difficulty": 3,
+    "example": "The authors discuss the standard in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "strategy-noun",
+    "lemma": "strategy",
+    "pos": "noun",
+    "meaningJa": "戦略",
+    "definitionEn": "a plan for achieving a particular goal",
+    "difficulty": 3,
+    "example": "The authors discuss the strategy in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "structure-noun",
+    "lemma": "structure",
+    "pos": "noun",
+    "meaningJa": "構造",
+    "definitionEn": "the way parts of something are arranged",
+    "difficulty": 3,
+    "example": "The authors discuss the structure in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "suitable-adjective",
+    "lemma": "suitable",
+    "pos": "adjective",
+    "meaningJa": "適した",
+    "definitionEn": "right for a particular purpose or situation",
+    "difficulty": 3,
+    "example": "The room is suitable for a small meeting.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "summarize-verb",
     "lemma": "summarize",
     "pos": "verb",
@@ -2426,6 +5291,36 @@
     "category": "academic"
   },
   {
+    "id": "survey-noun",
+    "lemma": "survey",
+    "pos": "noun",
+    "meaningJa": "調査",
+    "definitionEn": "a set of questions used to collect information",
+    "difficulty": 3,
+    "example": "The authors discuss the survey in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "system-noun",
+    "lemma": "system",
+    "pos": "noun",
+    "meaningJa": "制度",
+    "definitionEn": "a group of connected parts that work together",
+    "difficulty": 3,
+    "example": "The authors discuss the system in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "target-verb",
     "lemma": "target",
     "pos": "verb",
@@ -2437,6 +5332,126 @@
       "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "technique-noun",
+    "lemma": "technique",
+    "pos": "noun",
+    "meaningJa": "技法",
+    "definitionEn": "a particular way of doing something",
+    "difficulty": 3,
+    "example": "The authors discuss the technique in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "technology-noun",
+    "lemma": "technology",
+    "pos": "noun",
+    "meaningJa": "技術",
+    "definitionEn": "the use of scientific knowledge to solve practical problems",
+    "difficulty": 3,
+    "example": "The new technology uses less energy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "temporary-adjective",
+    "lemma": "temporary",
+    "pos": "adjective",
+    "meaningJa": "一時的な",
+    "definitionEn": "lasting for a limited time",
+    "difficulty": 3,
+    "example": "The road closure is temporary.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "theory-noun",
+    "lemma": "theory",
+    "pos": "noun",
+    "meaningJa": "理論",
+    "definitionEn": "a set of ideas used to explain facts or events",
+    "difficulty": 3,
+    "example": "The authors discuss the theory in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "threat-noun",
+    "lemma": "threat",
+    "pos": "noun",
+    "meaningJa": "脅威",
+    "definitionEn": "a person or thing that may cause harm",
+    "difficulty": 3,
+    "example": "The report describes the threat in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "topic-noun",
+    "lemma": "topic",
+    "pos": "noun",
+    "meaningJa": "話題",
+    "definitionEn": "a subject that people discuss or study",
+    "difficulty": 3,
+    "example": "The team discusses the topic before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "tradition-noun",
+    "lemma": "tradition",
+    "pos": "noun",
+    "meaningJa": "伝統",
+    "definitionEn": "a belief or practice passed down over time",
+    "difficulty": 3,
+    "example": "The report describes the tradition in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "traditional-adjective",
+    "lemma": "traditional",
+    "pos": "adjective",
+    "meaningJa": "伝統的な",
+    "definitionEn": "following customs or methods from the past",
+    "difficulty": 3,
+    "example": "The village holds a traditional spring festival.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
     },
     "category": "society"
   },
@@ -2471,6 +5486,21 @@
     "category": "academic"
   },
   {
+    "id": "trend-noun",
+    "lemma": "trend",
+    "pos": "noun",
+    "meaningJa": "傾向",
+    "definitionEn": "a general direction in which something changes",
+    "difficulty": 3,
+    "example": "The authors discuss the trend in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "trigger-verb",
     "lemma": "trigger",
     "pos": "verb",
@@ -2484,6 +5514,66 @@
       "sat": 1
     },
     "category": "science"
+  },
+  {
+    "id": "typical-adjective",
+    "lemma": "typical",
+    "pos": "adjective",
+    "meaningJa": "典型的な",
+    "definitionEn": "having the usual qualities of a person or thing",
+    "difficulty": 3,
+    "example": "This is a typical example of the pattern.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "uncertain-adjective",
+    "lemma": "uncertain",
+    "pos": "adjective",
+    "meaningJa": "不確かな",
+    "definitionEn": "not known or decided clearly",
+    "difficulty": 3,
+    "example": "The cause of the change remains uncertain.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "unique-adjective",
+    "lemma": "unique",
+    "pos": "adjective",
+    "meaningJa": "独特の",
+    "definitionEn": "being the only one of its kind",
+    "difficulty": 3,
+    "example": "Each island has a unique ecosystem.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "value-noun",
+    "lemma": "value",
+    "pos": "noun",
+    "meaningJa": "価値",
+    "definitionEn": "the importance or usefulness of something",
+    "difficulty": 3,
+    "example": "The team discusses the value before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "vary-verb",
@@ -2516,6 +5606,36 @@
     "category": "academic"
   },
   {
+    "id": "version-noun",
+    "lemma": "version",
+    "pos": "noun",
+    "meaningJa": "版",
+    "definitionEn": "a form of something that differs from earlier forms",
+    "difficulty": 3,
+    "example": "The team discusses the version before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "visible-adjective",
+    "lemma": "visible",
+    "pos": "adjective",
+    "meaningJa": "目に見える",
+    "definitionEn": "able to be seen",
+    "difficulty": 3,
+    "example": "Visible damage appeared along the riverbank.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "absorb-verb",
     "lemma": "absorb",
     "pos": "verb",
@@ -2531,6 +5651,66 @@
     "category": "academic"
   },
   {
+    "id": "accessible-adjective",
+    "lemma": "accessible",
+    "pos": "adjective",
+    "meaningJa": "利用しやすい",
+    "definitionEn": "easy to reach, enter, understand, or use",
+    "difficulty": 4,
+    "example": "The online form is accessible on older phones.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "accuracy-noun",
+    "lemma": "accuracy",
+    "pos": "noun",
+    "meaningJa": "正確さ",
+    "definitionEn": "the degree to which something is correct",
+    "difficulty": 4,
+    "example": "The team checked the accuracy of each measurement.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "accurate-adjective",
+    "lemma": "accurate",
+    "pos": "adjective",
+    "meaningJa": "正確な",
+    "definitionEn": "correct and free from important errors",
+    "difficulty": 4,
+    "example": "The measurements were accurate.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "achievement-noun",
+    "lemma": "achievement",
+    "pos": "noun",
+    "meaningJa": "達成",
+    "definitionEn": "something important that someone has done successfully",
+    "difficulty": 4,
+    "example": "The team discusses the achievement before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "acquire-verb",
     "lemma": "acquire",
     "pos": "verb",
@@ -2541,6 +5721,21 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "adequate-adjective",
+    "lemma": "adequate",
+    "pos": "adjective",
+    "meaningJa": "十分な",
+    "definitionEn": "good enough for a particular purpose",
+    "difficulty": 4,
+    "example": "The evidence was adequate for a first review.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -2576,6 +5771,21 @@
     "category": "academic"
   },
   {
+    "id": "administrative-adjective",
+    "lemma": "administrative",
+    "pos": "adjective",
+    "meaningJa": "事務の",
+    "definitionEn": "connected with organizing and managing an institution",
+    "difficulty": 4,
+    "example": "Administrative staff helped arrange the visit.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "adopt-verb",
     "lemma": "adopt",
     "pos": "verb",
@@ -2583,6 +5793,21 @@
     "definitionEn": "to begin using an idea or method",
     "difficulty": 4,
     "example": "The team will adopt a simpler method.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "advanced-adjective",
+    "lemma": "advanced",
+    "pos": "adjective",
+    "meaningJa": "高度な",
+    "definitionEn": "at a later or more developed stage",
+    "difficulty": 4,
+    "example": "The course introduces advanced research methods.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -2606,6 +5831,111 @@
     "category": "academic"
   },
   {
+    "id": "agency-noun",
+    "lemma": "agency",
+    "pos": "noun",
+    "meaningJa": "機関",
+    "definitionEn": "an organization that provides a public service",
+    "difficulty": 4,
+    "example": "The report describes the agency in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "agenda-noun",
+    "lemma": "agenda",
+    "pos": "noun",
+    "meaningJa": "議題",
+    "definitionEn": "a list of matters to be discussed",
+    "difficulty": 4,
+    "example": "The team discusses the agenda before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "agricultural-adjective",
+    "lemma": "agricultural",
+    "pos": "adjective",
+    "meaningJa": "農業の",
+    "definitionEn": "connected with farming or the growing of crops",
+    "difficulty": 4,
+    "example": "Agricultural production fell during the dry year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "analysis-noun",
+    "lemma": "analysis",
+    "pos": "noun",
+    "meaningJa": "分析",
+    "definitionEn": "a careful study of information or a problem",
+    "difficulty": 4,
+    "example": "The authors discuss the analysis in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "analytical-adjective",
+    "lemma": "analytical",
+    "pos": "adjective",
+    "meaningJa": "分析的な",
+    "definitionEn": "using careful examination of facts and details",
+    "difficulty": 4,
+    "example": "The class practiced analytical reading.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "ancestor-noun",
+    "lemma": "ancestor",
+    "pos": "noun",
+    "meaningJa": "祖先",
+    "definitionEn": "a person or organism from whom others are descended",
+    "difficulty": 4,
+    "example": "The study examines the ancestor in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "apparent-adjective",
+    "lemma": "apparent",
+    "pos": "adjective",
+    "meaningJa": "明らかな",
+    "definitionEn": "easy to notice or understand",
+    "difficulty": 4,
+    "example": "The difference was apparent in the final chart.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "appeal-verb",
     "lemma": "appeal",
     "pos": "verb",
@@ -2619,6 +5949,21 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "application-noun",
+    "lemma": "application",
+    "pos": "noun",
+    "meaningJa": "応用",
+    "definitionEn": "the practical use of an idea or method",
+    "difficulty": 4,
+    "example": "The authors discuss the application in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "appoint-verb",
@@ -2651,6 +5996,96 @@
     "category": "academic"
   },
   {
+    "id": "appropriate-adjective",
+    "lemma": "appropriate",
+    "pos": "adjective",
+    "meaningJa": "適切な",
+    "definitionEn": "suitable for a particular purpose or situation",
+    "difficulty": 4,
+    "example": "The researchers chose an appropriate method.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "architecture-noun",
+    "lemma": "architecture",
+    "pos": "noun",
+    "meaningJa": "建築",
+    "definitionEn": "the design and structure of buildings",
+    "difficulty": 4,
+    "example": "The city is known for its modern architecture.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "argument-noun",
+    "lemma": "argument",
+    "pos": "noun",
+    "meaningJa": "主張",
+    "definitionEn": "a set of reasons supporting a conclusion",
+    "difficulty": 4,
+    "example": "The authors discuss the argument in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "artificial-adjective",
+    "lemma": "artificial",
+    "pos": "adjective",
+    "meaningJa": "人工の",
+    "definitionEn": "made by people rather than occurring naturally",
+    "difficulty": 4,
+    "example": "The lake contains an artificial island.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "assessment-noun",
+    "lemma": "assessment",
+    "pos": "noun",
+    "meaningJa": "評価",
+    "definitionEn": "a judgment made after examining something",
+    "difficulty": 4,
+    "example": "The authors discuss the assessment in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "asset-noun",
+    "lemma": "asset",
+    "pos": "noun",
+    "meaningJa": "資産",
+    "definitionEn": "something valuable that a person or organization owns",
+    "difficulty": 4,
+    "example": "The building is the company’s largest asset.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "assure-verb",
     "lemma": "assure",
     "pos": "verb",
@@ -2681,6 +6116,66 @@
     "category": "academic"
   },
   {
+    "id": "authority-noun",
+    "lemma": "authority",
+    "pos": "noun",
+    "meaningJa": "権限",
+    "definitionEn": "the power or right to make decisions",
+    "difficulty": 4,
+    "example": "The report describes the authority in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "awareness-noun",
+    "lemma": "awareness",
+    "pos": "noun",
+    "meaningJa": "認識",
+    "definitionEn": "knowledge or understanding of a situation",
+    "difficulty": 4,
+    "example": "The authors discuss the awareness in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "beneficial-adjective",
+    "lemma": "beneficial",
+    "pos": "adjective",
+    "meaningJa": "有益な",
+    "definitionEn": "helpful or producing a good effect",
+    "difficulty": 4,
+    "example": "Regular feedback is beneficial to new writers.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "biological-adjective",
+    "lemma": "biological",
+    "pos": "adjective",
+    "meaningJa": "生物学的な",
+    "definitionEn": "connected with living things or life processes",
+    "difficulty": 4,
+    "example": "The study found a biological cause for the change.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "broaden-verb",
     "lemma": "broaden",
     "pos": "verb",
@@ -2696,6 +6191,21 @@
     "category": "general"
   },
   {
+    "id": "capacity-noun",
+    "lemma": "capacity",
+    "pos": "noun",
+    "meaningJa": "能力",
+    "definitionEn": "the ability to do or contain something",
+    "difficulty": 4,
+    "example": "The authors discuss the capacity in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "capture-verb",
     "lemma": "capture",
     "pos": "verb",
@@ -2703,6 +6213,21 @@
     "definitionEn": "to record or represent something accurately",
     "difficulty": 4,
     "example": "The survey may capture changes in student opinion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "cautious-adjective",
+    "lemma": "cautious",
+    "pos": "adjective",
+    "meaningJa": "慎重な",
+    "definitionEn": "careful to avoid risk or mistakes",
+    "difficulty": 4,
+    "example": "The authors were cautious about drawing conclusions.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -2726,6 +6251,21 @@
     "category": "academic"
   },
   {
+    "id": "circumstance-noun",
+    "lemma": "circumstance",
+    "pos": "noun",
+    "meaningJa": "状況",
+    "definitionEn": "a fact or condition that affects a situation",
+    "difficulty": 4,
+    "example": "The authors discuss the circumstance in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "classify-verb",
     "lemma": "classify",
     "pos": "verb",
@@ -2733,6 +6273,21 @@
     "definitionEn": "to arrange things into groups by shared features",
     "difficulty": 4,
     "example": "The system may classify each response by topic.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "collaboration-noun",
+    "lemma": "collaboration",
+    "pos": "noun",
+    "meaningJa": "協力",
+    "definitionEn": "the act of working with others toward a goal",
+    "difficulty": 4,
+    "example": "The authors discuss the collaboration in the final section.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -2769,6 +6324,81 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "commitment-noun",
+    "lemma": "commitment",
+    "pos": "noun",
+    "meaningJa": "取り組み",
+    "definitionEn": "a promise or decision to give time and effort",
+    "difficulty": 4,
+    "example": "The team discusses the commitment before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "comparable-adjective",
+    "lemma": "comparable",
+    "pos": "adjective",
+    "meaningJa": "比較できる",
+    "definitionEn": "similar enough to be compared fairly",
+    "difficulty": 4,
+    "example": "The two groups had comparable backgrounds.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "comparative-adjective",
+    "lemma": "comparative",
+    "pos": "adjective",
+    "meaningJa": "比較の",
+    "definitionEn": "involving the comparison of two or more things",
+    "difficulty": 4,
+    "example": "The report provides a comparative study of both systems.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "complex-adjective",
+    "lemma": "complex",
+    "pos": "adjective",
+    "meaningJa": "複雑な",
+    "definitionEn": "having many connected parts or details",
+    "difficulty": 4,
+    "example": "The team studied a complex social problem.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "component-noun",
+    "lemma": "component",
+    "pos": "noun",
+    "meaningJa": "構成要素",
+    "definitionEn": "one part of a larger system",
+    "difficulty": 4,
+    "example": "The authors discuss the component in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "compose-verb",
@@ -2816,6 +6446,51 @@
     "category": "science"
   },
   {
+    "id": "concentration-noun",
+    "lemma": "concentration",
+    "pos": "noun",
+    "meaningJa": "濃度",
+    "definitionEn": "the amount of a substance in a given space",
+    "difficulty": 4,
+    "example": "The concentration fell after the solution was diluted.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "conclusion-noun",
+    "lemma": "conclusion",
+    "pos": "noun",
+    "meaningJa": "結論",
+    "definitionEn": "a judgment reached after considering evidence",
+    "difficulty": 4,
+    "example": "The authors discuss the conclusion in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "concrete-adjective",
+    "lemma": "concrete",
+    "pos": "adjective",
+    "meaningJa": "具体的な",
+    "definitionEn": "specific and based on real details",
+    "difficulty": 4,
+    "example": "The proposal includes concrete steps for reducing waste.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "confirm-verb",
     "lemma": "confirm",
     "pos": "verb",
@@ -2831,6 +6506,21 @@
     "category": "academic"
   },
   {
+    "id": "conflict-noun",
+    "lemma": "conflict",
+    "pos": "noun",
+    "meaningJa": "対立",
+    "definitionEn": "a serious disagreement between people or groups",
+    "difficulty": 4,
+    "example": "The report describes the conflict in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "confront-verb",
     "lemma": "confront",
     "pos": "verb",
@@ -2844,6 +6534,36 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "conscious-adjective",
+    "lemma": "conscious",
+    "pos": "adjective",
+    "meaningJa": "意識している",
+    "definitionEn": "aware of something or noticing it",
+    "difficulty": 4,
+    "example": "The team was conscious of the time limit.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "consequence-noun",
+    "lemma": "consequence",
+    "pos": "noun",
+    "meaningJa": "結果",
+    "definitionEn": "a result of an action or event",
+    "difficulty": 4,
+    "example": "The authors discuss the consequence in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "conserve-verb",
@@ -2906,6 +6626,51 @@
     "category": "science"
   },
   {
+    "id": "contemporary-adjective",
+    "lemma": "contemporary",
+    "pos": "adjective",
+    "meaningJa": "現代の",
+    "definitionEn": "belonging to the present time",
+    "difficulty": 4,
+    "example": "The course focuses on contemporary American fiction.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "literature"
+  },
+  {
+    "id": "contribution-noun",
+    "lemma": "contribution",
+    "pos": "noun",
+    "meaningJa": "貢献",
+    "definitionEn": "something given to help achieve a result",
+    "difficulty": 4,
+    "example": "The authors discuss the contribution in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "conventional-adjective",
+    "lemma": "conventional",
+    "pos": "adjective",
+    "meaningJa": "従来の",
+    "definitionEn": "based on a way that is commonly accepted",
+    "difficulty": 4,
+    "example": "The study uses a conventional survey method.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "convert-verb",
     "lemma": "convert",
     "pos": "verb",
@@ -2951,6 +6716,21 @@
     "category": "academic"
   },
   {
+    "id": "corporation-noun",
+    "lemma": "corporation",
+    "pos": "noun",
+    "meaningJa": "企業",
+    "definitionEn": "a large company treated as a legal organization",
+    "difficulty": 4,
+    "example": "The corporation opened a new office in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "counter-verb",
     "lemma": "counter",
     "pos": "verb",
@@ -2979,6 +6759,51 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "critical-adjective",
+    "lemma": "critical",
+    "pos": "adjective",
+    "meaningJa": "重要な",
+    "definitionEn": "very important to the success or failure of something",
+    "difficulty": 4,
+    "example": "Reliable data are critical to the project.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "crucial-adjective",
+    "lemma": "crucial",
+    "pos": "adjective",
+    "meaningJa": "極めて重要な",
+    "definitionEn": "extremely important to a result or decision",
+    "difficulty": 4,
+    "example": "Clear instructions are crucial for a fair test.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "currency-noun",
+    "lemma": "currency",
+    "pos": "noun",
+    "meaningJa": "通貨",
+    "definitionEn": "the money used in a particular country",
+    "difficulty": 4,
+    "example": "The currency lost value after the announcement.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
   },
   {
     "id": "declare-verb",
@@ -3026,6 +6851,51 @@
     "category": "academic"
   },
   {
+    "id": "demand-noun",
+    "lemma": "demand",
+    "pos": "noun",
+    "meaningJa": "需要",
+    "definitionEn": "the amount of a product or service that people want",
+    "difficulty": 4,
+    "example": "The company reviews the demand before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "dense-adjective",
+    "lemma": "dense",
+    "pos": "adjective",
+    "meaningJa": "密度の高い",
+    "definitionEn": "containing a lot in a small space or area",
+    "difficulty": 4,
+    "example": "Dense fog covered the road before sunrise.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "dependent-adjective",
+    "lemma": "dependent",
+    "pos": "adjective",
+    "meaningJa": "依存している",
+    "definitionEn": "needing or relying on something else",
+    "difficulty": 4,
+    "example": "The outcome is dependent on local conditions.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "depict-verb",
     "lemma": "depict",
     "pos": "verb",
@@ -3056,6 +6926,21 @@
     "category": "academic"
   },
   {
+    "id": "desirable-adjective",
+    "lemma": "desirable",
+    "pos": "adjective",
+    "meaningJa": "望ましい",
+    "definitionEn": "worth having or likely to bring a good result",
+    "difficulty": 4,
+    "example": "A stable schedule is desirable for young children.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "detect-verb",
     "lemma": "detect",
     "pos": "verb",
@@ -3066,6 +6951,21 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "disadvantage-noun",
+    "lemma": "disadvantage",
+    "pos": "noun",
+    "meaningJa": "不利な点",
+    "definitionEn": "a condition that makes success more difficult",
+    "difficulty": 4,
+    "example": "The authors discuss the disadvantage in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -3084,6 +6984,36 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "discipline-noun",
+    "lemma": "discipline",
+    "pos": "noun",
+    "meaningJa": "学問分野",
+    "definitionEn": "a field of study or a way of training behavior",
+    "difficulty": 4,
+    "example": "Biology is a discipline with many specialties.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "distinct-adjective",
+    "lemma": "distinct",
+    "pos": "adjective",
+    "meaningJa": "明確に異なる",
+    "definitionEn": "clearly different from others",
+    "difficulty": 4,
+    "example": "The two species have distinct feeding habits.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
   },
   {
     "id": "distinguish-verb",
@@ -3116,6 +7046,21 @@
     "category": "academic"
   },
   {
+    "id": "diversity-noun",
+    "lemma": "diversity",
+    "pos": "noun",
+    "meaningJa": "多様性",
+    "definitionEn": "the presence of many different types of people or things",
+    "difficulty": 4,
+    "example": "The report describes the diversity in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "dominate-verb",
     "lemma": "dominate",
     "pos": "verb",
@@ -3129,6 +7074,81 @@
       "sat": 2
     },
     "category": "business"
+  },
+  {
+    "id": "dramatic-adjective",
+    "lemma": "dramatic",
+    "pos": "adjective",
+    "meaningJa": "劇的な",
+    "definitionEn": "sudden or striking in degree or appearance",
+    "difficulty": 4,
+    "example": "The region saw a dramatic drop in rainfall.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "economy-noun",
+    "lemma": "economy",
+    "pos": "noun",
+    "meaningJa": "経済",
+    "definitionEn": "the system by which a country produces and uses goods",
+    "difficulty": 4,
+    "example": "The report describes the economy in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "ecosystem-noun",
+    "lemma": "ecosystem",
+    "pos": "noun",
+    "meaningJa": "生態系",
+    "definitionEn": "a community of organisms and their environment",
+    "difficulty": 4,
+    "example": "The study examines the ecosystem in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "efficiency-noun",
+    "lemma": "efficiency",
+    "pos": "noun",
+    "meaningJa": "効率",
+    "definitionEn": "the ability to work well without wasting resources",
+    "difficulty": 4,
+    "example": "The new design improved energy efficiency.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "emphasis-noun",
+    "lemma": "emphasis",
+    "pos": "noun",
+    "meaningJa": "重点",
+    "definitionEn": "special importance given to something",
+    "difficulty": 4,
+    "example": "The authors discuss the emphasis in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "emphasize-verb",
@@ -3191,6 +7211,21 @@
     "category": "academic"
   },
   {
+    "id": "equality-noun",
+    "lemma": "equality",
+    "pos": "noun",
+    "meaningJa": "平等",
+    "definitionEn": "the state of having the same rights or opportunities",
+    "difficulty": 4,
+    "example": "The report describes the equality in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "equip-verb",
     "lemma": "equip",
     "pos": "verb",
@@ -3206,6 +7241,126 @@
     "category": "academic"
   },
   {
+    "id": "equivalent-adjective",
+    "lemma": "equivalent",
+    "pos": "adjective",
+    "meaningJa": "同等の",
+    "definitionEn": "equal in value, meaning, or function",
+    "difficulty": 4,
+    "example": "One cup is roughly equivalent to 240 milliliters.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "era-noun",
+    "lemma": "era",
+    "pos": "noun",
+    "meaningJa": "時代",
+    "definitionEn": "a long period marked by particular events or features",
+    "difficulty": 4,
+    "example": "The team discusses the era before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "ethical-adjective",
+    "lemma": "ethical",
+    "pos": "adjective",
+    "meaningJa": "倫理的な",
+    "definitionEn": "related to principles of right and wrong",
+    "difficulty": 4,
+    "example": "The researchers followed ethical guidelines.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "evaluation-noun",
+    "lemma": "evaluation",
+    "pos": "noun",
+    "meaningJa": "評価",
+    "definitionEn": "a careful judgment of quality or value",
+    "difficulty": 4,
+    "example": "The authors discuss the evaluation in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "evident-adjective",
+    "lemma": "evident",
+    "pos": "adjective",
+    "meaningJa": "明らかな",
+    "definitionEn": "clear to see or understand",
+    "difficulty": 4,
+    "example": "The effect was evident in both groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "evolution-noun",
+    "lemma": "evolution",
+    "pos": "noun",
+    "meaningJa": "進化",
+    "definitionEn": "gradual change in living things over generations",
+    "difficulty": 4,
+    "example": "The study examines the evolution in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "exception-noun",
+    "lemma": "exception",
+    "pos": "noun",
+    "meaningJa": "例外",
+    "definitionEn": "a person or thing that does not follow a general rule",
+    "difficulty": 4,
+    "example": "The authors discuss the exception in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "exceptional-adjective",
+    "lemma": "exceptional",
+    "pos": "adjective",
+    "meaningJa": "並外れた",
+    "definitionEn": "much better or greater than usual",
+    "difficulty": 4,
+    "example": "The team made exceptional progress in one month.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "exhibit-verb",
     "lemma": "exhibit",
     "pos": "verb",
@@ -3213,6 +7368,51 @@
     "definitionEn": "to show a quality or behavior",
     "difficulty": 4,
     "example": "The results exhibit a strong seasonal pattern.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "expansion-noun",
+    "lemma": "expansion",
+    "pos": "noun",
+    "meaningJa": "拡大",
+    "definitionEn": "an increase in size, amount, or range",
+    "difficulty": 4,
+    "example": "The authors discuss the expansion in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "experimental-adjective",
+    "lemma": "experimental",
+    "pos": "adjective",
+    "meaningJa": "実験的な",
+    "definitionEn": "based on tests or not yet widely established",
+    "difficulty": 4,
+    "example": "The clinic is testing an experimental treatment.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "expertise-noun",
+    "lemma": "expertise",
+    "pos": "noun",
+    "meaningJa": "専門知識",
+    "definitionEn": "special skill or knowledge in a particular area",
+    "difficulty": 4,
+    "example": "Her expertise helped the team solve the problem.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -3236,6 +7436,51 @@
     "category": "academic"
   },
   {
+    "id": "extensive-adjective",
+    "lemma": "extensive",
+    "pos": "adjective",
+    "meaningJa": "広範囲の",
+    "definitionEn": "covering a large area or including many details",
+    "difficulty": 4,
+    "example": "The review included extensive interviews with residents.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "extent-noun",
+    "lemma": "extent",
+    "pos": "noun",
+    "meaningJa": "程度",
+    "definitionEn": "the degree or range of something",
+    "difficulty": 4,
+    "example": "The authors discuss the extent in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "external-adjective",
+    "lemma": "external",
+    "pos": "adjective",
+    "meaningJa": "外部の",
+    "definitionEn": "located or coming from outside something",
+    "difficulty": 4,
+    "example": "External pressure changed the committee's decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "extract-verb",
     "lemma": "extract",
     "pos": "verb",
@@ -3249,6 +7494,36 @@
       "sat": 2
     },
     "category": "science"
+  },
+  {
+    "id": "favorable-adjective",
+    "lemma": "favorable",
+    "pos": "adjective",
+    "meaningJa": "好ましい",
+    "definitionEn": "likely to produce a good result",
+    "difficulty": 4,
+    "example": "The plants grew under favorable conditions.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "federal-adjective",
+    "lemma": "federal",
+    "pos": "adjective",
+    "meaningJa": "連邦の",
+    "definitionEn": "connected with a national government in a federation",
+    "difficulty": 4,
+    "example": "Federal agencies published new safety rules.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "finance-verb",
@@ -3266,6 +7541,21 @@
     "category": "business"
   },
   {
+    "id": "finding-noun",
+    "lemma": "finding",
+    "pos": "noun",
+    "meaningJa": "発見",
+    "definitionEn": "a result learned through research or investigation",
+    "difficulty": 4,
+    "example": "The authors discuss the finding in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "frame-verb",
     "lemma": "frame",
     "pos": "verb",
@@ -3281,6 +7571,21 @@
     "category": "academic"
   },
   {
+    "id": "functional-adjective",
+    "lemma": "functional",
+    "pos": "adjective",
+    "meaningJa": "機能的な",
+    "definitionEn": "working correctly or designed for practical use",
+    "difficulty": 4,
+    "example": "The team built a functional model from simple parts.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "generate-verb",
     "lemma": "generate",
     "pos": "verb",
@@ -3291,6 +7596,36 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "geographic-adjective",
+    "lemma": "geographic",
+    "pos": "adjective",
+    "meaningJa": "地理的な",
+    "definitionEn": "connected with the physical features of an area",
+    "difficulty": 4,
+    "example": "Geographic distance limited access to the clinic.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "gradual-adjective",
+    "lemma": "gradual",
+    "pos": "adjective",
+    "meaningJa": "徐々の",
+    "definitionEn": "happening slowly over a period of time",
+    "difficulty": 4,
+    "example": "The gradual decline continued for several years.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -3341,6 +7676,21 @@
     "category": "academic"
   },
   {
+    "id": "identity-noun",
+    "lemma": "identity",
+    "pos": "noun",
+    "meaningJa": "身元",
+    "definitionEn": "the qualities that make a person or group distinct",
+    "difficulty": 4,
+    "example": "The report describes the identity in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "illustrate-verb",
     "lemma": "illustrate",
     "pos": "verb",
@@ -3354,6 +7704,21 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "immediate-adjective",
+    "lemma": "immediate",
+    "pos": "adjective",
+    "meaningJa": "即時の",
+    "definitionEn": "happening or needed without delay",
+    "difficulty": 4,
+    "example": "The storm caused an immediate change in plans.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
   },
   {
     "id": "incorporate-verb",
@@ -3371,6 +7736,141 @@
     "category": "academic"
   },
   {
+    "id": "independent-adjective",
+    "lemma": "independent",
+    "pos": "adjective",
+    "meaningJa": "独立した",
+    "definitionEn": "not controlled by or relying on others",
+    "difficulty": 4,
+    "example": "The review was conducted by an independent panel.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "indicator-noun",
+    "lemma": "indicator",
+    "pos": "noun",
+    "meaningJa": "指標",
+    "definitionEn": "a sign that shows the condition or change of something",
+    "difficulty": 4,
+    "example": "The authors discuss the indicator in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "industrial-adjective",
+    "lemma": "industrial",
+    "pos": "adjective",
+    "meaningJa": "工業の",
+    "definitionEn": "connected with industry or manufacturing",
+    "difficulty": 4,
+    "example": "Industrial waste can pollute nearby rivers.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "influential-adjective",
+    "lemma": "influential",
+    "pos": "adjective",
+    "meaningJa": "影響力のある",
+    "definitionEn": "having the power to affect people or events",
+    "difficulty": 4,
+    "example": "An influential report changed public policy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "initiative-noun",
+    "lemma": "initiative",
+    "pos": "noun",
+    "meaningJa": "取り組み",
+    "definitionEn": "a new plan intended to solve a problem",
+    "difficulty": 4,
+    "example": "The report describes the initiative in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "institution-noun",
+    "lemma": "institution",
+    "pos": "noun",
+    "meaningJa": "機関",
+    "definitionEn": "an established organization with a public role",
+    "difficulty": 4,
+    "example": "The report describes the institution in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "insufficient-adjective",
+    "lemma": "insufficient",
+    "pos": "adjective",
+    "meaningJa": "不十分な",
+    "definitionEn": "not enough for a particular purpose",
+    "difficulty": 4,
+    "example": "The sample was insufficient for a firm conclusion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "intellectual-adjective",
+    "lemma": "intellectual",
+    "pos": "adjective",
+    "meaningJa": "知的な",
+    "definitionEn": "connected with thinking, learning, or knowledge",
+    "difficulty": 4,
+    "example": "The book raises an intellectual challenge.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "intense-adjective",
+    "lemma": "intense",
+    "pos": "adjective",
+    "meaningJa": "強烈な",
+    "definitionEn": "very strong or extreme",
+    "difficulty": 4,
+    "example": "The region experienced intense heat for several days.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "interact-verb",
     "lemma": "interact",
     "pos": "verb",
@@ -3384,6 +7884,66 @@
       "sat": 2
     },
     "category": "science"
+  },
+  {
+    "id": "interaction-noun",
+    "lemma": "interaction",
+    "pos": "noun",
+    "meaningJa": "相互作用",
+    "definitionEn": "an action or influence between people or things",
+    "difficulty": 4,
+    "example": "The authors discuss the interaction in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "internal-adjective",
+    "lemma": "internal",
+    "pos": "adjective",
+    "meaningJa": "内部の",
+    "definitionEn": "located or happening within something",
+    "difficulty": 4,
+    "example": "Internal changes affected the machine's temperature.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "interpretation-noun",
+    "lemma": "interpretation",
+    "pos": "noun",
+    "meaningJa": "解釈",
+    "definitionEn": "an explanation of the meaning of something",
+    "difficulty": 4,
+    "example": "The authors discuss the interpretation in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "investment-noun",
+    "lemma": "investment",
+    "pos": "noun",
+    "meaningJa": "投資",
+    "definitionEn": "the use of money or effort to gain future benefit",
+    "difficulty": 4,
+    "example": "The company reviews the investment before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
   },
   {
     "id": "isolate-verb",
@@ -3416,6 +7976,51 @@
     "category": "society"
   },
   {
+    "id": "landscape-noun",
+    "lemma": "landscape",
+    "pos": "noun",
+    "meaningJa": "状況",
+    "definitionEn": "the visible features or general character of an area",
+    "difficulty": 4,
+    "example": "The report describes changes in the local landscape.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "limitation-noun",
+    "lemma": "limitation",
+    "pos": "noun",
+    "meaningJa": "限界",
+    "definitionEn": "a condition that restricts what is possible",
+    "difficulty": 4,
+    "example": "The authors discuss the limitation in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "logical-adjective",
+    "lemma": "logical",
+    "pos": "adjective",
+    "meaningJa": "筋の通った",
+    "definitionEn": "following clear and reasonable steps",
+    "difficulty": 4,
+    "example": "Her explanation was logical and easy to check.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "map-verb",
     "lemma": "map",
     "pos": "verb",
@@ -3423,6 +8028,21 @@
     "definitionEn": "to show where things are or how they relate",
     "difficulty": 4,
     "example": "Researchers map changes across the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "measurable-adjective",
+    "lemma": "measurable",
+    "pos": "adjective",
+    "meaningJa": "測定可能な",
+    "definitionEn": "able to be measured or observed",
+    "difficulty": 4,
+    "example": "The program led to measurable gains in reading.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -3444,6 +8064,21 @@
       "sat": 2
     },
     "category": "business"
+  },
+  {
+    "id": "migration-noun",
+    "lemma": "migration",
+    "pos": "noun",
+    "meaningJa": "移住",
+    "definitionEn": "the movement of people or animals to a new place",
+    "difficulty": 4,
+    "example": "Migration increased when the dry season began.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "minimize-verb",
@@ -3476,6 +8111,21 @@
     "category": "academic"
   },
   {
+    "id": "mutual-adjective",
+    "lemma": "mutual",
+    "pos": "adjective",
+    "meaningJa": "相互の",
+    "definitionEn": "shared by two or more people or groups",
+    "difficulty": 4,
+    "example": "The groups reached a mutual agreement.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "negotiate-verb",
     "lemma": "negotiate",
     "pos": "verb",
@@ -3489,6 +8139,51 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "neutral-adjective",
+    "lemma": "neutral",
+    "pos": "adjective",
+    "meaningJa": "中立の",
+    "definitionEn": "not supporting either side in a disagreement",
+    "difficulty": 4,
+    "example": "A neutral observer recorded the discussion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "notable-adjective",
+    "lemma": "notable",
+    "pos": "adjective",
+    "meaningJa": "注目すべき",
+    "definitionEn": "important or unusual enough to attract attention",
+    "difficulty": 4,
+    "example": "The survey found a notable difference by age.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "notion-noun",
+    "lemma": "notion",
+    "pos": "noun",
+    "meaningJa": "考え",
+    "definitionEn": "an idea or belief about something",
+    "difficulty": 4,
+    "example": "The authors discuss the notion in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "objective-adjective",
@@ -3521,6 +8216,36 @@
     "category": "general"
   },
   {
+    "id": "operational-adjective",
+    "lemma": "operational",
+    "pos": "adjective",
+    "meaningJa": "稼働中の",
+    "definitionEn": "working and ready to be used",
+    "difficulty": 4,
+    "example": "The new station became operational in May.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "output-noun",
+    "lemma": "output",
+    "pos": "noun",
+    "meaningJa": "産出量",
+    "definitionEn": "the amount produced by a person or system",
+    "difficulty": 4,
+    "example": "The factory increased its output this year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "perceive-verb",
     "lemma": "perceive",
     "pos": "verb",
@@ -3528,6 +8253,21 @@
     "definitionEn": "to notice or understand something in a particular way",
     "difficulty": 4,
     "example": "People perceive risk differently after a storm.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "perception-noun",
+    "lemma": "perception",
+    "pos": "noun",
+    "meaningJa": "認識",
+    "definitionEn": "the way someone understands or experiences something",
+    "difficulty": 4,
+    "example": "The authors discuss the perception in the final section.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -3581,6 +8321,96 @@
     "category": "academic"
   },
   {
+    "id": "potential-adjective",
+    "lemma": "potential",
+    "pos": "adjective",
+    "meaningJa": "潜在的な",
+    "definitionEn": "possible or able to develop in the future",
+    "difficulty": 4,
+    "example": "The method has potential benefits for small farms.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "precise-adjective",
+    "lemma": "precise",
+    "pos": "adjective",
+    "meaningJa": "正確な",
+    "definitionEn": "exact and carefully stated or measured",
+    "difficulty": 4,
+    "example": "The report gives a precise date for the change.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "predictable-adjective",
+    "lemma": "predictable",
+    "pos": "adjective",
+    "meaningJa": "予測できる",
+    "definitionEn": "likely to happen in a way that can be expected",
+    "difficulty": 4,
+    "example": "The pattern was predictable during the dry season.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "principal-adjective",
+    "lemma": "principal",
+    "pos": "adjective",
+    "meaningJa": "主要な",
+    "definitionEn": "most important or highest in rank",
+    "difficulty": 4,
+    "example": "The principal cause was a lack of clean water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "principle-noun",
+    "lemma": "principle",
+    "pos": "noun",
+    "meaningJa": "原則",
+    "definitionEn": "a basic rule or idea that guides action",
+    "difficulty": 4,
+    "example": "The authors discuss the principle in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "prior-adjective",
+    "lemma": "prior",
+    "pos": "adjective",
+    "meaningJa": "前の",
+    "definitionEn": "existing or happening before something else",
+    "difficulty": 4,
+    "example": "Prior approval is required for the visit.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "proceed-verb",
     "lemma": "proceed",
     "pos": "verb",
@@ -3594,6 +8424,36 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "profitable-adjective",
+    "lemma": "profitable",
+    "pos": "adjective",
+    "meaningJa": "利益の出る",
+    "definitionEn": "earning more money than it costs",
+    "difficulty": 4,
+    "example": "The farm became profitable after changing crops.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "progressive-adjective",
+    "lemma": "progressive",
+    "pos": "adjective",
+    "meaningJa": "進歩的な",
+    "definitionEn": "supporting gradual change or development",
+    "difficulty": 4,
+    "example": "The city adopted progressive transport policies.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "project-verb",
@@ -3611,6 +8471,51 @@
     "category": "academic"
   },
   {
+    "id": "prominent-adjective",
+    "lemma": "prominent",
+    "pos": "adjective",
+    "meaningJa": "著名な",
+    "definitionEn": "important, well known, or easy to notice",
+    "difficulty": 4,
+    "example": "A prominent scientist reviewed the paper.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "proportion-noun",
+    "lemma": "proportion",
+    "pos": "noun",
+    "meaningJa": "割合",
+    "definitionEn": "a part of a whole expressed as a fraction or percentage",
+    "difficulty": 4,
+    "example": "The authors discuss the proportion in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "psychological-adjective",
+    "lemma": "psychological",
+    "pos": "adjective",
+    "meaningJa": "心理的な",
+    "definitionEn": "connected with the mind and behavior",
+    "difficulty": 4,
+    "example": "The study examined psychological effects of stress.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "pursue-verb",
     "lemma": "pursue",
     "pos": "verb",
@@ -3618,6 +8523,21 @@
     "definitionEn": "to continue working toward a goal",
     "difficulty": 4,
     "example": "She may pursue a degree in environmental science.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "recognition-noun",
+    "lemma": "recognition",
+    "pos": "noun",
+    "meaningJa": "認識",
+    "definitionEn": "the act of identifying or accepting something",
+    "difficulty": 4,
+    "example": "The authors discuss the recognition in the final section.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -3641,6 +8561,51 @@
     "category": "academic"
   },
   {
+    "id": "regulation-noun",
+    "lemma": "regulation",
+    "pos": "noun",
+    "meaningJa": "規制",
+    "definitionEn": "an official rule controlling an activity",
+    "difficulty": 4,
+    "example": "The report describes the regulation in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "relative-adjective",
+    "lemma": "relative",
+    "pos": "adjective",
+    "meaningJa": "相対的な",
+    "definitionEn": "considered in relation to something else",
+    "difficulty": 4,
+    "example": "The risk is small relative to the possible benefit.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "remote-adjective",
+    "lemma": "remote",
+    "pos": "adjective",
+    "meaningJa": "遠隔の",
+    "definitionEn": "far away or difficult to reach",
+    "difficulty": 4,
+    "example": "The village has limited access to remote medical care.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "retain-verb",
     "lemma": "retain",
     "pos": "verb",
@@ -3656,6 +8621,36 @@
     "category": "science"
   },
   {
+    "id": "secondary-adjective",
+    "lemma": "secondary",
+    "pos": "adjective",
+    "meaningJa": "二次的な",
+    "definitionEn": "less important or occurring after the main thing",
+    "difficulty": 4,
+    "example": "The report lists several secondary causes.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "sector-noun",
+    "lemma": "sector",
+    "pos": "noun",
+    "meaningJa": "部門",
+    "definitionEn": "a part of society or the economy",
+    "difficulty": 4,
+    "example": "The company reviews the sector before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "secure-verb",
     "lemma": "secure",
     "pos": "verb",
@@ -3669,6 +8664,36 @@
       "sat": 2
     },
     "category": "business"
+  },
+  {
+    "id": "sensitive-adjective",
+    "lemma": "sensitive",
+    "pos": "adjective",
+    "meaningJa": "敏感な",
+    "definitionEn": "quick to react to small changes or influences",
+    "difficulty": 4,
+    "example": "The sensor is sensitive to tiny shifts in temperature.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "sequence-noun",
+    "lemma": "sequence",
+    "pos": "noun",
+    "meaningJa": "順序",
+    "definitionEn": "a set of things arranged in a particular order",
+    "difficulty": 4,
+    "example": "The authors discuss the sequence in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "simulate-verb",
@@ -3701,6 +8726,51 @@
     "category": "academic"
   },
   {
+    "id": "statistical-adjective",
+    "lemma": "statistical",
+    "pos": "adjective",
+    "meaningJa": "統計の",
+    "definitionEn": "connected with the collection or analysis of numerical data",
+    "difficulty": 4,
+    "example": "The researchers used statistical methods to test the claim.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "substantial-adjective",
+    "lemma": "substantial",
+    "pos": "adjective",
+    "meaningJa": "かなりの",
+    "definitionEn": "large in amount, value, or importance",
+    "difficulty": 4,
+    "example": "The project requires substantial funding.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "sufficient-adjective",
+    "lemma": "sufficient",
+    "pos": "adjective",
+    "meaningJa": "十分な",
+    "definitionEn": "as much as is needed for a purpose",
+    "difficulty": 4,
+    "example": "The evidence was sufficient to support the claim.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "sustain-verb",
     "lemma": "sustain",
     "pos": "verb",
@@ -3708,6 +8778,36 @@
     "definitionEn": "to keep something going over time",
     "difficulty": 4,
     "example": "The grant may sustain the program for another year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "tendency-noun",
+    "lemma": "tendency",
+    "pos": "noun",
+    "meaningJa": "傾向",
+    "definitionEn": "a usual direction or likelihood of behavior or change",
+    "difficulty": 4,
+    "example": "The authors discuss the tendency in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "theoretical-adjective",
+    "lemma": "theoretical",
+    "pos": "adjective",
+    "meaningJa": "理論上の",
+    "definitionEn": "based on ideas rather than practical experience",
+    "difficulty": 4,
+    "example": "The course combines theoretical and practical work.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -3729,6 +8829,21 @@
       "sat": 2
     },
     "category": "science"
+  },
+  {
+    "id": "transition-noun",
+    "lemma": "transition",
+    "pos": "noun",
+    "meaningJa": "移行",
+    "definitionEn": "a change from one state or stage to another",
+    "difficulty": 4,
+    "example": "The authors discuss the transition in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
   },
   {
     "id": "transmit-verb",
@@ -3761,6 +8876,66 @@
     "category": "academic"
   },
   {
+    "id": "valid-adjective",
+    "lemma": "valid",
+    "pos": "adjective",
+    "meaningJa": "妥当な",
+    "definitionEn": "reasonable or acceptable according to the facts or rules",
+    "difficulty": 4,
+    "example": "The researchers used a valid comparison.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "variable-adjective",
+    "lemma": "variable",
+    "pos": "adjective",
+    "meaningJa": "変わりやすい",
+    "definitionEn": "likely to change or different in different cases",
+    "difficulty": 4,
+    "example": "Results were variable across the four sites.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "variation-noun",
+    "lemma": "variation",
+    "pos": "noun",
+    "meaningJa": "変動",
+    "definitionEn": "a difference or change in form, amount, or condition",
+    "difficulty": 4,
+    "example": "The researchers found variation in the results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "viewpoint-noun",
+    "lemma": "viewpoint",
+    "pos": "noun",
+    "meaningJa": "視点",
+    "definitionEn": "a way of thinking about a subject",
+    "difficulty": 4,
+    "example": "The authors discuss the viewpoint in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "violate-verb",
     "lemma": "violate",
     "pos": "verb",
@@ -3768,6 +8943,36 @@
     "definitionEn": "to fail to obey a law, rule, or agreement",
     "difficulty": 4,
     "example": "The company may violate the safety standard.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "welfare-noun",
+    "lemma": "welfare",
+    "pos": "noun",
+    "meaningJa": "福祉",
+    "definitionEn": "health, comfort, and good living conditions",
+    "difficulty": 4,
+    "example": "The program aims to improve child welfare.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "widespread-adjective",
+    "lemma": "widespread",
+    "pos": "adjective",
+    "meaningJa": "広範囲に及ぶ",
+    "definitionEn": "found or happening over a large area or among many people",
+    "difficulty": 4,
+    "example": "Widespread flooding closed schools across the region.",
     "targets": {
       "eikenPre1": 2,
       "toefl": 2,
@@ -3791,6 +8996,21 @@
     "category": "academic"
   },
   {
+    "id": "abundance-noun",
+    "lemma": "abundance",
+    "pos": "noun",
+    "meaningJa": "豊富さ",
+    "definitionEn": "a large amount of something",
+    "difficulty": 5,
+    "example": "Native plants grow in abundance near the river.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
     "id": "acknowledge-verb",
     "lemma": "acknowledge",
     "pos": "verb",
@@ -3804,6 +9024,21 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "adaptation-noun",
+    "lemma": "adaptation",
+    "pos": "noun",
+    "meaningJa": "適応",
+    "definitionEn": "a change that helps something fit new conditions",
+    "difficulty": 5,
+    "example": "The study examines the adaptation in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
   },
   {
     "id": "align-verb",
@@ -3849,6 +9084,21 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "applicable-adjective",
+    "lemma": "applicable",
+    "pos": "adjective",
+    "meaningJa": "適用できる",
+    "definitionEn": "relevant and able to be used in a situation",
+    "difficulty": 5,
+    "example": "The same rule is applicable to both cases.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
   },
   {
     "id": "arise-verb",
@@ -3911,6 +9161,51 @@
     "category": "society"
   },
   {
+    "id": "bias-noun",
+    "lemma": "bias",
+    "pos": "noun",
+    "meaningJa": "偏り",
+    "definitionEn": "an unfair preference that affects judgment",
+    "difficulty": 5,
+    "example": "The authors discuss the bias in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "biased-adjective",
+    "lemma": "biased",
+    "pos": "adjective",
+    "meaningJa": "偏った",
+    "definitionEn": "unfairly favoring one side or point of view",
+    "difficulty": 5,
+    "example": "The sample was biased toward older adults.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "characteristic-adjective",
+    "lemma": "characteristic",
+    "pos": "adjective",
+    "meaningJa": "特徴的な",
+    "definitionEn": "typical of a person, group, or thing",
+    "difficulty": 5,
+    "example": "The pattern is characteristic of coastal areas.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "characterize-verb",
     "lemma": "characterize",
     "pos": "verb",
@@ -3939,6 +9234,21 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "compatible-adjective",
+    "lemma": "compatible",
+    "pos": "adjective",
+    "meaningJa": "両立する",
+    "definitionEn": "able to exist or work together without conflict",
+    "difficulty": 5,
+    "example": "The new software is compatible with older devices.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
   },
   {
     "id": "compensate-verb",
@@ -4001,6 +9311,21 @@
     "category": "science"
   },
   {
+    "id": "compromise-noun",
+    "lemma": "compromise",
+    "pos": "noun",
+    "meaningJa": "妥協",
+    "definitionEn": "an agreement in which each side gives up something",
+    "difficulty": 5,
+    "example": "The report describes the compromise in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
     "id": "confine-verb",
     "lemma": "confine",
     "pos": "verb",
@@ -4012,6 +9337,66 @@
       "eikenPre1": 2,
       "toefl": 3,
       "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "conservation-noun",
+    "lemma": "conservation",
+    "pos": "noun",
+    "meaningJa": "保全",
+    "definitionEn": "the protection of nature or resources",
+    "difficulty": 5,
+    "example": "The study examines the conservation in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
+    "id": "considerable-adjective",
+    "lemma": "considerable",
+    "pos": "adjective",
+    "meaningJa": "かなりの",
+    "definitionEn": "large or important enough to be noticed",
+    "difficulty": 5,
+    "example": "The project required considerable time and funding.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "controversial-adjective",
+    "lemma": "controversial",
+    "pos": "adjective",
+    "meaningJa": "議論を呼ぶ",
+    "definitionEn": "causing public disagreement",
+    "difficulty": 5,
+    "example": "The policy remains controversial among local residents.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
+    "id": "convention-noun",
+    "lemma": "convention",
+    "pos": "noun",
+    "meaningJa": "慣習",
+    "definitionEn": "a usual or accepted way of doing something",
+    "difficulty": 5,
+    "example": "The authors discuss the convention in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
     },
     "category": "academic"
   },
@@ -4046,6 +9431,21 @@
     "category": "academic"
   },
   {
+    "id": "credibility-noun",
+    "lemma": "credibility",
+    "pos": "noun",
+    "meaningJa": "信頼性",
+    "definitionEn": "the quality of being believable",
+    "difficulty": 5,
+    "example": "The authors discuss the credibility in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "cultivate-verb",
     "lemma": "cultivate",
     "pos": "verb",
@@ -4076,6 +9476,21 @@
     "category": "academic"
   },
   {
+    "id": "deliberate-adjective",
+    "lemma": "deliberate",
+    "pos": "adjective",
+    "meaningJa": "意図的な",
+    "definitionEn": "done on purpose and with careful thought",
+    "difficulty": 5,
+    "example": "The change was a deliberate choice by the committee.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "designate-verb",
     "lemma": "designate",
     "pos": "verb",
@@ -4089,6 +9504,21 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "dimension-noun",
+    "lemma": "dimension",
+    "pos": "noun",
+    "meaningJa": "側面",
+    "definitionEn": "one measurable part of a situation or object",
+    "difficulty": 5,
+    "example": "The authors discuss the dimension in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
   },
   {
     "id": "disclose-verb",
@@ -4106,6 +9536,51 @@
     "category": "business"
   },
   {
+    "id": "distinction-noun",
+    "lemma": "distinction",
+    "pos": "noun",
+    "meaningJa": "違い",
+    "definitionEn": "a clear difference between two things",
+    "difficulty": 5,
+    "example": "The authors discuss the distinction in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "distribution-noun",
+    "lemma": "distribution",
+    "pos": "noun",
+    "meaningJa": "分布",
+    "definitionEn": "the way something is spread across an area or group",
+    "difficulty": 5,
+    "example": "The study examines the distribution in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
+    "id": "dominant-adjective",
+    "lemma": "dominant",
+    "pos": "adjective",
+    "meaningJa": "支配的な",
+    "definitionEn": "more powerful, common, or noticeable than others",
+    "difficulty": 5,
+    "example": "One species became dominant after the fires.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
     "id": "enact-verb",
     "lemma": "enact",
     "pos": "verb",
@@ -4121,6 +9596,96 @@
     "category": "society"
   },
   {
+    "id": "explicit-adjective",
+    "lemma": "explicit",
+    "pos": "adjective",
+    "meaningJa": "明示的な",
+    "definitionEn": "clearly stated and leaving little doubt",
+    "difficulty": 5,
+    "example": "The contract gives explicit instructions about payment.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "exposure-noun",
+    "lemma": "exposure",
+    "pos": "noun",
+    "meaningJa": "接触",
+    "definitionEn": "the state of being affected by or introduced to something",
+    "difficulty": 5,
+    "example": "The study examines the exposure in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
+    "id": "extraordinary-adjective",
+    "lemma": "extraordinary",
+    "pos": "adjective",
+    "meaningJa": "並外れた",
+    "definitionEn": "very unusual or impressive",
+    "difficulty": 5,
+    "example": "The species survived an extraordinary change in climate.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "general"
+  },
+  {
+    "id": "feasible-adjective",
+    "lemma": "feasible",
+    "pos": "adjective",
+    "meaningJa": "実行可能な",
+    "definitionEn": "possible and practical to do",
+    "difficulty": 5,
+    "example": "A shorter route made the plan feasible.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "framework-noun",
+    "lemma": "framework",
+    "pos": "noun",
+    "meaningJa": "枠組み",
+    "definitionEn": "a basic structure used to organize ideas or work",
+    "difficulty": 5,
+    "example": "The authors discuss the framework in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "fundamental-adjective",
+    "lemma": "fundamental",
+    "pos": "adjective",
+    "meaningJa": "基本的な",
+    "definitionEn": "forming an essential base or central part",
+    "difficulty": 5,
+    "example": "Trust is fundamental to cooperation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "govern-verb",
     "lemma": "govern",
     "pos": "verb",
@@ -4132,6 +9697,21 @@
       "eikenPre1": 2,
       "toefl": 3,
       "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "hostile-adjective",
+    "lemma": "hostile",
+    "pos": "adjective",
+    "meaningJa": "敵対的な",
+    "definitionEn": "unfriendly or strongly opposed",
+    "difficulty": 5,
+    "example": "The proposal faced a hostile response at first.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
     },
     "category": "society"
   },
@@ -4181,6 +9761,36 @@
     "category": "academic"
   },
   {
+    "id": "incentive-noun",
+    "lemma": "incentive",
+    "pos": "noun",
+    "meaningJa": "動機づけ",
+    "definitionEn": "something that encourages a person to act",
+    "difficulty": 5,
+    "example": "The company reviews the incentive before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "business"
+  },
+  {
+    "id": "inevitable-adjective",
+    "lemma": "inevitable",
+    "pos": "adjective",
+    "meaningJa": "避けられない",
+    "definitionEn": "certain to happen and impossible to prevent",
+    "difficulty": 5,
+    "example": "Some change is inevitable as the city grows.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "infer-verb",
     "lemma": "infer",
     "pos": "verb",
@@ -4226,6 +9836,21 @@
     "category": "business"
   },
   {
+    "id": "innovative-adjective",
+    "lemma": "innovative",
+    "pos": "adjective",
+    "meaningJa": "革新的な",
+    "definitionEn": "introducing new ideas or methods",
+    "difficulty": 5,
+    "example": "The lab designed an innovative water sensor.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
     "id": "integrate-verb",
     "lemma": "integrate",
     "pos": "verb",
@@ -4256,6 +9881,21 @@
     "category": "academic"
   },
   {
+    "id": "legislation-noun",
+    "lemma": "legislation",
+    "pos": "noun",
+    "meaningJa": "法律",
+    "definitionEn": "laws considered or made by a government",
+    "difficulty": 5,
+    "example": "The report describes the legislation in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
     "id": "manipulate-verb",
     "lemma": "manipulate",
     "pos": "verb",
@@ -4269,6 +9909,21 @@
       "sat": 2
     },
     "category": "science"
+  },
+  {
+    "id": "mechanism-noun",
+    "lemma": "mechanism",
+    "pos": "noun",
+    "meaningJa": "仕組み",
+    "definitionEn": "a process or structure that makes something happen",
+    "difficulty": 5,
+    "example": "The authors discuss the mechanism in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
   },
   {
     "id": "mediate-verb",
@@ -4331,6 +9986,21 @@
     "category": "academic"
   },
   {
+    "id": "norm-noun",
+    "lemma": "norm",
+    "pos": "noun",
+    "meaningJa": "規範",
+    "definitionEn": "a usual or accepted standard of behavior",
+    "difficulty": 5,
+    "example": "The report describes the norm in the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
     "id": "offset-verb",
     "lemma": "offset",
     "pos": "verb",
@@ -4389,6 +10059,36 @@
       "sat": 2
     },
     "category": "society"
+  },
+  {
+    "id": "persistent-adjective",
+    "lemma": "persistent",
+    "pos": "adjective",
+    "meaningJa": "持続する",
+    "definitionEn": "continuing for a long time despite effort to stop it",
+    "difficulty": 5,
+    "example": "Persistent pain can affect sleep.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
+    "id": "phenomenon-noun",
+    "lemma": "phenomenon",
+    "pos": "noun",
+    "meaningJa": "現象",
+    "definitionEn": "an event or fact that can be observed",
+    "difficulty": 5,
+    "example": "The study examines the phenomenon in two groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
   },
   {
     "id": "plausible-adjective",
@@ -4481,6 +10181,21 @@
     "category": "academic"
   },
   {
+    "id": "rational-adjective",
+    "lemma": "rational",
+    "pos": "adjective",
+    "meaningJa": "合理的な",
+    "definitionEn": "based on reason and careful thought",
+    "difficulty": 5,
+    "example": "The committee made a rational choice.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "reconcile-verb",
     "lemma": "reconcile",
     "pos": "verb",
@@ -4556,6 +10271,51 @@
     "category": "academic"
   },
   {
+    "id": "representative-adjective",
+    "lemma": "representative",
+    "pos": "adjective",
+    "meaningJa": "代表的な",
+    "definitionEn": "typical of a larger group or able to speak for it",
+    "difficulty": 5,
+    "example": "The sample was representative of local households.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "rigid-adjective",
+    "lemma": "rigid",
+    "pos": "adjective",
+    "meaningJa": "硬直した",
+    "definitionEn": "not able or willing to change",
+    "difficulty": 5,
+    "example": "A rigid schedule can make teamwork difficult.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "sustainable-adjective",
+    "lemma": "sustainable",
+    "pos": "adjective",
+    "meaningJa": "持続可能な",
+    "definitionEn": "able to continue without exhausting resources",
+    "difficulty": 5,
+    "example": "The city is seeking sustainable energy sources.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
     "id": "undertake-verb",
     "lemma": "undertake",
     "pos": "verb",
@@ -4567,6 +10327,21 @@
       "eikenPre1": 2,
       "toefl": 3,
       "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "universal-adjective",
+    "lemma": "universal",
+    "pos": "adjective",
+    "meaningJa": "普遍的な",
+    "definitionEn": "true or present everywhere or for everyone",
+    "difficulty": 5,
+    "example": "There is no universal rule for every case.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
     },
     "category": "academic"
   },
@@ -4661,6 +10436,21 @@
     "category": "academic"
   },
   {
+    "id": "adverse-adjective",
+    "lemma": "adverse",
+    "pos": "adjective",
+    "meaningJa": "不利な",
+    "definitionEn": "negative or harmful in effect",
+    "difficulty": 6,
+    "example": "The medicine caused adverse effects in a few patients.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
     "id": "allege-verb",
     "lemma": "allege",
     "pos": "verb",
@@ -4676,6 +10466,21 @@
     "category": "society"
   },
   {
+    "id": "allocation-noun",
+    "lemma": "allocation",
+    "pos": "noun",
+    "meaningJa": "配分",
+    "definitionEn": "the process of sharing resources for a purpose",
+    "difficulty": 6,
+    "example": "The authors discuss the allocation in the final section.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "amplify-verb",
     "lemma": "amplify",
     "pos": "verb",
@@ -4689,6 +10494,21 @@
       "sat": 3
     },
     "category": "society"
+  },
+  {
+    "id": "analogy-noun",
+    "lemma": "analogy",
+    "pos": "noun",
+    "meaningJa": "類推",
+    "definitionEn": "a comparison that helps explain an idea",
+    "difficulty": 6,
+    "example": "The authors discuss the analogy in the final section.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
   },
   {
     "id": "articulate-verb",
@@ -4758,6 +10578,21 @@
     "definitionEn": "to find a way around a rule or obstacle",
     "difficulty": 6,
     "example": "Some firms circumvent the restriction.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "comprehensive-adjective",
+    "lemma": "comprehensive",
+    "pos": "adjective",
+    "meaningJa": "包括的な",
+    "definitionEn": "including all or nearly all important parts",
+    "difficulty": 6,
+    "example": "The report gives a comprehensive account of the issue.",
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
@@ -4856,6 +10691,51 @@
     "category": "academic"
   },
   {
+    "id": "controversy-noun",
+    "lemma": "controversy",
+    "pos": "noun",
+    "meaningJa": "論争",
+    "definitionEn": "a public disagreement about an important issue",
+    "difficulty": 6,
+    "example": "The report describes the controversy in the region.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
+    "id": "correlation-noun",
+    "lemma": "correlation",
+    "pos": "noun",
+    "meaningJa": "相関",
+    "definitionEn": "a relationship in which two things change together",
+    "difficulty": 6,
+    "example": "The study examines the correlation in two groups.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
+  },
+  {
+    "id": "cumulative-adjective",
+    "lemma": "cumulative",
+    "pos": "adjective",
+    "meaningJa": "累積する",
+    "definitionEn": "increasing through the addition of parts over time",
+    "difficulty": 6,
+    "example": "The cumulative effect became clear after a year.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "decipher-verb",
     "lemma": "decipher",
     "pos": "verb",
@@ -4869,6 +10749,21 @@
       "sat": 3
     },
     "category": "science"
+  },
+  {
+    "id": "decisive-adjective",
+    "lemma": "decisive",
+    "pos": "adjective",
+    "meaningJa": "決定的な",
+    "definitionEn": "settling an issue or producing a clear result",
+    "difficulty": 6,
+    "example": "The second trial provided decisive evidence.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
   },
   {
     "id": "delineate-verb",
@@ -4946,6 +10841,21 @@
     "category": "academic"
   },
   {
+    "id": "enforcement-noun",
+    "lemma": "enforcement",
+    "pos": "noun",
+    "meaningJa": "執行",
+    "definitionEn": "the act of making sure a law or rule is followed",
+    "difficulty": 6,
+    "example": "The report describes the enforcement in the region.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
     "id": "entail-verb",
     "lemma": "entail",
     "pos": "verb",
@@ -4961,6 +10871,21 @@
     "category": "general"
   },
   {
+    "id": "entity-noun",
+    "lemma": "entity",
+    "pos": "noun",
+    "meaningJa": "実体",
+    "definitionEn": "something that exists as a separate unit",
+    "difficulty": 6,
+    "example": "The authors discuss the entity in the final section.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "facilitate-verb",
     "lemma": "facilitate",
     "pos": "verb",
@@ -4968,6 +10893,21 @@
     "definitionEn": "to make a process easier",
     "difficulty": 6,
     "example": "Good design can facilitate learning.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "finite-adjective",
+    "lemma": "finite",
+    "pos": "adjective",
+    "meaningJa": "有限の",
+    "definitionEn": "having a limit or an end",
+    "difficulty": 6,
+    "example": "The project must work with finite resources.",
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
@@ -5021,6 +10961,36 @@
     "category": "academic"
   },
   {
+    "id": "intervention-noun",
+    "lemma": "intervention",
+    "pos": "noun",
+    "meaningJa": "介入",
+    "definitionEn": "an action taken to change a situation",
+    "difficulty": 6,
+    "example": "The authors discuss the intervention in the final section.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "marginal-adjective",
+    "lemma": "marginal",
+    "pos": "adjective",
+    "meaningJa": "わずかな",
+    "definitionEn": "small in amount or importance",
+    "difficulty": 6,
+    "example": "The treatment produced only a marginal improvement.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "nuance-noun",
     "lemma": "nuance",
     "pos": "noun",
@@ -5028,6 +10998,21 @@
     "definitionEn": "a subtle difference in meaning",
     "difficulty": 6,
     "example": "The translation misses an important nuance.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "profound-adjective",
+    "lemma": "profound",
+    "pos": "adjective",
+    "meaningJa": "深い",
+    "definitionEn": "very great or having a strong effect",
+    "difficulty": 6,
+    "example": "The discovery had a profound effect on the field.",
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
@@ -5064,6 +11049,21 @@
       "sat": 3
     },
     "category": "academic"
+  },
+  {
+    "id": "anomaly-noun",
+    "lemma": "anomaly",
+    "pos": "noun",
+    "meaningJa": "異常",
+    "definitionEn": "something that differs from what is usual",
+    "difficulty": 7,
+    "example": "The study examines the anomaly in two groups.",
+    "targets": {
+      "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
   },
   {
     "id": "arbitrary-adjective",
