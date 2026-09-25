@@ -4,10 +4,10 @@ import raw from '../data/catalog.json';
 import { auditCatalog, cloze, productionAnswer, validateEntry, type VocabularyEntry } from '../lib/vocabulary';
 
 const entries = raw as VocabularyEntry[];
-test('seed catalog is valid and has usable cloze prompts', () => {
+test('vocabulary catalog is valid and has usable cloze prompts', () => {
   const result = auditCatalog(entries);
   assert.deepEqual(result.errors, []);
-  assert.equal(entries.length, 148);
+  assert(entries.length >= 148);
   for (const entry of entries) {
     assert(cloze(entry).includes('_____'), entry.id);
     assert(productionAnswer(entry, entry.answerForm ?? entry.lemma), entry.id);

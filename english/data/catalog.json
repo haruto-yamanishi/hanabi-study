@@ -252,6 +252,81 @@
     "category": "general"
   },
   {
+    "id": "create-verb",
+    "lemma": "create",
+    "pos": "verb",
+    "meaningJa": "作り出す",
+    "definitionEn": "to make something new",
+    "difficulty": 2,
+    "example": "The project may create jobs for local residents.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "delay-verb",
+    "lemma": "delay",
+    "pos": "verb",
+    "meaningJa": "遅らせる",
+    "definitionEn": "to make something happen later",
+    "difficulty": 2,
+    "example": "Heavy rain may delay the construction work.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "discover-verb",
+    "lemma": "discover",
+    "pos": "verb",
+    "meaningJa": "発見する",
+    "definitionEn": "to find something that was not known before",
+    "difficulty": 2,
+    "example": "The team may discover a pattern in the records.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "discuss-verb",
+    "lemma": "discuss",
+    "pos": "verb",
+    "meaningJa": "議論する",
+    "definitionEn": "to talk or write about a subject in detail",
+    "difficulty": 2,
+    "example": "The class may discuss how cities can reduce waste.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "edit-verb",
+    "lemma": "edit",
+    "pos": "verb",
+    "meaningJa": "編集する",
+    "definitionEn": "to prepare writing by correcting and improving it",
+    "difficulty": 2,
+    "example": "Writers edit the report before publication.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "establish-verb",
     "lemma": "establish",
     "pos": "verb",
@@ -294,6 +369,21 @@
     "category": "general"
   },
   {
+    "id": "ignore-verb",
+    "lemma": "ignore",
+    "pos": "verb",
+    "meaningJa": "無視する",
+    "definitionEn": "to choose not to pay attention to something",
+    "difficulty": 2,
+    "example": "Researchers should not ignore unexpected results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "indicate-verb",
     "lemma": "indicate",
     "pos": "verb",
@@ -306,6 +396,36 @@
       "toefl": 1
     },
     "category": "general"
+  },
+  {
+    "id": "introduce-verb",
+    "lemma": "introduce",
+    "pos": "verb",
+    "meaningJa": "導入する",
+    "definitionEn": "to bring something new into use or discussion",
+    "difficulty": 2,
+    "example": "The course may introduce students to basic statistics.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "invent-verb",
+    "lemma": "invent",
+    "pos": "verb",
+    "meaningJa": "発明する",
+    "definitionEn": "to create a new device, method, or idea",
+    "difficulty": 2,
+    "example": "The students invent a simple water filter.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
   },
   {
     "id": "involve-verb",
@@ -392,6 +512,21 @@
     "category": "general"
   },
   {
+    "id": "plan-verb",
+    "lemma": "plan",
+    "pos": "verb",
+    "meaningJa": "計画する",
+    "definitionEn": "to decide in advance how to do something",
+    "difficulty": 2,
+    "example": "The team may plan each test before collecting data.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
     "id": "prevent-verb",
     "lemma": "prevent",
     "pos": "verb",
@@ -402,6 +537,81 @@
     "targets": {
       "eikenPre1": 1,
       "toefl": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "produce-verb",
+    "lemma": "produce",
+    "pos": "verb",
+    "meaningJa": "生産する、生み出す",
+    "definitionEn": "to make or cause something",
+    "difficulty": 2,
+    "example": "The process may produce clean water from salt water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "protect-verb",
+    "lemma": "protect",
+    "pos": "verb",
+    "meaningJa": "守る",
+    "definitionEn": "to keep someone or something safe from harm",
+    "difficulty": 2,
+    "example": "The new rule may protect workers from harmful fumes.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "prove-verb",
+    "lemma": "prove",
+    "pos": "verb",
+    "meaningJa": "証明する",
+    "definitionEn": "to show that something is true",
+    "difficulty": 2,
+    "example": "One trial cannot prove that the treatment works.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "raise-verb",
+    "lemma": "raise",
+    "pos": "verb",
+    "meaningJa": "提起する、上げる",
+    "definitionEn": "to bring up a subject or move something higher",
+    "difficulty": 2,
+    "example": "The report may raise an important question about access.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "reach-verb",
+    "lemma": "reach",
+    "pos": "verb",
+    "meaningJa": "達する",
+    "definitionEn": "to arrive at a level, place, or decision",
+    "difficulty": 2,
+    "example": "The groups reach an agreement after discussion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
     },
     "category": "general"
   },
@@ -448,6 +658,21 @@
     "category": "general"
   },
   {
+    "id": "remove-verb",
+    "lemma": "remove",
+    "pos": "verb",
+    "meaningJa": "取り除く",
+    "definitionEn": "to take something away from a place",
+    "difficulty": 2,
+    "example": "The process may remove salt from the water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
     "id": "replace-verb",
     "lemma": "replace",
     "pos": "verb",
@@ -462,6 +687,21 @@
     "category": "general"
   },
   {
+    "id": "report-verb",
+    "lemma": "report",
+    "pos": "verb",
+    "meaningJa": "報告する",
+    "definitionEn": "to give information about an event or finding",
+    "difficulty": 2,
+    "example": "Students report their results at the end of the lab.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "respond-verb",
     "lemma": "respond",
     "pos": "verb",
@@ -472,6 +712,171 @@
     "targets": {
       "eikenPre1": 1,
       "toefl": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "save-verb",
+    "lemma": "save",
+    "pos": "verb",
+    "meaningJa": "節約する、救う",
+    "definitionEn": "to keep resources or protect someone from harm",
+    "difficulty": 2,
+    "example": "The new system may save water during dry months.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "select-verb",
+    "lemma": "select",
+    "pos": "verb",
+    "meaningJa": "選ぶ",
+    "definitionEn": "to choose something from a group",
+    "difficulty": 2,
+    "example": "The system may select a small group for follow-up.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "separate-verb",
+    "lemma": "separate",
+    "pos": "verb",
+    "meaningJa": "分ける",
+    "definitionEn": "to divide things or keep them apart",
+    "difficulty": 2,
+    "example": "The test may separate the two chemical samples.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "solve-verb",
+    "lemma": "solve",
+    "pos": "verb",
+    "meaningJa": "解決する",
+    "definitionEn": "to find an answer to a problem",
+    "difficulty": 2,
+    "example": "The class may solve a problem using two methods.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "spend-verb",
+    "lemma": "spend",
+    "pos": "verb",
+    "meaningJa": "費やす",
+    "definitionEn": "to use time, money, or effort for something",
+    "difficulty": 2,
+    "example": "The team may spend a month testing the design.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "spread-verb",
+    "lemma": "spread",
+    "pos": "verb",
+    "meaningJa": "広がる、広める",
+    "definitionEn": "to reach or cause something to reach more places",
+    "difficulty": 2,
+    "example": "The disease can spread through close contact.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "state-verb",
+    "lemma": "state",
+    "pos": "verb",
+    "meaningJa": "述べる",
+    "definitionEn": "to express an idea clearly in words",
+    "difficulty": 2,
+    "example": "The report may state the main finding in its opening line.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "submit-verb",
+    "lemma": "submit",
+    "pos": "verb",
+    "meaningJa": "提出する",
+    "definitionEn": "to give something for review or consideration",
+    "difficulty": 2,
+    "example": "Students submit the assignment by Friday.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "succeed-verb",
+    "lemma": "succeed",
+    "pos": "verb",
+    "meaningJa": "成功する",
+    "definitionEn": "to achieve what you are trying to do",
+    "difficulty": 2,
+    "example": "The plan may succeed when residents work together.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "supply-verb",
+    "lemma": "supply",
+    "pos": "verb",
+    "meaningJa": "供給する",
+    "definitionEn": "to provide something that is needed",
+    "difficulty": 2,
+    "example": "The river may supply water to three towns.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "update-verb",
+    "lemma": "update",
+    "pos": "verb",
+    "meaningJa": "更新する",
+    "definitionEn": "to add the newest information to something",
+    "difficulty": 2,
+    "example": "The team may update the map after each survey.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
     },
     "category": "general"
   },
@@ -489,6 +894,36 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "affect-verb",
+    "lemma": "affect",
+    "pos": "verb",
+    "meaningJa": "影響を与える",
+    "definitionEn": "to cause a change in someone or something",
+    "difficulty": 3,
+    "example": "Small changes can affect the final result.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "afford-verb",
+    "lemma": "afford",
+    "pos": "verb",
+    "meaningJa": "余裕がある",
+    "definitionEn": "to have enough time, money, or ability for something",
+    "difficulty": 3,
+    "example": "The school cannot afford another delay.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
   },
   {
     "id": "allocate-verb",
@@ -521,6 +956,21 @@
     "category": "academic"
   },
   {
+    "id": "announce-verb",
+    "lemma": "announce",
+    "pos": "verb",
+    "meaningJa": "発表する",
+    "definitionEn": "to make information known publicly",
+    "difficulty": 3,
+    "example": "The university will announce the results tomorrow.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
     "id": "anticipate-verb",
     "lemma": "anticipate",
     "pos": "verb",
@@ -551,6 +1001,51 @@
     "category": "academic"
   },
   {
+    "id": "approach-verb",
+    "lemma": "approach",
+    "pos": "verb",
+    "meaningJa": "取り組む、近づく",
+    "definitionEn": "to deal with a task or move closer to something",
+    "difficulty": 3,
+    "example": "Students approach the problem in different ways.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "assign-verb",
+    "lemma": "assign",
+    "pos": "verb",
+    "meaningJa": "割り当てる",
+    "definitionEn": "to give someone a task or responsibility",
+    "difficulty": 3,
+    "example": "Teachers assign a short reading each week.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "assume-verb",
+    "lemma": "assume",
+    "pos": "verb",
+    "meaningJa": "仮定する",
+    "definitionEn": "to accept something as true without proof",
+    "difficulty": 3,
+    "example": "We should not assume that the sample is typical.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "assumption-noun",
     "lemma": "assumption",
     "pos": "noun",
@@ -560,6 +1055,111 @@
     "example": "The argument depends on one assumption.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "avoid-verb",
+    "lemma": "avoid",
+    "pos": "verb",
+    "meaningJa": "避ける",
+    "definitionEn": "to stay away from something or prevent it",
+    "difficulty": 3,
+    "example": "Clear labels help users avoid common errors.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "base-verb",
+    "lemma": "base",
+    "pos": "verb",
+    "meaningJa": "基づかせる",
+    "definitionEn": "to use something as the main support for an idea",
+    "difficulty": 3,
+    "example": "The team may base its estimate on recent data.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "behave-verb",
+    "lemma": "behave",
+    "pos": "verb",
+    "meaningJa": "振る舞う",
+    "definitionEn": "to act in a particular way",
+    "difficulty": 3,
+    "example": "The material may behave differently under heat.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "benefit-verb",
+    "lemma": "benefit",
+    "pos": "verb",
+    "meaningJa": "利益を得る、役立つ",
+    "definitionEn": "to gain an advantage from something",
+    "difficulty": 3,
+    "example": "Students benefit from brief daily reviews.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "calculate-verb",
+    "lemma": "calculate",
+    "pos": "verb",
+    "meaningJa": "計算する",
+    "definitionEn": "to find an amount by using numbers",
+    "difficulty": 3,
+    "example": "The researchers calculate the average for each group.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "cite-verb",
+    "lemma": "cite",
+    "pos": "verb",
+    "meaningJa": "引用する",
+    "definitionEn": "to mention a source as evidence",
+    "difficulty": 3,
+    "example": "Students cite reliable sources in their essays.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "claim-verb",
+    "lemma": "claim",
+    "pos": "verb",
+    "meaningJa": "主張する",
+    "definitionEn": "to say that something is true, often without proof",
+    "difficulty": 3,
+    "example": "The article may claim that the treatment is safe.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
     },
@@ -581,6 +1181,66 @@
     "category": "academic"
   },
   {
+    "id": "combine-verb",
+    "lemma": "combine",
+    "pos": "verb",
+    "meaningJa": "組み合わせる",
+    "definitionEn": "to join two or more things together",
+    "difficulty": 3,
+    "example": "The course may combine lectures with lab work.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "communicate-verb",
+    "lemma": "communicate",
+    "pos": "verb",
+    "meaningJa": "伝える",
+    "definitionEn": "to share information or ideas",
+    "difficulty": 3,
+    "example": "Charts communicate the main result quickly.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "complete-verb",
+    "lemma": "complete",
+    "pos": "verb",
+    "meaningJa": "完了する",
+    "definitionEn": "to finish doing something",
+    "difficulty": 3,
+    "example": "Students complete the survey before the workshop.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "concentrate-verb",
+    "lemma": "concentrate",
+    "pos": "verb",
+    "meaningJa": "集中する",
+    "definitionEn": "to give most of your attention to one thing",
+    "difficulty": 3,
+    "example": "The class may concentrate on clear written arguments.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "concept-noun",
     "lemma": "concept",
     "pos": "noun",
@@ -590,6 +1250,21 @@
     "example": "This concept is central to the course.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "conclude-verb",
+    "lemma": "conclude",
+    "pos": "verb",
+    "meaningJa": "結論づける",
+    "definitionEn": "to decide something after considering evidence",
+    "difficulty": 3,
+    "example": "The researchers conclude that sleep affects memory.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
     },
@@ -611,6 +1286,21 @@
     "category": "academic"
   },
   {
+    "id": "connect-verb",
+    "lemma": "connect",
+    "pos": "verb",
+    "meaningJa": "つなぐ、関連づける",
+    "definitionEn": "to join things or show how they are related",
+    "difficulty": 3,
+    "example": "The lecture may connect climate change with public health.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "consistent-adjective",
     "lemma": "consistent",
     "pos": "adjective",
@@ -626,6 +1316,21 @@
     "category": "academic"
   },
   {
+    "id": "contrast-verb",
+    "lemma": "contrast",
+    "pos": "verb",
+    "meaningJa": "対比する",
+    "definitionEn": "to compare two things to show their differences",
+    "difficulty": 3,
+    "example": "The essay may contrast city life with rural life.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "contribute-verb",
     "lemma": "contribute",
     "pos": "verb",
@@ -635,6 +1340,51 @@
     "example": "Many factors contribute to success.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "cooperate-verb",
+    "lemma": "cooperate",
+    "pos": "verb",
+    "meaningJa": "協力する",
+    "definitionEn": "to work together toward a shared goal",
+    "difficulty": 3,
+    "example": "Local groups cooperate on the cleanup project.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "criticize-verb",
+    "lemma": "criticize",
+    "pos": "verb",
+    "meaningJa": "批判する",
+    "definitionEn": "to explain why something is wrong or weak",
+    "difficulty": 3,
+    "example": "Reviewers criticize the study's small sample.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "define-verb",
+    "lemma": "define",
+    "pos": "verb",
+    "meaningJa": "定義する",
+    "definitionEn": "to explain the exact meaning or limits of something",
+    "difficulty": 3,
+    "example": "The paper may define success in practical terms.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 2,
       "sat": 1
     },
@@ -671,6 +1421,111 @@
     "category": "academic"
   },
   {
+    "id": "document-verb",
+    "lemma": "document",
+    "pos": "verb",
+    "meaningJa": "記録する",
+    "definitionEn": "to create a written or visual record",
+    "difficulty": 3,
+    "example": "Researchers document each change in the sample.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "draft-verb",
+    "lemma": "draft",
+    "pos": "verb",
+    "meaningJa": "下書きする",
+    "definitionEn": "to write a first version of a text or plan",
+    "difficulty": 3,
+    "example": "Students draft an outline before writing.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "eliminate-verb",
+    "lemma": "eliminate",
+    "pos": "verb",
+    "meaningJa": "取り除く",
+    "definitionEn": "to remove something completely",
+    "difficulty": 3,
+    "example": "The filter may eliminate dust from the air.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "emerge-verb",
+    "lemma": "emerge",
+    "pos": "verb",
+    "meaningJa": "現れる",
+    "definitionEn": "to become known or visible",
+    "difficulty": 3,
+    "example": "A clear pattern may emerge from the survey.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "enable-verb",
+    "lemma": "enable",
+    "pos": "verb",
+    "meaningJa": "可能にする",
+    "definitionEn": "to make it possible for someone to do something",
+    "difficulty": 3,
+    "example": "The grant may enable students to attend the conference.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "ensure-verb",
+    "lemma": "ensure",
+    "pos": "verb",
+    "meaningJa": "確実にする",
+    "definitionEn": "to make certain that something will happen",
+    "difficulty": 3,
+    "example": "Clear instructions ensure a fair test.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "estimate-verb",
+    "lemma": "estimate",
+    "pos": "verb",
+    "meaningJa": "推定する",
+    "definitionEn": "to make a rough calculation or judgment",
+    "difficulty": 3,
+    "example": "The team may estimate the cost before work begins.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "evaluate-verb",
     "lemma": "evaluate",
     "pos": "verb",
@@ -701,6 +1556,36 @@
     "category": "academic"
   },
   {
+    "id": "exceed-verb",
+    "lemma": "exceed",
+    "pos": "verb",
+    "meaningJa": "上回る",
+    "definitionEn": "to be greater or better than a limit",
+    "difficulty": 3,
+    "example": "Demand may exceed the available supply.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "exclude-verb",
+    "lemma": "exclude",
+    "pos": "verb",
+    "meaningJa": "除外する",
+    "definitionEn": "to leave someone or something out",
+    "difficulty": 3,
+    "example": "The analysis may exclude incomplete responses.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
     "id": "expand-verb",
     "lemma": "expand",
     "pos": "verb",
@@ -714,6 +1599,186 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "extend-verb",
+    "lemma": "extend",
+    "pos": "verb",
+    "meaningJa": "延長する、広げる",
+    "definitionEn": "to make something longer or wider",
+    "difficulty": 3,
+    "example": "The team may extend the trial for another month.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "focus-verb",
+    "lemma": "focus",
+    "pos": "verb",
+    "meaningJa": "集中する、焦点を当てる",
+    "definitionEn": "to give attention to one particular thing",
+    "difficulty": 3,
+    "example": "This chapter may focus on the causes of migration.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "function-verb",
+    "lemma": "function",
+    "pos": "verb",
+    "meaningJa": "機能する",
+    "definitionEn": "to work or operate in a particular way",
+    "difficulty": 3,
+    "example": "The device can function in cold weather.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "fund-verb",
+    "lemma": "fund",
+    "pos": "verb",
+    "meaningJa": "資金を提供する",
+    "definitionEn": "to provide money for a person or activity",
+    "difficulty": 3,
+    "example": "The foundation may fund science projects in schools.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "business"
+  },
+  {
+    "id": "guarantee-verb",
+    "lemma": "guarantee",
+    "pos": "verb",
+    "meaningJa": "保証する",
+    "definitionEn": "to promise that something will happen",
+    "difficulty": 3,
+    "example": "No method can guarantee perfect results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "handle-verb",
+    "lemma": "handle",
+    "pos": "verb",
+    "meaningJa": "対処する",
+    "definitionEn": "to deal with a situation or task",
+    "difficulty": 3,
+    "example": "The guide shows how to handle a difficult interview.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "highlight-verb",
+    "lemma": "highlight",
+    "pos": "verb",
+    "meaningJa": "強調する",
+    "definitionEn": "to draw attention to an important part",
+    "difficulty": 3,
+    "example": "The report may highlight gaps in rural health care.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "influence-verb",
+    "lemma": "influence",
+    "pos": "verb",
+    "meaningJa": "影響を与える",
+    "definitionEn": "to have an effect on someone or something",
+    "difficulty": 3,
+    "example": "Family income can influence access to college.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "inform-verb",
+    "lemma": "inform",
+    "pos": "verb",
+    "meaningJa": "知らせる、情報を与える",
+    "definitionEn": "to give someone facts or knowledge",
+    "difficulty": 3,
+    "example": "The results inform future health policy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "inspect-verb",
+    "lemma": "inspect",
+    "pos": "verb",
+    "meaningJa": "検査する",
+    "definitionEn": "to look at something carefully for problems",
+    "difficulty": 3,
+    "example": "Workers inspect the bridge every year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "install-verb",
+    "lemma": "install",
+    "pos": "verb",
+    "meaningJa": "設置する",
+    "definitionEn": "to put equipment in place so it can be used",
+    "difficulty": 3,
+    "example": "The city will install new air sensors.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "instruct-verb",
+    "lemma": "instruct",
+    "pos": "verb",
+    "meaningJa": "指示する、教える",
+    "definitionEn": "to tell someone how to do something",
+    "difficulty": 3,
+    "example": "The manual may instruct users to wear gloves.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
   },
   {
     "id": "interpret-verb",
@@ -731,6 +1796,21 @@
     "category": "academic"
   },
   {
+    "id": "invest-verb",
+    "lemma": "invest",
+    "pos": "verb",
+    "meaningJa": "投資する",
+    "definitionEn": "to put money or effort into something for future benefit",
+    "difficulty": 3,
+    "example": "The city may invest in safer roads.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "business"
+  },
+  {
     "id": "justify-verb",
     "lemma": "justify",
     "pos": "verb",
@@ -744,6 +1824,576 @@
       "sat": 1
     },
     "category": "academic"
+  },
+  {
+    "id": "lead-verb",
+    "lemma": "lead",
+    "pos": "verb",
+    "meaningJa": "導く、つながる",
+    "definitionEn": "to guide someone or result in an outcome",
+    "difficulty": 3,
+    "example": "The evidence may lead researchers to a new question.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "link-verb",
+    "lemma": "link",
+    "pos": "verb",
+    "meaningJa": "結びつける",
+    "definitionEn": "to connect two things or show a relationship",
+    "difficulty": 3,
+    "example": "The study may link exercise with better sleep.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "locate-verb",
+    "lemma": "locate",
+    "pos": "verb",
+    "meaningJa": "位置を特定する",
+    "definitionEn": "to find the position of something",
+    "difficulty": 3,
+    "example": "The team may locate the leak beneath the road.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "motivate-verb",
+    "lemma": "motivate",
+    "pos": "verb",
+    "meaningJa": "動機づける",
+    "definitionEn": "to give someone a reason to act",
+    "difficulty": 3,
+    "example": "Clear goals motivate students to keep practicing.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "observe-verb",
+    "lemma": "observe",
+    "pos": "verb",
+    "meaningJa": "観察する",
+    "definitionEn": "to watch carefully in order to learn something",
+    "difficulty": 3,
+    "example": "Students observe how the plant grows.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "operate-verb",
+    "lemma": "operate",
+    "pos": "verb",
+    "meaningJa": "操作する、運営する",
+    "definitionEn": "to use equipment or manage an organization",
+    "difficulty": 3,
+    "example": "Trained staff operate the new equipment.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "oppose-verb",
+    "lemma": "oppose",
+    "pos": "verb",
+    "meaningJa": "反対する",
+    "definitionEn": "to disagree with a plan or action",
+    "difficulty": 3,
+    "example": "Residents oppose the plan to close the clinic.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "outline-verb",
+    "lemma": "outline",
+    "pos": "verb",
+    "meaningJa": "要点を示す",
+    "definitionEn": "to present the main points without all details",
+    "difficulty": 3,
+    "example": "The first section may outline the research question.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "overcome-verb",
+    "lemma": "overcome",
+    "pos": "verb",
+    "meaningJa": "克服する",
+    "definitionEn": "to succeed in dealing with a problem",
+    "difficulty": 3,
+    "example": "The team may overcome the delay by sharing equipment.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "participate-verb",
+    "lemma": "participate",
+    "pos": "verb",
+    "meaningJa": "参加する",
+    "definitionEn": "to take part in an activity",
+    "difficulty": 3,
+    "example": "More than 200 students participate in the survey.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "perform-verb",
+    "lemma": "perform",
+    "pos": "verb",
+    "meaningJa": "実行する、機能する",
+    "definitionEn": "to carry out a task or work in a particular way",
+    "difficulty": 3,
+    "example": "The sensor may perform well in low light.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "persuade-verb",
+    "lemma": "persuade",
+    "pos": "verb",
+    "meaningJa": "説得する",
+    "definitionEn": "to cause someone to agree or take action",
+    "difficulty": 3,
+    "example": "The evidence may persuade the board to wait.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "place-verb",
+    "lemma": "place",
+    "pos": "verb",
+    "meaningJa": "置く、位置づける",
+    "definitionEn": "to put something in a particular position or context",
+    "difficulty": 3,
+    "example": "The report may place the finding in a wider context.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "predict-verb",
+    "lemma": "predict",
+    "pos": "verb",
+    "meaningJa": "予測する",
+    "definitionEn": "to say what is likely to happen",
+    "difficulty": 3,
+    "example": "The model may predict higher demand in summer.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "present-verb",
+    "lemma": "present",
+    "pos": "verb",
+    "meaningJa": "提示する",
+    "definitionEn": "to show or explain information to others",
+    "difficulty": 3,
+    "example": "The speaker may present evidence for each claim.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "preserve-verb",
+    "lemma": "preserve",
+    "pos": "verb",
+    "meaningJa": "保全する、維持する",
+    "definitionEn": "to protect something from loss or damage",
+    "difficulty": 3,
+    "example": "The law helps preserve the historic site.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "propose-verb",
+    "lemma": "propose",
+    "pos": "verb",
+    "meaningJa": "提案する",
+    "definitionEn": "to suggest a plan or idea for consideration",
+    "difficulty": 3,
+    "example": "The team may propose a safer way to cross the road.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "publish-verb",
+    "lemma": "publish",
+    "pos": "verb",
+    "meaningJa": "公表する、出版する",
+    "definitionEn": "to make a book or research public",
+    "difficulty": 3,
+    "example": "The journal may publish new studies each month.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "question-verb",
+    "lemma": "question",
+    "pos": "verb",
+    "meaningJa": "疑問を投げかける",
+    "definitionEn": "to express doubt about an idea or decision",
+    "difficulty": 3,
+    "example": "The findings question the value of the old policy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "rank-verb",
+    "lemma": "rank",
+    "pos": "verb",
+    "meaningJa": "順位づける",
+    "definitionEn": "to arrange things in order of importance or quality",
+    "difficulty": 3,
+    "example": "The panel may rank each proposal by impact.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "recover-verb",
+    "lemma": "recover",
+    "pos": "verb",
+    "meaningJa": "回復する",
+    "definitionEn": "to return to a normal state after difficulty",
+    "difficulty": 3,
+    "example": "The river may recover if pollution falls.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "refer-verb",
+    "lemma": "refer",
+    "pos": "verb",
+    "meaningJa": "言及する",
+    "definitionEn": "to mention or direct someone to a source",
+    "difficulty": 3,
+    "example": "The author may refer to earlier research in the final section.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "reform-verb",
+    "lemma": "reform",
+    "pos": "verb",
+    "meaningJa": "改革する",
+    "definitionEn": "to improve a system by changing it",
+    "difficulty": 3,
+    "example": "The city plans to reform its housing policy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "reject-verb",
+    "lemma": "reject",
+    "pos": "verb",
+    "meaningJa": "退ける",
+    "definitionEn": "to refuse to accept an idea or proposal",
+    "difficulty": 3,
+    "example": "The journal may reject papers without clear evidence.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "relate-verb",
+    "lemma": "relate",
+    "pos": "verb",
+    "meaningJa": "関連づける",
+    "definitionEn": "to show or understand a connection",
+    "difficulty": 3,
+    "example": "The lesson may relate new terms to familiar ideas.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "release-verb",
+    "lemma": "release",
+    "pos": "verb",
+    "meaningJa": "公開する、解放する",
+    "definitionEn": "to make information or a product available",
+    "difficulty": 3,
+    "example": "The agency will release the full report next week.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "rely-verb",
+    "lemma": "rely",
+    "pos": "verb",
+    "meaningJa": "頼る",
+    "definitionEn": "to need or trust someone or something",
+    "difficulty": 3,
+    "example": "Many farms rely on seasonal workers.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
+  },
+  {
+    "id": "renew-verb",
+    "lemma": "renew",
+    "pos": "verb",
+    "meaningJa": "更新する",
+    "definitionEn": "to make something continue or become active again",
+    "difficulty": 3,
+    "example": "The city may renew the contract every five years.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "business"
+  },
+  {
+    "id": "represent-verb",
+    "lemma": "represent",
+    "pos": "verb",
+    "meaningJa": "表す、代表する",
+    "definitionEn": "to stand for or act on behalf of someone",
+    "difficulty": 3,
+    "example": "The sample may represent several age groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "resolve-verb",
+    "lemma": "resolve",
+    "pos": "verb",
+    "meaningJa": "解決する、決意する",
+    "definitionEn": "to find an answer to a problem",
+    "difficulty": 3,
+    "example": "The team may resolve the issue before the trial.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "restore-verb",
+    "lemma": "restore",
+    "pos": "verb",
+    "meaningJa": "復元する、回復させる",
+    "definitionEn": "to return something to an earlier or better state",
+    "difficulty": 3,
+    "example": "The project may restore the wetland near the town.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "restrict-verb",
+    "lemma": "restrict",
+    "pos": "verb",
+    "meaningJa": "制限する",
+    "definitionEn": "to control the size or range of something",
+    "difficulty": 3,
+    "example": "The rule may restrict access after dark.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "reveal-verb",
+    "lemma": "reveal",
+    "pos": "verb",
+    "meaningJa": "明らかにする",
+    "definitionEn": "to make something known or visible",
+    "difficulty": 3,
+    "example": "The records reveal a sharp change in spending.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "revise-verb",
+    "lemma": "revise",
+    "pos": "verb",
+    "meaningJa": "修正する",
+    "definitionEn": "to change writing or a plan to improve it",
+    "difficulty": 3,
+    "example": "The author may revise the paper after peer review.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "seek-verb",
+    "lemma": "seek",
+    "pos": "verb",
+    "meaningJa": "求める",
+    "definitionEn": "to try to find or obtain something",
+    "difficulty": 3,
+    "example": "The researchers seek a better explanation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "settle-verb",
+    "lemma": "settle",
+    "pos": "verb",
+    "meaningJa": "解決する、定住する",
+    "definitionEn": "to reach an agreement or make a place home",
+    "difficulty": 3,
+    "example": "The groups settle the dispute through mediation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "shift-verb",
+    "lemma": "shift",
+    "pos": "verb",
+    "meaningJa": "変化する、移す",
+    "definitionEn": "to change position, direction, or emphasis",
+    "difficulty": 3,
+    "example": "Public opinion may shift after the debate.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "signal-verb",
+    "lemma": "signal",
+    "pos": "verb",
+    "meaningJa": "示す、合図する",
+    "definitionEn": "to show that something is happening or about to happen",
+    "difficulty": 3,
+    "example": "The dark clouds signal a change in the weather.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "general"
   },
   {
     "id": "significant-adjective",
@@ -761,6 +2411,126 @@
     "category": "academic"
   },
   {
+    "id": "summarize-verb",
+    "lemma": "summarize",
+    "pos": "verb",
+    "meaningJa": "要約する",
+    "definitionEn": "to give the main points in a short form",
+    "difficulty": 3,
+    "example": "The final paragraph may summarize the key results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "target-verb",
+    "lemma": "target",
+    "pos": "verb",
+    "meaningJa": "狙う、対象にする",
+    "definitionEn": "to direct an action toward a particular group",
+    "difficulty": 3,
+    "example": "The campaign may target families with young children.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "society"
+  },
+  {
+    "id": "transform-verb",
+    "lemma": "transform",
+    "pos": "verb",
+    "meaningJa": "変える、変形させる",
+    "definitionEn": "to change something completely",
+    "difficulty": 3,
+    "example": "The discovery may transform how doctors treat the disease.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "treat-verb",
+    "lemma": "treat",
+    "pos": "verb",
+    "meaningJa": "扱う、治療する",
+    "definitionEn": "to deal with something in a particular way",
+    "difficulty": 3,
+    "example": "The article may treat the issue with care.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "trigger-verb",
+    "lemma": "trigger",
+    "pos": "verb",
+    "meaningJa": "引き起こす",
+    "definitionEn": "to cause something to begin",
+    "difficulty": 3,
+    "example": "A rise in heat can trigger early flowering.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "science"
+  },
+  {
+    "id": "vary-verb",
+    "lemma": "vary",
+    "pos": "verb",
+    "meaningJa": "異なる、変化する",
+    "definitionEn": "to change or be different across cases",
+    "difficulty": 3,
+    "example": "Results vary by age and location.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "verify-verb",
+    "lemma": "verify",
+    "pos": "verb",
+    "meaningJa": "確かめる",
+    "definitionEn": "to check that something is true or accurate",
+    "difficulty": 3,
+    "example": "Staff verify each address before sending the notice.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 1
+    },
+    "category": "academic"
+  },
+  {
+    "id": "absorb-verb",
+    "lemma": "absorb",
+    "pos": "verb",
+    "meaningJa": "吸収する、理解する",
+    "definitionEn": "to take in a substance or information",
+    "difficulty": 4,
+    "example": "The book helps new students absorb key ideas.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "acquire-verb",
     "lemma": "acquire",
     "pos": "verb",
@@ -771,6 +2541,21 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "adjust-verb",
+    "lemma": "adjust",
+    "pos": "verb",
+    "meaningJa": "調整する",
+    "definitionEn": "to change something slightly to improve it",
+    "difficulty": 4,
+    "example": "Researchers adjust the model after each trial.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -791,6 +2576,21 @@
     "category": "academic"
   },
   {
+    "id": "adopt-verb",
+    "lemma": "adopt",
+    "pos": "verb",
+    "meaningJa": "採用する",
+    "definitionEn": "to begin using an idea or method",
+    "difficulty": 4,
+    "example": "The team will adopt a simpler method.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "advocate-verb",
     "lemma": "advocate",
     "pos": "verb",
@@ -806,6 +2606,66 @@
     "category": "academic"
   },
   {
+    "id": "appeal-verb",
+    "lemma": "appeal",
+    "pos": "verb",
+    "meaningJa": "訴える、魅力がある",
+    "definitionEn": "to make a serious request or attract interest",
+    "difficulty": 4,
+    "example": "The proposal may appeal to younger voters.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "appoint-verb",
+    "lemma": "appoint",
+    "pos": "verb",
+    "meaningJa": "任命する",
+    "definitionEn": "to choose someone for an official role",
+    "difficulty": 4,
+    "example": "The board will appoint a new director.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "appreciate-verb",
+    "lemma": "appreciate",
+    "pos": "verb",
+    "meaningJa": "理解する、正しく評価する",
+    "definitionEn": "to understand the value or importance of something",
+    "difficulty": 4,
+    "example": "Readers may appreciate the chart after the explanation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "assure-verb",
+    "lemma": "assure",
+    "pos": "verb",
+    "meaningJa": "保証する、安心させる",
+    "definitionEn": "to tell someone confidently that something is true",
+    "difficulty": 4,
+    "example": "The guide may assure visitors that the water is safe.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
     "id": "attribute-verb",
     "lemma": "attribute",
     "pos": "verb",
@@ -816,6 +2676,111 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "broaden-verb",
+    "lemma": "broaden",
+    "pos": "verb",
+    "meaningJa": "広げる",
+    "definitionEn": "to make knowledge, experience, or scope wider",
+    "difficulty": 4,
+    "example": "Travel can broaden a student's view of history.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "capture-verb",
+    "lemma": "capture",
+    "pos": "verb",
+    "meaningJa": "捉える、記録する",
+    "definitionEn": "to record or represent something accurately",
+    "difficulty": 4,
+    "example": "The survey may capture changes in student opinion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "challenge-verb",
+    "lemma": "challenge",
+    "pos": "verb",
+    "meaningJa": "異議を唱える、挑戦する",
+    "definitionEn": "to question whether an idea is correct",
+    "difficulty": 4,
+    "example": "Several studies challenge the original claim.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "classify-verb",
+    "lemma": "classify",
+    "pos": "verb",
+    "meaningJa": "分類する",
+    "definitionEn": "to arrange things into groups by shared features",
+    "difficulty": 4,
+    "example": "The system may classify each response by topic.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "collapse-verb",
+    "lemma": "collapse",
+    "pos": "verb",
+    "meaningJa": "崩壊する、崩す",
+    "definitionEn": "to fall down or fail suddenly",
+    "difficulty": 4,
+    "example": "The old bridge could collapse during a storm.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "commit-verb",
+    "lemma": "commit",
+    "pos": "verb",
+    "meaningJa": "取り組む、犯す",
+    "definitionEn": "to promise to do something or carry it out",
+    "difficulty": 4,
+    "example": "The city may commit more funds to public transit.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "compose-verb",
+    "lemma": "compose",
+    "pos": "verb",
+    "meaningJa": "構成する、作曲する",
+    "definitionEn": "to form or create something",
+    "difficulty": 4,
+    "example": "Three short sections compose the final report.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -836,6 +2801,21 @@
     "category": "academic"
   },
   {
+    "id": "compute-verb",
+    "lemma": "compute",
+    "pos": "verb",
+    "meaningJa": "算出する",
+    "definitionEn": "to calculate an amount using a process",
+    "difficulty": 4,
+    "example": "The program may compute the score from each response.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "confirm-verb",
     "lemma": "confirm",
     "pos": "verb",
@@ -851,6 +2831,36 @@
     "category": "academic"
   },
   {
+    "id": "confront-verb",
+    "lemma": "confront",
+    "pos": "verb",
+    "meaningJa": "直面する",
+    "definitionEn": "to deal with a difficult problem directly",
+    "difficulty": 4,
+    "example": "The city must confront a shortage of housing.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "conserve-verb",
+    "lemma": "conserve",
+    "pos": "verb",
+    "meaningJa": "保全する、節約する",
+    "definitionEn": "to protect something or use less of it",
+    "difficulty": 4,
+    "example": "The program helps farms conserve water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
     "id": "constrain-verb",
     "lemma": "constrain",
     "pos": "verb",
@@ -861,6 +2871,66 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "construct-verb",
+    "lemma": "construct",
+    "pos": "verb",
+    "meaningJa": "組み立てる、構築する",
+    "definitionEn": "to build something or form an idea carefully",
+    "difficulty": 4,
+    "example": "The team may construct a model of the river.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "consume-verb",
+    "lemma": "consume",
+    "pos": "verb",
+    "meaningJa": "消費する",
+    "definitionEn": "to use food, fuel, or resources",
+    "difficulty": 4,
+    "example": "The new heater may consume less energy.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "convert-verb",
+    "lemma": "convert",
+    "pos": "verb",
+    "meaningJa": "変換する、転換する",
+    "definitionEn": "to change something into a different form",
+    "difficulty": 4,
+    "example": "The tool may convert speech into written text.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "convince-verb",
+    "lemma": "convince",
+    "pos": "verb",
+    "meaningJa": "納得させる",
+    "definitionEn": "to make someone believe that something is true",
+    "difficulty": 4,
+    "example": "The evidence may convince readers to reconsider.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -881,6 +2951,21 @@
     "category": "academic"
   },
   {
+    "id": "counter-verb",
+    "lemma": "counter",
+    "pos": "verb",
+    "meaningJa": "反論する、対抗する",
+    "definitionEn": "to respond to an argument or action",
+    "difficulty": 4,
+    "example": "The second study may counter that explanation.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "criterion-noun",
     "lemma": "criterion",
     "pos": "noun",
@@ -896,6 +2981,21 @@
     "category": "academic"
   },
   {
+    "id": "declare-verb",
+    "lemma": "declare",
+    "pos": "verb",
+    "meaningJa": "宣言する",
+    "definitionEn": "to state something clearly or officially",
+    "difficulty": 4,
+    "example": "The city may declare the area a public park.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "decline-verb",
     "lemma": "decline",
     "pos": "verb",
@@ -906,6 +3006,36 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "dedicate-verb",
+    "lemma": "dedicate",
+    "pos": "verb",
+    "meaningJa": "ささげる",
+    "definitionEn": "to give time or effort to a purpose",
+    "difficulty": 4,
+    "example": "She may dedicate each afternoon to research.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "depict-verb",
+    "lemma": "depict",
+    "pos": "verb",
+    "meaningJa": "描写する",
+    "definitionEn": "to show or describe someone or something",
+    "difficulty": 4,
+    "example": "The image may depict daily life near the river.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -941,6 +3071,36 @@
     "category": "academic"
   },
   {
+    "id": "discard-verb",
+    "lemma": "discard",
+    "pos": "verb",
+    "meaningJa": "捨てる、退ける",
+    "definitionEn": "to get rid of something that is no longer useful",
+    "difficulty": 4,
+    "example": "The team may discard answers with missing data.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "distinguish-verb",
+    "lemma": "distinguish",
+    "pos": "verb",
+    "meaningJa": "区別する",
+    "definitionEn": "to recognize the difference between things",
+    "difficulty": 4,
+    "example": "The test may distinguish memory from recognition.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "distribute-verb",
     "lemma": "distribute",
     "pos": "verb",
@@ -954,6 +3114,21 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "dominate-verb",
+    "lemma": "dominate",
+    "pos": "verb",
+    "meaningJa": "支配する、圧倒する",
+    "definitionEn": "to control or have a much greater effect",
+    "difficulty": 4,
+    "example": "One company may dominate the local market.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
   },
   {
     "id": "emphasize-verb",
@@ -971,6 +3146,141 @@
     "category": "academic"
   },
   {
+    "id": "encounter-verb",
+    "lemma": "encounter",
+    "pos": "verb",
+    "meaningJa": "遭遇する、直面する",
+    "definitionEn": "to meet or experience something unexpectedly",
+    "difficulty": 4,
+    "example": "New students encounter unfamiliar terms in the first week.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "enforce-verb",
+    "lemma": "enforce",
+    "pos": "verb",
+    "meaningJa": "施行する",
+    "definitionEn": "to make sure that a rule is followed",
+    "difficulty": 4,
+    "example": "The agency will enforce the safety standard.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "enhance-verb",
+    "lemma": "enhance",
+    "pos": "verb",
+    "meaningJa": "高める",
+    "definitionEn": "to improve the quality or value of something",
+    "difficulty": 4,
+    "example": "The map can enhance the reader's understanding.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "equip-verb",
+    "lemma": "equip",
+    "pos": "verb",
+    "meaningJa": "備えさせる",
+    "definitionEn": "to provide someone with what they need",
+    "difficulty": 4,
+    "example": "The course may equip students with basic research skills.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "exhibit-verb",
+    "lemma": "exhibit",
+    "pos": "verb",
+    "meaningJa": "示す、展示する",
+    "definitionEn": "to show a quality or behavior",
+    "difficulty": 4,
+    "example": "The results exhibit a strong seasonal pattern.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "expose-verb",
+    "lemma": "expose",
+    "pos": "verb",
+    "meaningJa": "さらす、明らかにする",
+    "definitionEn": "to reveal something hidden or harmful",
+    "difficulty": 4,
+    "example": "The investigation may expose a flaw in the process.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "extract-verb",
+    "lemma": "extract",
+    "pos": "verb",
+    "meaningJa": "取り出す、抽出する",
+    "definitionEn": "to remove or obtain something from a larger whole",
+    "difficulty": 4,
+    "example": "The software may extract key terms from each text.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "finance-verb",
+    "lemma": "finance",
+    "pos": "verb",
+    "meaningJa": "資金を出す",
+    "definitionEn": "to provide money for a project or activity",
+    "difficulty": 4,
+    "example": "A local fund may finance the research.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "frame-verb",
+    "lemma": "frame",
+    "pos": "verb",
+    "meaningJa": "位置づける、組み立てる",
+    "definitionEn": "to present an idea in a particular way",
+    "difficulty": 4,
+    "example": "The author may frame the issue as a public concern.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "generate-verb",
     "lemma": "generate",
     "pos": "verb",
@@ -981,6 +3291,36 @@
     "targets": {
       "eikenPre1": 3,
       "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "grant-verb",
+    "lemma": "grant",
+    "pos": "verb",
+    "meaningJa": "認める、授与する",
+    "definitionEn": "to officially give or allow something",
+    "difficulty": 4,
+    "example": "The university may grant access to the archive.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "hinder-verb",
+    "lemma": "hinder",
+    "pos": "verb",
+    "meaningJa": "妨げる",
+    "definitionEn": "to make it harder for something to happen",
+    "difficulty": 4,
+    "example": "Poor lighting can hinder careful reading.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
       "sat": 2
     },
     "category": "academic"
@@ -1016,6 +3356,141 @@
     "category": "academic"
   },
   {
+    "id": "incorporate-verb",
+    "lemma": "incorporate",
+    "pos": "verb",
+    "meaningJa": "取り入れる",
+    "definitionEn": "to include something as part of a whole",
+    "difficulty": 4,
+    "example": "The lesson may incorporate examples from daily life.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "interact-verb",
+    "lemma": "interact",
+    "pos": "verb",
+    "meaningJa": "相互に作用する",
+    "definitionEn": "to communicate or have an effect on one another",
+    "difficulty": 4,
+    "example": "The two chemicals interact in warm water.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "isolate-verb",
+    "lemma": "isolate",
+    "pos": "verb",
+    "meaningJa": "分離する",
+    "definitionEn": "to separate something from other things",
+    "difficulty": 4,
+    "example": "The test may isolate one factor at a time.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "issue-verb",
+    "lemma": "issue",
+    "pos": "verb",
+    "meaningJa": "発行する、発表する",
+    "definitionEn": "to officially produce or announce something",
+    "difficulty": 4,
+    "example": "The agency may issue a report each spring.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "map-verb",
+    "lemma": "map",
+    "pos": "verb",
+    "meaningJa": "対応づける、地図に示す",
+    "definitionEn": "to show where things are or how they relate",
+    "difficulty": 4,
+    "example": "Researchers map changes across the region.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "merge-verb",
+    "lemma": "merge",
+    "pos": "verb",
+    "meaningJa": "統合する",
+    "definitionEn": "to combine into one thing",
+    "difficulty": 4,
+    "example": "The two departments merge next year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "minimize-verb",
+    "lemma": "minimize",
+    "pos": "verb",
+    "meaningJa": "最小限にする",
+    "definitionEn": "to make something as small as possible",
+    "difficulty": 4,
+    "example": "The design may minimize heat loss.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "mislead-verb",
+    "lemma": "mislead",
+    "pos": "verb",
+    "meaningJa": "誤解させる",
+    "definitionEn": "to cause someone to believe something untrue",
+    "difficulty": 4,
+    "example": "A small sample can mislead readers.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "negotiate-verb",
+    "lemma": "negotiate",
+    "pos": "verb",
+    "meaningJa": "交渉する",
+    "definitionEn": "to discuss something in order to reach an agreement",
+    "difficulty": 4,
+    "example": "The groups negotiate a new schedule.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "objective-adjective",
     "lemma": "objective",
     "pos": "adjective",
@@ -1031,6 +3506,51 @@
     "category": "academic"
   },
   {
+    "id": "occupy-verb",
+    "lemma": "occupy",
+    "pos": "verb",
+    "meaningJa": "占める",
+    "definitionEn": "to fill a space or period of time",
+    "difficulty": 4,
+    "example": "The new lab may occupy the second floor.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "general"
+  },
+  {
+    "id": "perceive-verb",
+    "lemma": "perceive",
+    "pos": "verb",
+    "meaningJa": "認識する",
+    "definitionEn": "to notice or understand something in a particular way",
+    "difficulty": 4,
+    "example": "People perceive risk differently after a storm.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "persist-verb",
+    "lemma": "persist",
+    "pos": "verb",
+    "meaningJa": "続く、粘り強く続ける",
+    "definitionEn": "to continue to exist or happen",
+    "difficulty": 4,
+    "example": "The problem may persist despite several repairs.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "perspective-noun",
     "lemma": "perspective",
     "pos": "noun",
@@ -1040,6 +3560,261 @@
     "example": "Her perspective changed the discussion.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "pose-verb",
+    "lemma": "pose",
+    "pos": "verb",
+    "meaningJa": "提起する、もたらす",
+    "definitionEn": "to present a question or create a risk",
+    "difficulty": 4,
+    "example": "The new road may pose a risk to nearby wetlands.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "proceed-verb",
+    "lemma": "proceed",
+    "pos": "verb",
+    "meaningJa": "進む、続ける",
+    "definitionEn": "to continue with an action or process",
+    "difficulty": 4,
+    "example": "The study will proceed after safety approval.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "project-verb",
+    "lemma": "project",
+    "pos": "verb",
+    "meaningJa": "予測する",
+    "definitionEn": "to estimate what will happen in the future",
+    "difficulty": 4,
+    "example": "The report may project a rise in energy use.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "pursue-verb",
+    "lemma": "pursue",
+    "pos": "verb",
+    "meaningJa": "追求する、続ける",
+    "definitionEn": "to continue working toward a goal",
+    "difficulty": 4,
+    "example": "She may pursue a degree in environmental science.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "recruit-verb",
+    "lemma": "recruit",
+    "pos": "verb",
+    "meaningJa": "募集する",
+    "definitionEn": "to find and encourage people to join a group",
+    "difficulty": 4,
+    "example": "The study may recruit volunteers from local colleges.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "retain-verb",
+    "lemma": "retain",
+    "pos": "verb",
+    "meaningJa": "保持する",
+    "definitionEn": "to keep something or continue to have it",
+    "difficulty": 4,
+    "example": "The soil may retain water after heavy rain.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "secure-verb",
+    "lemma": "secure",
+    "pos": "verb",
+    "meaningJa": "確保する",
+    "definitionEn": "to obtain or protect something successfully",
+    "difficulty": 4,
+    "example": "The lab may secure funding for another year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "simulate-verb",
+    "lemma": "simulate",
+    "pos": "verb",
+    "meaningJa": "模擬する",
+    "definitionEn": "to create a model of a real process",
+    "difficulty": 4,
+    "example": "The software may simulate traffic at rush hour.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "specify-verb",
+    "lemma": "specify",
+    "pos": "verb",
+    "meaningJa": "明記する",
+    "definitionEn": "to state something clearly and exactly",
+    "difficulty": 4,
+    "example": "The form may specify which documents are needed.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "sustain-verb",
+    "lemma": "sustain",
+    "pos": "verb",
+    "meaningJa": "維持する、支える",
+    "definitionEn": "to keep something going over time",
+    "difficulty": 4,
+    "example": "The grant may sustain the program for another year.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "trace-verb",
+    "lemma": "trace",
+    "pos": "verb",
+    "meaningJa": "たどる、追跡する",
+    "definitionEn": "to find the origin or path of something",
+    "difficulty": 4,
+    "example": "Scientists trace the pollution to an old factory.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "transmit-verb",
+    "lemma": "transmit",
+    "pos": "verb",
+    "meaningJa": "伝える、送信する",
+    "definitionEn": "to send information or a signal from one place to another",
+    "difficulty": 4,
+    "example": "The device may transmit data every minute.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "utilize-verb",
+    "lemma": "utilize",
+    "pos": "verb",
+    "meaningJa": "活用する",
+    "definitionEn": "to use something effectively",
+    "difficulty": 4,
+    "example": "The lab may utilize local materials for the experiment.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "violate-verb",
+    "lemma": "violate",
+    "pos": "verb",
+    "meaningJa": "違反する",
+    "definitionEn": "to fail to obey a law, rule, or agreement",
+    "difficulty": 4,
+    "example": "The company may violate the safety standard.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "withdraw-verb",
+    "lemma": "withdraw",
+    "pos": "verb",
+    "meaningJa": "撤回する、引き出す",
+    "definitionEn": "to remove or take something back",
+    "difficulty": 4,
+    "example": "The author may withdraw the claim after new evidence appears.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 2,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "acknowledge-verb",
+    "lemma": "acknowledge",
+    "pos": "verb",
+    "meaningJa": "認める",
+    "definitionEn": "to accept that something is true",
+    "difficulty": 5,
+    "example": "The authors acknowledge the limits of the study.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "align-verb",
+    "lemma": "align",
+    "pos": "verb",
+    "meaningJa": "一致させる、整列させる",
+    "definitionEn": "to arrange things so they match or work together",
+    "difficulty": 5,
+    "example": "The goals align with the needs of students.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 3,
       "sat": 2
     },
@@ -1061,6 +3836,96 @@
     "category": "academic"
   },
   {
+    "id": "amend-verb",
+    "lemma": "amend",
+    "pos": "verb",
+    "meaningJa": "修正する",
+    "definitionEn": "to make a small change to a law or document",
+    "difficulty": 5,
+    "example": "The committee may amend the draft.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "arise-verb",
+    "lemma": "arise",
+    "pos": "verb",
+    "meaningJa": "生じる",
+    "definitionEn": "to happen or begin to exist",
+    "difficulty": 5,
+    "example": "New questions arise during the discussion.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "assert-verb",
+    "lemma": "assert",
+    "pos": "verb",
+    "meaningJa": "断言する",
+    "definitionEn": "to state an idea confidently",
+    "difficulty": 5,
+    "example": "The writer may assert that the policy is unfair.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "attain-verb",
+    "lemma": "attain",
+    "pos": "verb",
+    "meaningJa": "達成する",
+    "definitionEn": "to succeed in reaching a goal",
+    "difficulty": 5,
+    "example": "Few students attain this level without regular practice.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "bear-verb",
+    "lemma": "bear",
+    "pos": "verb",
+    "meaningJa": "耐える、負う",
+    "definitionEn": "to accept or carry a difficult responsibility",
+    "difficulty": 5,
+    "example": "Local residents bear most of the cost.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "characterize-verb",
+    "lemma": "characterize",
+    "pos": "verb",
+    "meaningJa": "特徴づける",
+    "definitionEn": "to describe the main qualities of someone or something",
+    "difficulty": 5,
+    "example": "The authors characterize the change as gradual.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "coherent-adjective",
     "lemma": "coherent",
     "pos": "adjective",
@@ -1074,6 +3939,201 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "compensate-verb",
+    "lemma": "compensate",
+    "pos": "verb",
+    "meaningJa": "補う、埋め合わせる",
+    "definitionEn": "to make up for a loss or disadvantage",
+    "difficulty": 5,
+    "example": "Extra practice can compensate for missed classes.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "compile-verb",
+    "lemma": "compile",
+    "pos": "verb",
+    "meaningJa": "編集する、まとめる",
+    "definitionEn": "to collect information and arrange it in one place",
+    "difficulty": 5,
+    "example": "The team may compile results from five local schools.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "complement-verb",
+    "lemma": "complement",
+    "pos": "verb",
+    "meaningJa": "補完する",
+    "definitionEn": "to add something that improves or completes another thing",
+    "difficulty": 5,
+    "example": "The short video may complement the written guide.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "comply-verb",
+    "lemma": "comply",
+    "pos": "verb",
+    "meaningJa": "従う",
+    "definitionEn": "to act according to a rule or request",
+    "difficulty": 5,
+    "example": "All labs comply with the safety rules.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "confine-verb",
+    "lemma": "confine",
+    "pos": "verb",
+    "meaningJa": "限定する",
+    "definitionEn": "to keep something within a limited area or range",
+    "difficulty": 5,
+    "example": "The study may confine its analysis to adults.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "convey-verb",
+    "lemma": "convey",
+    "pos": "verb",
+    "meaningJa": "伝える",
+    "definitionEn": "to communicate an idea or feeling",
+    "difficulty": 5,
+    "example": "The opening paragraph may convey the purpose of the study.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "correspond-verb",
+    "lemma": "correspond",
+    "pos": "verb",
+    "meaningJa": "一致する、文通する",
+    "definitionEn": "to be similar or have a direct relationship",
+    "difficulty": 5,
+    "example": "The map symbols correspond to the notes below.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "cultivate-verb",
+    "lemma": "cultivate",
+    "pos": "verb",
+    "meaningJa": "育てる、培う",
+    "definitionEn": "to develop a skill, quality, or relationship",
+    "difficulty": 5,
+    "example": "The program may cultivate curiosity through experiments.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "deduce-verb",
+    "lemma": "deduce",
+    "pos": "verb",
+    "meaningJa": "推論する",
+    "definitionEn": "to reach an answer by using known facts",
+    "difficulty": 5,
+    "example": "Readers deduce the speaker's purpose from the details.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "designate-verb",
+    "lemma": "designate",
+    "pos": "verb",
+    "meaningJa": "指定する",
+    "definitionEn": "to officially choose someone or something for a role",
+    "difficulty": 5,
+    "example": "The city may designate the building as a shelter.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "disclose-verb",
+    "lemma": "disclose",
+    "pos": "verb",
+    "meaningJa": "開示する",
+    "definitionEn": "to make private or secret information known",
+    "difficulty": 5,
+    "example": "The firm must disclose its research funding.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
+    "id": "enact-verb",
+    "lemma": "enact",
+    "pos": "verb",
+    "meaningJa": "制定する",
+    "definitionEn": "to make a proposal or bill into law",
+    "difficulty": 5,
+    "example": "The council may enact the new rule in June.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
+    "id": "govern-verb",
+    "lemma": "govern",
+    "pos": "verb",
+    "meaningJa": "統治する",
+    "definitionEn": "to control or direct a country or organization",
+    "difficulty": 5,
+    "example": "A small council may govern the island.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "implement-verb",
@@ -1136,6 +4196,36 @@
     "category": "academic"
   },
   {
+    "id": "initiate-verb",
+    "lemma": "initiate",
+    "pos": "verb",
+    "meaningJa": "開始する",
+    "definitionEn": "to cause a process or activity to begin",
+    "difficulty": 5,
+    "example": "The school will initiate a new mentoring program.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "innovate-verb",
+    "lemma": "innovate",
+    "pos": "verb",
+    "meaningJa": "革新する",
+    "definitionEn": "to introduce new ideas or methods",
+    "difficulty": 5,
+    "example": "Small firms innovate when they solve local problems.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "business"
+  },
+  {
     "id": "integrate-verb",
     "lemma": "integrate",
     "pos": "verb",
@@ -1164,6 +4254,36 @@
       "sat": 2
     },
     "category": "academic"
+  },
+  {
+    "id": "manipulate-verb",
+    "lemma": "manipulate",
+    "pos": "verb",
+    "meaningJa": "操作する",
+    "definitionEn": "to control or change something skillfully",
+    "difficulty": 5,
+    "example": "The device may manipulate tiny drops of liquid.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "mediate-verb",
+    "lemma": "mediate",
+    "pos": "verb",
+    "meaningJa": "仲介する、媒介する",
+    "definitionEn": "to help settle a disagreement or connect two things",
+    "difficulty": 5,
+    "example": "A teacher may mediate the discussion between groups.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
   },
   {
     "id": "mitigate-verb",
@@ -1211,6 +4331,66 @@
     "category": "academic"
   },
   {
+    "id": "offset-verb",
+    "lemma": "offset",
+    "pos": "verb",
+    "meaningJa": "相殺する",
+    "definitionEn": "to balance the effect of something with an opposite effect",
+    "difficulty": 5,
+    "example": "Tree planting can offset some carbon emissions.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "optimize-verb",
+    "lemma": "optimize",
+    "pos": "verb",
+    "meaningJa": "最適化する",
+    "definitionEn": "to make something work as well as possible",
+    "difficulty": 5,
+    "example": "Engineers optimize the route to save fuel.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "science"
+  },
+  {
+    "id": "orient-verb",
+    "lemma": "orient",
+    "pos": "verb",
+    "meaningJa": "方向づける、慣れさせる",
+    "definitionEn": "to help someone understand a new situation",
+    "difficulty": 5,
+    "example": "The first meeting may orient students to the lab.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "originate-verb",
+    "lemma": "originate",
+    "pos": "verb",
+    "meaningJa": "始まる、生み出す",
+    "definitionEn": "to begin in a particular place or with a person",
+    "difficulty": 5,
+    "example": "The custom may originate in the mountain villages.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "society"
+  },
+  {
     "id": "plausible-adjective",
     "lemma": "plausible",
     "pos": "adjective",
@@ -1220,6 +4400,21 @@
     "example": "That is a plausible explanation.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "presume-verb",
+    "lemma": "presume",
+    "pos": "verb",
+    "meaningJa": "推定する",
+    "definitionEn": "to believe something is true based on limited evidence",
+    "difficulty": 5,
+    "example": "We should not presume that every student agrees.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 3,
       "sat": 2
     },
@@ -1265,6 +4460,21 @@
     "example": "The campaign aims to promote reading.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "quantify-verb",
+    "lemma": "quantify",
+    "pos": "verb",
+    "meaningJa": "数値化する",
+    "definitionEn": "to measure something and express it as a number",
+    "difficulty": 5,
+    "example": "The survey may quantify changes in public trust.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 3,
       "sat": 2
     },
@@ -1331,6 +4541,66 @@
     "category": "academic"
   },
   {
+    "id": "render-verb",
+    "lemma": "render",
+    "pos": "verb",
+    "meaningJa": "ある状態にする",
+    "definitionEn": "to cause someone or something to be in a condition",
+    "difficulty": 5,
+    "example": "The error may render the result unreliable.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "undertake-verb",
+    "lemma": "undertake",
+    "pos": "verb",
+    "meaningJa": "引き受ける、着手する",
+    "definitionEn": "to begin or accept responsibility for a task",
+    "difficulty": 5,
+    "example": "The university may undertake a review of its safety rules.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "validate-verb",
+    "lemma": "validate",
+    "pos": "verb",
+    "meaningJa": "検証する",
+    "definitionEn": "to check that a method or result is sound",
+    "difficulty": 5,
+    "example": "A second test may validate the first result.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
+    "id": "yield-verb",
+    "lemma": "yield",
+    "pos": "verb",
+    "meaningJa": "生み出す、譲る",
+    "definitionEn": "to produce a result or give way to someone",
+    "difficulty": 5,
+    "example": "The new method may yield more reliable results.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 2
+    },
+    "category": "academic"
+  },
+  {
     "id": "abolish-verb",
     "lemma": "abolish",
     "pos": "verb",
@@ -1361,6 +4631,21 @@
     "category": "academic"
   },
   {
+    "id": "accommodate-verb",
+    "lemma": "accommodate",
+    "pos": "verb",
+    "meaningJa": "受け入れる、対応する",
+    "definitionEn": "to provide what someone or something needs",
+    "difficulty": 6,
+    "example": "The lab can accommodate two more students.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "accumulate-verb",
     "lemma": "accumulate",
     "pos": "verb",
@@ -1374,6 +4659,36 @@
       "sat": 3
     },
     "category": "academic"
+  },
+  {
+    "id": "allege-verb",
+    "lemma": "allege",
+    "pos": "verb",
+    "meaningJa": "主張する",
+    "definitionEn": "to claim that someone did something wrong",
+    "difficulty": 6,
+    "example": "The report may allege that the data were changed.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
+  },
+  {
+    "id": "amplify-verb",
+    "lemma": "amplify",
+    "pos": "verb",
+    "meaningJa": "増幅する、強める",
+    "definitionEn": "to make a sound or effect stronger",
+    "difficulty": 6,
+    "example": "Social media can amplify a small dispute.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "society"
   },
   {
     "id": "articulate-verb",
@@ -1451,6 +4766,21 @@
     "category": "academic"
   },
   {
+    "id": "confer-verb",
+    "lemma": "confer",
+    "pos": "verb",
+    "meaningJa": "協議する、授与する",
+    "definitionEn": "to discuss something or officially give a benefit",
+    "difficulty": 6,
+    "example": "The panel will confer before making a decision.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
     "id": "consolidate-verb",
     "lemma": "consolidate",
     "pos": "verb",
@@ -1460,6 +4790,21 @@
     "example": "The company will consolidate its offices.",
     "targets": {
       "eikenPre1": 3,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "constitute-verb",
+    "lemma": "constitute",
+    "pos": "verb",
+    "meaningJa": "構成する、みなす",
+    "definitionEn": "to form or be considered a particular thing",
+    "difficulty": 6,
+    "example": "These examples constitute strong evidence.",
+    "targets": {
+      "eikenPre1": 2,
       "toefl": 3,
       "sat": 3
     },
@@ -1479,6 +4824,51 @@
       "sat": 3
     },
     "category": "academic"
+  },
+  {
+    "id": "contemplate-verb",
+    "lemma": "contemplate",
+    "pos": "verb",
+    "meaningJa": "じっくり考える",
+    "definitionEn": "to think carefully about a possible action",
+    "difficulty": 6,
+    "example": "The board will contemplate several options.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "contend-verb",
+    "lemma": "contend",
+    "pos": "verb",
+    "meaningJa": "主張する",
+    "definitionEn": "to argue that something is true",
+    "difficulty": 6,
+    "example": "Some experts contend that the rule is outdated.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "academic"
+  },
+  {
+    "id": "decipher-verb",
+    "lemma": "decipher",
+    "pos": "verb",
+    "meaningJa": "解読する",
+    "definitionEn": "to discover the meaning of something difficult to read",
+    "difficulty": 6,
+    "example": "Researchers decipher the notes from the old survey.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
   },
   {
     "id": "delineate-verb",
@@ -1556,6 +4946,21 @@
     "category": "academic"
   },
   {
+    "id": "entail-verb",
+    "lemma": "entail",
+    "pos": "verb",
+    "meaningJa": "伴う",
+    "definitionEn": "to involve something as a necessary part",
+    "difficulty": 6,
+    "example": "The job may entail travel during the summer.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "general"
+  },
+  {
     "id": "facilitate-verb",
     "lemma": "facilitate",
     "pos": "verb",
@@ -1584,6 +4989,21 @@
       "sat": 3
     },
     "category": "academic"
+  },
+  {
+    "id": "hypothesize-verb",
+    "lemma": "hypothesize",
+    "pos": "verb",
+    "meaningJa": "仮説を立てる",
+    "definitionEn": "to suggest an explanation that can be tested",
+    "difficulty": 6,
+    "example": "The team may hypothesize that shade lowers the temperature.",
+    "targets": {
+      "eikenPre1": 2,
+      "toefl": 3,
+      "sat": 3
+    },
+    "category": "science"
   },
   {
     "id": "inference-noun",
