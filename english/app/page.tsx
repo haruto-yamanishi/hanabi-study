@@ -29,7 +29,7 @@ export default function Page() {
   const startTest = async () => { try { await beginDiagnostic(catalog); await refresh(); navigate('diagnostic'); } catch (reason) { setError(reason instanceof Error ? reason.message : '診断を始められませんでした。'); } };
 
   return <div className="app-shell">
-    <header className="site-header"><button className="brand" onClick={() => navigate('home')}><span className="brand-mark">花</span><span>Hanabi <b>Study English</b><small>EIKEN PRE-1 · TOEFL · SAT</small></span></button><nav aria-label="Main navigation">{screens.map(item => <button key={item.id} className={screen === item.id ? 'active' : ''} onClick={() => navigate(item.id)}>{item.label}</button>)}</nav></header>
+    <header className="site-header"><button className="brand" onClick={() => navigate('home')}><img className="brand-logo" src="/brand/hanabi-normal.png" alt="Hanabi" width="48" height="48" /><span>Hanabi <b>Study English</b><small>EIKEN PRE-1 · TOEFL · SAT</small></span></button><nav aria-label="Main navigation">{screens.map(item => <button key={item.id} className={screen === item.id ? 'active' : ''} onClick={() => navigate(item.id)}>{item.label}</button>)}</nav></header>
     <main>
       {error && <div className="error-banner" role="alert">{error}<button onClick={() => setError('')}>閉じる</button></div>}
       {!snapshot && !error && <div className="loading">学習記録を読み込んでいます…</div>}
