@@ -51,6 +51,18 @@ export const lessons: Lesson[] = [
     ],checkpointIds:['a-force-1','a-fbd-1'],resourceIds:[]
   },
   {
+    id:'l-statics-linkage',skillId:'me-fbd',title:'リンク機構の静力学：反力とモーメントを解く',summary:'FRCのgripper・arm・intakeをリンクごとに切り出し、支持反力・pin反力・必要torqueを求める。',estimatedMinutes:32,revision:1,
+    steps:[
+      {id:'c1',kind:'concept',title:'静止でも内部には力が流れている',body:"平面剛体が静止している条件は\\(\\sum F_x=0\\)、\\(\\sum F_y=0\\)、\\(\\sum M_O=0\\)。ideal pinはx・y方向の反力を伝えるが、pin自身は偶力を伝えないモデルとして扱う。複数linkの機構では、まず機構全体、次に各linkを切り出す。joint forceは機構全体では内部力として相殺するが、pin・bearing・plateの荷重を求めるには各linkの自由物体図が必要。"},
+      {id:'e1',kind:'example',title:'Gripper fingerのpin荷重からtorqueを求める',body:"Oを原点、C=(60,40) mmとする。fingerがCで\\(F_C=(10,20) N\\)を受けると、O回りのmomentは\\(M_O=xF_y-yF_x=0.060\\times20-0.040\\times10=0.8 N\\cdot m\\)。mmのまま代入せずmへ直す。反時計回りを正にしたなら、符号まで含めて他の外力・motor torqueと\\(\\sum M_O=0\\)を立てる。"},
+      {id:'r1',kind:'recall',title:'なぜ支点まわりでmomentを取る？',body:'未知反力を消して式を簡単にできる場合がある。',prompt:'pin支点Oに未知反力Ox, Oyがある。Oまわりのmoment式でこの2力が消える理由は？',options:['作用点がOなので腕が0','反力は常に0','pin反力は重力と同じ'],answer:0,explanation:'Oを通る力のmoment armは0なので、Oまわりのmomentへ寄与しない。'},
+      {id:'p1',kind:'practice',title:'座標と力からmomentを計算',body:'反時計回りを正とする。式と単位を書いてから数値を求める。',prompt:"C=(50,20) mm、\\(F_C=(8,30) N\\)。O回りのmoment\\([N\\cdot m]\\)は？",numericAnswer:1.34,tolerance:0.001,explanation:"\\(0.050\\times30-0.020\\times8=1.34 N\\cdot m\\)。"},
+      {id:'p2',kind:'practice',title:'複数の力からmotor torqueを決める',body:'O軸にmotor torque Tが加わるlinkを考える。C=(60,40) mmで\\(F_C=(12,18) N\\)、P=(30,120) mmで\\(F_P=(20,0) N\\)。静止に必要なTを求める。',prompt:'反時計回り正のT [N·m] は？',numericAnswer:1.8,tolerance:0.001,explanation:"Cのmomentは\\(0.060\\times18-0.040\\times12=0.60\\)。Pは\\(0.030\\times0-0.120\\times20=-2.40\\)。外力合計は-1.80なので\\(T=+1.80 N\\cdot m\\)。"},
+      {id:'p3',kind:'practice',title:'FRC機構へ移す',body:'Hanabiのgripper・intake・armから1linkを選ぶ。提出：機構全体と対象linkの自由物体図、座標、\\(\\sum F_x\\)、\\(\\sum F_y\\)、\\(\\sum M\\)、pin反力、必要torque。最後に「静荷重だけでは含まれない加速・衝撃」を1行で分離する。'}
+    ],checkpointIds:['a-statics-moment-1','a-statics-moment-2','a-statics-balance-1','a-statics-link-1'],resourceIds:[],
+    practical:'実機またはCAD上のFRC機構を1つ選び、全体FBDとlink単体FBDの両方で反力とtorqueを検算する。'
+  },
+  {
     id:'l-ohm-power',skillId:'e-ohm',title:'V・I・R・Pをrobotの言葉にする',summary:'オーム則と電力を、brownoutやwire lossまで接続する。',estimatedMinutes:22,revision:1,
     steps:[
       {id:'c1',kind:'concept',title:"\\(V=IR\\)",body:"電圧は「押す差」、電流は流れる量、抵抗は流れにくさ。\\(P=VI\\)で電力。"},
